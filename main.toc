@@ -20,47 +20,49 @@
 \contentsline {section}{\numberline {2.2}Les solutions possibles}{10}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Recherche Régulière}{10}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Utilisaton d'une base de donnèes SQL altèrnatif et performante}{11}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Recherche Vectorielle}{11}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Elasticsearch}{12}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Utilisation d'un modéle Sentence-Transformers}{13}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Comment le modéle intérpréte les phrases?}{13}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Pourquoi utiliser Mean Pooling plutôt qu'un autre type de pooling?}{17}{subsection.2.5.2}%
-\contentsline {section}{\numberline {2.6}Conclusion}{18}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Sprint 0: Plannification du projet}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{19}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Identification des besoins}{19}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Les besoins fonctionnels}{19}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Les besoins non fonctionnels}{21}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Diagramme de cas d’utilisation global}{22}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Introduction}{22}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Backlog De Produit}{22}{section.3.4}%
-\contentsline {section}{\numberline {3.5}La Plannification De Release}{23}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Architecture du systéme}{24}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Architecture "MVC"}{24}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Architecture "Clean Architecture"}{26}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}L'environnement de développement et choix techniques: }{29}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Introduction}{29}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}L'environnement matériel}{29}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}L'environnement logiciel}{30}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}Logiciel de modèlisation UML}{37}{subsection.3.7.4}%
-\contentsline {section}{\numberline {3.8}Conclusion}{37}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Étude et réalisation du Sprint 1}{38}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{38}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Backlog du Sprint 1}{38}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Spécification fonctionnelle}{38}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Diagramme de cas d'utilisation général}{39}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Description textuelle du CU << Rechercher produit en Français >>}{39}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Diagramme de séquence detaillé}{40}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Architecture de la base de données}{41}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Diagramme de classes}{41}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Schéma de la base de données}{41}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Tables de base de données MySQL}{41}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Tables de base de données Elasticsearch}{42}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Réalisation}{43}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}La création des colonnes des vecteurs}{44}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Le modéle Sentence-Transformers et encodage des phrases}{45}{subsection.4.5.2}%
-\contentsline {subsubsection}{Comment le modèle encode une phrase?}{47}{section*.46}%
-\contentsline {subsubsection}{Que'est ce qu'un << Gradient >>?}{48}{section*.47}%
-\contentsline {subsubsection}{Le Mean Pooling}{49}{section*.48}%
-\contentsline {subsection}{\numberline {4.5.3}Elasticsearch et utilisation de la similarité cosinus dans le recherche vectorielle}{51}{subsection.4.5.3}%
-\contentsline {chapter}{Bibliographie}{54}{chapter*.55}%
+\contentsline {section}{\numberline {2.3}Choix d'approche de Recherche Vectorielle}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Recherche Vectorielle}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Elasticsearch}{13}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Utilisation d'un modéle Sentence-Transformers}{14}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Comment le modéle intérpréte les phrases?}{14}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Pourquoi utiliser Mean Pooling plutôt qu'un autre type de pooling?}{18}{subsection.2.6.2}%
+\contentsline {section}{\numberline {2.7}Conclusion}{19}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Sprint 0: Plannification du projet}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Identification des besoins}{20}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Les besoins fonctionnels}{20}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Les besoins non fonctionnels}{22}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Diagramme de cas d’utilisation global}{23}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Introduction}{23}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Backlog De Produit}{24}{section.3.4}%
+\contentsline {section}{\numberline {3.5}La Plannification De Release}{26}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Architecture du systéme}{26}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Architecture "MVC"}{26}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Architecture "Clean Architecture"}{28}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}L'environnement de développement et choix techniques: }{30}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Introduction}{30}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}L'environnement matériel}{30}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}L'environnement logiciel}{31}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Logiciel de modèlisation UML}{38}{subsection.3.7.4}%
+\contentsline {section}{\numberline {3.8}Conclusion}{38}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Étude et réalisation du Sprint 1}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{39}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Backlog du Sprint 1}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Spécification fonctionnelle}{39}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Diagramme de cas d'utilisation général}{40}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Description textuelle du CU << Rechercher produit en Français >>}{40}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Diagramme de séquence detaillé}{41}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Architecture de la base de données}{42}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Diagramme de classes}{42}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Schéma de la base de données}{42}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Tables de base de données MySQL}{42}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Tables de base de données Elasticsearch}{43}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Réalisation}{44}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}La création des colonnes des vecteurs}{45}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Le modéle Sentence-Transformers et encodage des phrases}{46}{subsection.4.5.2}%
+\contentsline {subsubsection}{Comment le modèle encode une phrase?}{48}{section*.47}%
+\contentsline {subsubsection}{Que'est ce qu'un << Gradient >>?}{49}{section*.48}%
+\contentsline {subsubsection}{Le Mean Pooling}{50}{section*.49}%
+\contentsline {subsection}{\numberline {4.5.3}Préparation des données dans Elasticsearch pour recherche vectorielle}{52}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Elasticsearch et Similarité Cosinus}{54}{subsection.4.5.4}%
+\contentsline {chapter}{Bibliographie}{58}{chapter*.58}%

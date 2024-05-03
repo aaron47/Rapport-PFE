@@ -1,4 +1,3 @@
-\newpage
 \section{Architecture du systéme}
 \noindent
 Il est indispensable à la conception de tout systéme informatique de choisir le modéle d'architecture adéquat et pourra assurer le bon fonctionnement, une meilleure performance, ainsi que la scalabilité, la fiabilité et trés important, la productivité de développement. \\
@@ -16,7 +15,6 @@ Cette partie gère ce qu'on appelle la logique métier de notre site. Elle compr
 {\small\textbf{\textit{Vue}}}\mbox{}\\
 Cette partie se concentre sur l'affichage. Elle ne fait presque aucun calcul et se contente de récupérer des variables pour savoir ce qu'elle doit afficher. On y trouve essentiellement du code HTML mais aussi quelques boucles et conditions Javascript très simples, pour afficher par exemple une liste de messages. Il est développé avec React et Typescript.
 
-\newpage
 \noindent
 {\small\textbf{\textit{Contrôleur}}}\mbox{}\\
 Cette partie gère les échanges avec l'utilisateur. C'est en quelque sorte l'intermédiaire entre l'utilisateur, le modèle et la vue. Le contrôleur va recevoir des requêtes de l'utilisateur. Pour chacune, il va demander au modèle d'effectuer certaines actions (demander les produits en fonction d'un mot-clé de recherche) et de lui renvoyer les résultats (la liste des produits). Puis il va adapter ce résultat et le donner à la vue. Enfin, il va renvoyer la nouvelle page HTML, générée par la vue, à l'utilisateur. Il est implémenté avec ASP .NET Core et C\# et utilise des requêtes SQL et Elasticsearch pour manipuler les donnèes.
@@ -82,5 +80,3 @@ Les avantages de l’utilisation de  << Clean Architecture >> :
     \item \small\textbf{Création de produits scalables, robustes et de haute qualité: } Vous pouvez vitement créer un systéme bien performant, organisé, testable, scalable, et robuste.
 \end{itemize}
 \noindent
-
-\newpage

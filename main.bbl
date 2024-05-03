@@ -138,6 +138,37 @@
       \verb https://www.elastic.co/
       \endverb
     \endentry
+    \entry{elastic:knnsearch}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
+           family={{Elastic}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{fullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{bibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorbibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authornamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorfullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \field{extraname}{3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{knn-search}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
+      \endverb
+      \verb{url}
+      \verb https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
+      \endverb
+    \endentry
     \entry{meta:react}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
@@ -555,6 +586,37 @@
       \endverb
       \verb{url}
       \verb https://www.elastic.co/
+      \endverb
+    \endentry
+    \entry{elastic:knnsearch}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
+           family={{Elastic}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{fullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{bibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorbibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authornamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorfullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \field{extraname}{3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{knn-search}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
+      \endverb
+      \verb{url}
+      \verb https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
       \endverb
     \endentry
     \entry{meta:react}{misc}{}

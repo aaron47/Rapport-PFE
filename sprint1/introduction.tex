@@ -292,6 +292,7 @@ Cette méthode consiste de trois étapes, qui sont:
 \end{enumerate}
 \newpage
 \noindent
+Aprés l'étape de Mean Pooling, on obtient un vecteur qui reprèsente la phrase, que l'on ensuite normalise avec la fonction normalize de Pytorch.
 La figure ~\ref{fig:encodesentence} illustre la méthode compléte pour l'encodage d'une phrase.
 
 \begin{figure}[H]
@@ -301,7 +302,7 @@ La figure ~\ref{fig:encodesentence} illustre la méthode compléte pour l'encoda
 	\label{fig:encodesentence}
 \end{figure}
 
-\subsection{Elasticsearch et utilisation de la similarité cosinus dans le recherche vectorielle}
+\subsection{Préparation des données dans Elasticsearch pour recherche vectorielle}
 \noindent
 Pour effectuer notre méthode de recherche qui est le recherche vectorielle, il faut d'abord ajouter les vecteurs avec lesquels nous voulons comparer, et les ajouter dans notre base de données qui est Elasticsearch. Pour effectuer ça, on va utiliser la méthode qu'on a crée << encode\_sentence\_and\_normalise >> pour générer les vecteurs, mais d'abord, on doit créer une instance de notre modéle, on a appelé cette classe AllMpnetBaseV2. Dans notre cas on veux utiliser les colonnes << Bréve Description >> et << SEO Label Produit >>, donc on va faire l'encodage pour chaque ligne dans deux nouveaux colonnes << DescriptionVecteur >> et << LabelProduitVecteur >>. \\ La figure ~\ref{fig:encoding} montre le code pour cette étape.
 
@@ -331,4 +332,76 @@ La figure ~\ref{fig:insertintoelastic} montre le code nécessaire pour cette ét
 	\includegraphics[width=\textwidth]{logos/insert_into_elastic.png}
 	\caption{Insértion des données dans Elasticsearch}
 	\label{fig:insertintoelastic}
+\end{figure}
+
+\subsection{Elasticsearch et Similarité Cosinus}
+\noindent
+Aprés qu'on a préparé notre données dans Elasticsearch, en ajoutant les colonnes des vecteurs qu'on va comparer contre, on peut maintenant performer la recherche vectorielle en utilisant Elasticsearch. \\
+Quand un client saisi son terme de recherche à travers notre interface, il est envoyé à notre API ASP .NET Core, qui ensuite l'envoie à notre API Flask qui contient notre modéle Sentence-Transformers, pour effectuer les étapes nécessaires pour l'encodage du phrase en vecteur, et ensuite le renvoyer au contrôleur pour l'utiliser dans un Elasticsearch query knn, pour ça on a crée la méthode << KnnSearchAsync >>, qui est montré dans la figure ~\ref{fig:knn}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/knnsearch.png}
+	\caption{Méthode KnnSearchAsync}
+	\label{fig:knn}
+\end{figure}
+
+\noindent
+Cette méthode prend 2 paramètres qui sont:
+\begin{itemize}
+	\item \small\textbf{queryVector: } Qui est une liste des réels reprèsentant le vecteur encodé.
+	\item \textbf{knnSearchRequest: } Qui est une classe qui prend 4 attributs utilisé dans note query knn:
+	\begin{enumerate}
+		\item \small\textbf{TopResProdLabel: } Un entier reprèsentant le nombre des meilleurs résultats par recherche vectorielle de << LabelProduit >>, valeur par dèfaut: 25.
+		\item \small\textbf{TopResDesc: } Un entier reprèsentant le nombre des meilleurs résultats par recherche vectorielle de << Description >>, valeur par dèfaut: 25.
+		\item \small\textbf{NumCandidatesProdLabel: } Un entier reprèsentant le nombre total des produits que nous souhaitons rechercher par la description, valeur par dèfaut: 20.
+		\item \small\textbf{NumCandidatesProdLabel: } Un entier reprèsentant le nombre total des produits que nous souhaitons rechercher par la label produit, valeur par dèfaut: 10.
+	\end{enumerate}
+	
+\end{itemize}
+
+\noindent
+Cette recherche trouve les principales correspondances vectorielles globales k = 25 pour le vecteur << LabelProduit >> et la valeur globale k = 25 aussi pour le vecteur << Description >>. Ces valeurs principales sont ensuite combinées avec les correspondances de la requête de correspondance et les 10 premiers documents sont renvoyés si k > 10, sinon le nombre de résultats renvoyés sont calculé comme ça:\[
+\begin{aligned}
+& kTopResProdLabel + kTopResDescription \\
+& \text{Si } kTopResProdLabel < 10 \text{ Et } kTopResDescription < 10 \\
+\end{aligned}
+\]
+Les multiples entrées knn et les correspondances de requêtes sont combinées via une disjonction, comme si vous preniez un booléen ou entre elles. Les k premiers résultats vectoriels représentent les voisins globaux les plus proches sur toutes les partitions d'index.
+\noindent
+La notation d'un document avec les améliorations configurées ci-dessus serait comme le suivant, notons:
+\begin{itemize}
+    \item \( \mathbf{q} \) comme vecteur de requête.
+    \item \( \mathbf{v}_{\text{label}} \) and \( \mathbf{v}_{\text{desc}} \) comme vecteurs de document dans les champs ``LabelProduitVecteur'' et ``DescriptionVecteur'', respectivement.
+    \item \( \text{score}_{\text{label}} \) and \( \text{score}_{\text{desc}} \) comme les scores basés sur ces vecteurs.
+\end{itemize}
+
+\noindent
+En utilisant la similarité cosinus, le score de chaque composant peut être calculé comme suit :
+\[
+\text{score}_{\text{label}}(\mathbf{q}, \mathbf{v}_{\text{label}}) = \frac{\mathbf{q} \cdot \mathbf{v}_{\text{label}}}{\|\mathbf{q}\| \|\mathbf{v}_{\text{label}}\|}
+\]
+\[
+\text{score}_{\text{desc}}(\mathbf{q}, \mathbf{v}_{\text{desc}}) = \frac{\mathbf{q} \cdot \mathbf{v}_{\text{desc}}}{\|\mathbf{q}\| \|\mathbf{v}_{\text{desc}}\|}
+\]
+\[
+\text{Score Combinée} = \alpha \cdot \text{score}_{\text{label}} + \beta \cdot \text{score}_{\text{desc}}
+\]
+
+\noindent
+Ici:
+\begin{itemize}
+    \item \( \cdot \) représente le produit scalaire.
+    \item \( \|\mathbf{q}\| \) and \( \|\mathbf{v}\| \) désignent les normes (grandeurs) des vecteurs, qui sont calculées comme la racine carrée de la somme des composantes au carré des vecteurs.
+    \item \( \alpha \) and \( \beta \) sont des pondérations qui pourraient être utilisées pour équilibrer l'importance des scores des deux domaines (en supposant une importance égale, les deux pourraient être fixés à 0,5 par défaut, ou ajustés en fonction de besoins spécifiques).
+\end{itemize}
+
+\noindent
+La figure ~\ref{fig:vectorsearch} illustre le processus complét de recherche.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/vectorsearch.png}
+	\caption{Processus de recherche véctorielle Elasticsearch}
+	\label{fig:vectorsearch}
 \end{figure}
