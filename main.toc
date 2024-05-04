@@ -78,4 +78,8 @@
 \contentsline {subsection}{\numberline {5.6.1}Diagramme de séquence détaillé}{67}{subsection.5.6.1}%
 \contentsline {section}{\numberline {5.7}Réalisation}{67}{section.5.7}%
 \contentsline {subsection}{\numberline {5.7.1}Les premières approches}{68}{subsection.5.7.1}%
-\contentsline {chapter}{Bibliographie}{69}{chapter*.64}%
+\contentsline {subsection}{\numberline {5.7.2}Création de notre propre classe traducteur}{69}{subsection.5.7.2}%
+\contentsline {subsubsection}{La création du dictionnaire}{69}{section*.64}%
+\contentsline {subsubsection}{Analyse des expressions régulières}{70}{section*.66}%
+\contentsline {subsubsection}{Logique de méthode}{71}{section*.67}%
+\contentsline {chapter}{Bibliographie}{72}{chapter*.69}%

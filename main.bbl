@@ -495,6 +495,34 @@
       \verb https://pytorch.org/docs/stable/generated/torch.no_grad.html
       \endverb
     \endentry
+    \entry{techtarget:finetuning}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=700f0e630e939fff4cff6be3fc518b34}{%
+           family={{TechTarget}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{fullhash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{bibnamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authorbibnamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authornamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authorfullhash}{700f0e630e939fff4cff6be3fc518b34}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is fine-tuning in machine learning and AI?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.techtarget.com/searchenterpriseai/definition/fine-tuning
+      \endverb
+      \verb{url}
+      \verb https://www.techtarget.com/searchenterpriseai/definition/fine-tuning
+      \endverb
+    \endentry
   \enddatalist
   \datalist[entry]{nyt/global//global/global}
     \entry{dock:docker}{misc}{}
@@ -971,6 +999,34 @@
       \endverb
       \verb{url}
       \verb https://pytorch.org/docs/stable/generated/torch.no_grad.html
+      \endverb
+    \endentry
+    \entry{techtarget:finetuning}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=700f0e630e939fff4cff6be3fc518b34}{%
+           family={{TechTarget}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{fullhash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{bibnamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authorbibnamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authornamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authorfullhash}{700f0e630e939fff4cff6be3fc518b34}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is fine-tuning in machine learning and AI?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.techtarget.com/searchenterpriseai/definition/fine-tuning
+      \endverb
+      \verb{url}
+      \verb https://www.techtarget.com/searchenterpriseai/definition/fine-tuning
       \endverb
     \endentry
   \enddatalist
