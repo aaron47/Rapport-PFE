@@ -13,36 +13,42 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Présentation du processus de Min Pooling}}{19}{figure.caption.16}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Présentation de Diagramme de Cas D'Utilisation global}}{23}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces L'architecture MVC}}{27}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces L'architecture MVC avec microservices}}{28}{figure.caption.19}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Échange d'informations entre les éléments MVC}}{28}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Architecture "Clean Architecture" dans ASP. NET Core}}{29}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Logo officiel du logiciel Visual Studio}}{31}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Logo officiel du logiciel Visual Studio Code}}{31}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Logo officiel du langage de programmation C\#}}{32}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Logo officiel du framework ASP .NET Core}}{33}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Logo officiel du langage de programmation Python}}{33}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Logo officiel du framework Jupyter}}{34}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Logo officiel du framework Flask}}{34}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Logo officiel du bibilothéque React}}{35}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Logo officiel du langage Typescript}}{35}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Logo officiel du Docker}}{36}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Logo officiel d'Elasticsearch}}{36}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Logo officiel du Kibana}}{36}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Logo officiel du logiciel Postman}}{37}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Logo officiel du Overleaf}}{37}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Logo officiel du LaTeX}}{37}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Logo officiel du Visual Paradigm}}{38}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Architecture "Clean Architecture" dans ASP. NET Core}}{30}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Logo officiel du logiciel Visual Studio}}{32}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Logo officiel du logiciel Visual Studio Code}}{32}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Logo officiel du langage de programmation C\#}}{33}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Logo officiel du framework ASP .NET Core}}{34}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Logo officiel du langage de programmation Python}}{34}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Logo officiel du framework Jupyter}}{35}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Logo officiel du framework Flask}}{35}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Logo officiel du bibilothéque React}}{36}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Logo officiel du langage Typescript}}{36}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Logo officiel du Docker}}{37}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Logo officiel d'Elasticsearch}}{37}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Logo officiel du Kibana}}{37}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Logo officiel du logiciel Postman}}{38}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Logo officiel du Overleaf}}{38}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Logo officiel du LaTeX}}{38}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Logo officiel du Visual Paradigm}}{39}{figure.caption.38}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagramme de cas d'utilisation général du Sprint 1}}{40}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagramme de séquence de cas d’utilisation « Rechercher produits en Français »}}{41}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Code d'index de Produit}}{45}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Code d'importation de modéle Sentence-Transformers}}{46}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Exemple de processus de Tokenisation}}{47}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Exemple de Mean Pooling}}{50}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Code de méthode mean\_pooling}}{50}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Méthode encode\_sentence\_and\_normalise}}{52}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Encodage des deux colonnes Bréve Déscription et SEO Label Produit}}{53}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces les deux nouvelles colonnes << descriptionvecteur >> et << labelproduitvecteur >> }}{53}{figure.caption.54}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Insértion des données dans Elasticsearch}}{54}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Méthode KnnSearchAsync}}{55}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Processus de recherche véctorielle Elasticsearch}}{57}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagramme de cas d'utilisation général du Sprint 1}}{41}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagramme de séquence de cas d’utilisation « Rechercher produits en Français »}}{43}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagramme de classes}}{44}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Suite de Diagramme de classes}}{45}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Code d'index de Produit}}{49}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Code d'importation de modéle Sentence-Transformers}}{50}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Exemple de processus de Tokenisation}}{51}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Exemple de Mean Pooling}}{53}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Code de méthode mean\_pooling}}{53}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Méthode encode\_sentence\_and\_normalise}}{55}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Encodage des deux colonnes Bréve Déscription et SEO Label Produit}}{56}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces les deux nouvelles colonnes << descriptionvecteur >> et << labelproduitvecteur >> }}{56}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Insértion des données dans Elasticsearch}}{57}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Méthode KnnSearchAsync}}{58}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Processus de recherche véctorielle Elasticsearch}}{60}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Encodage de terme de recherche et recherche vectorielle dans Elasticsearch}}{60}{figure.caption.60}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagramme de cas d'utilisation général du Sprint 2}}{63}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagramme de séquence des cas d’utilisations « Rechercher produits en Arabe Traditionnel » et << Rechercher produits en Arabe en dialecte Tunisien >>}}{68}{figure.caption.63}%

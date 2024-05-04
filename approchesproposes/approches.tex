@@ -21,14 +21,14 @@ En raison des défauts des autres solutions que nous avons mentionnées dans la 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{logos/generalisedprocess.png}
+\includegraphics[width=1\textwidth]{logos/fullprocess.png}
 \caption{Présentation du processus de recherche avec recherche vectorielle}
-\label{fig:generalisedprocess}
+\label{fig:fullprocess}
 \end{figure}
 
 \newpage
 \noindent
-Comme la figure ~\ref{fig:generalisedprocess} montre, d'abord le client va saisir son terme de recherche (mot clé) qui est ensuite envoyé à notre contrôleur ASP .NET Core, qui ensuite envoie cette mot ou phrase à notre microservice en Flask qui contient notre modéle Sentence-Transformers(all-mpnet-base-v2) dans notre cas, qui ensuite verifient si le mot est en Français, si c'est le cas, en fait l'encodage du phrase directe, sinon, en la traduit soit en utilisant Google Traduction si la phrase est en Arabe Traditionnelle, soit en utilisant notre dictionnaire propre des mots du dialecte Tunsienne et aprés faire l'encodage, enfin, le vecteur est renvoyé au contrôleur, qui l'utilise pour faire le recherche vectorielle dans Elasticsearch, et renvoyer les résultats, qui sont les produits dans notre cas.
+Comme la figure ~\ref{fig:fullprocess} montre, d'abord le client va saisir son terme de recherche (mot clé) qui est ensuite envoyé à notre contrôleur ASP .NET Core, qui ensuite envoie cette mot ou phrase à notre microservice en Flask qui contient notre modéle Sentence-Transformers(all-mpnet-base-v2) dans notre cas, qui ensuite verifient si le mot est en Français, si c'est le cas, en fait l'encodage du phrase directe, sinon, en la traduit soit en utilisant Google Traduction si la phrase est en Arabe Traditionnelle, soit en utilisant notre dictionnaire propre des mots du dialecte Tunsienne et aprés faire l'encodage, enfin, le vecteur est renvoyé au contrôleur, qui l'utilise pour faire le recherche vectorielle dans Elasticsearch, et renvoyer les résultats, qui sont les produits dans notre cas.
 
 
 \section{Recherche Vectorielle}

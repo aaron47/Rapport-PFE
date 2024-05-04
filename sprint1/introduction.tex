@@ -25,9 +25,12 @@ Le backlog de notre premier Sprint est présenté dans le tableau ~\ref{tab:spri
 Dans cette partie, on va expliquer les différentes fonctionnelités du Sprint 1 à travers le diagramme de cas d'utilisation. Puis en va exposer les différents scénarios de notre cas d'utilisation à travers des descriptions textuelles.
 
 \subsection{Diagramme de cas d'utilisation général}
+\noindent
+La figure ~\ref{fig:recherchefrancais} illustre le diagramme de cas d'utilisation gènèral de notre premier sprint, qui est la recherche en Français.
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{logos/recherchefrancais.png}
+	\includegraphics[width=1\textwidth]{logos/cusprint1.png}
 	\caption{Diagramme de cas d'utilisation général du Sprint 1}
 	\label{fig:recherchefrancais}
 \end{figure}
@@ -36,8 +39,12 @@ Dans cette partie, on va expliquer les différentes fonctionnelités du Sprint 1
 \noindent
 \textbf{Titre:} Rechercher produit en Français \\
 \textbf{Résumé:} Le client saisit son terme de recherche (en Français), en cliquant sur la boutton pour rechercher le(s) produit(s) qu'il veut chercher. \\
-\textbf{Acteur Principal:} Client \\
-\textbf{Précondition:} Le client est authentifié \\
+\textbf{Acteur Principal:} Client, Visiteur \\
+\textbf{Précondition:} \begin{enumerate}
+	\item Le client (ou le visiteur) son sur la page de recherche
+	\item Le client (ou le visiteur) a saisi son terme de recherche
+	\item Le client (ou le visiteur) a cliqué sur "Rechercher"
+\end{enumerate}
 \textbf{Postcondition:} Le(s) produit(s) que le client cherche est renvoyé, si'il n'existe pas, le systéme renvoie des produits similaires comme suggestion. \\
 \textbf{Scénario de base: }
 \begin{enumerate}
@@ -72,7 +79,7 @@ présentera le diagramme de séquence de cas d'utilisation << Rechercher produit
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{logos/sequencerecherchefrancais.png}
+	\includegraphics[width=1\textwidth]{logos/seqsprint1.png}
 	\caption{Diagramme de séquence de cas d’utilisation « Rechercher produits en Français »}
 	\label{fig:seqrecherchefrancais}
 \end{figure}
@@ -83,6 +90,23 @@ Dans le cadre de notre projet, l'intégration d'Elasticsearch et MySQL génére 
 spécifiques à notre projet durant la conception.
 
 \subsection{Diagramme de classes}
+\noindent
+Les diagrammes de classes sont l'un des types de diagrammes UML les plus utiles, car ils décrivent clairement la structure d’un système particulier en modélisant ses classes, ses attributs, ses opérations et les relations entre ses objets. \citetitle{lucidcharts:classdiagram} (\cite{lucidcharts:classdiagram}). \\
+Les figures ~\ref{fig:diagclasses} et ~\ref{fig:suitediagclasses} montrent la conception UML diagramme de classe gènèral de notre projet.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/class.png}
+	\caption{Diagramme de classes}
+	\label{fig:diagclasses}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/class2.png}
+	\caption{Suite de Diagramme de classes}
+	\label{fig:suitediagclasses}
+\end{figure}
+
 
 \subsection{Schéma de la base de données}
 \noindent
@@ -98,10 +122,10 @@ sprint, nous allons maintenant décrire sa transposition en modèle logique, ill
 		\hline
 		\rowcolor{blue!50} \textcolor{white}{Champs} & \textcolor{white}{Type} & \textcolor{white}{Contrainte} \\
 		\hline
-		id                                  & Auto-incrément          & Clé primaire                  \\ \hline
-		email                                          & String                  & Non nul                       \\ \hline
-		password                          & String                    & Non nul                       \\ \hline
-		role                                   & String                  & Non nul                       \\ \hline
+		id                                           & Auto-incrément          & Clé primaire                  \\ \hline
+		email                                        & String                  & Non nul                       \\ \hline
+		password                                     & String                  & Non nul                       \\ \hline
+		role                                         & String                  & Non nul                       \\ \hline
 	\end{tabular}
 	\caption{Table Client}
 	\label{tab:table_client}
@@ -115,9 +139,9 @@ sprint, nous allons maintenant décrire sa transposition en modèle logique, ill
 		\hline
 		\rowcolor{blue!50} \textcolor{white}{Champs} & \textcolor{white}{Type} & \textcolor{white}{Contrainte} \\
 		\hline
-		id                                  & Auto-incrément          & Clé primaire                  \\ \hline
-		word                                          & String                  & Non nul                       \\ \hline
-		count                          & Int                    & Non nul                       \\ \hline
+		id                                           & Auto-incrément          & Clé primaire                  \\ \hline
+		word                                         & String                  & Non nul                       \\ \hline
+		count                                        & Int                     & Non nul                       \\ \hline
 	\end{tabular}
 	\caption{Table Keyword}
 	\label{tab:table_keyword}
@@ -125,67 +149,67 @@ sprint, nous allons maintenant décrire sa transposition en modèle logique, ill
 
 \subsection{Tables de base de données Elasticsearch}
 \begin{longtable}{|l|l|p{5cm}|}
-\caption{Table Produit} \label{tab:produit_table} \\
-\hline
-\rowcolor{blue!50} \textcolor{white}{Champs} & \textcolor{white}{Type} & \textcolor{white}{Contrainte} \\
-\hline
-\endfirsthead
+	\caption{Table Produit} \label{tab:produit_table}                                                                   \\
+	\hline
+	\rowcolor{blue!50} \textcolor{white}{Champs} & \textcolor{white}{Type} & \textcolor{white}{Contrainte}              \\
+	\hline
+	\endfirsthead
 
-\multicolumn{3}{c}%
-{{\bfseries \tablename\ \thetable{} -- Suivie de la page précédente}} \\
-\hline
-\rowcolor{blue!50} \textcolor{white}{Champs} & \textcolor{white}{Type} & \textcolor{white}{Contrainte} \\
-\hline
-\endhead
+	\multicolumn{3}{c}%
+	{{\bfseries \tablename\ \thetable{} -- Suivie de la page précédente}}                                               \\
+	\hline
+	\rowcolor{blue!50} \textcolor{white}{Champs} & \textcolor{white}{Type} & \textcolor{white}{Contrainte}              \\
+	\hline
+	\endhead
 
-% \hline \multicolumn{3}{|r|}{{Suivie sur la page suivante}} \\ \hline
-% \endfoot
+	% \hline \multicolumn{3}{|r|}{{Suivie sur la page suivante}} \\ \hline
+	% \endfoot
 
-\hline
-code interne & keyword &  \\ \hline
-image produit & keyword &  \\ \hline
-code a barre & keyword &  \\  \hline
-REFERENCE & keyword &  \\ \hline
-SKU & keyword &  \\ \hline
-label produit & text &  \\ \hline
-SEO label produit & text &  \\ \hline
-categorie & keyword &  \\ \hline
-sous-categorie & keyword &  \\ \hline
-sous-sous-categorie & keyword &  \\ \hline
-categorie\_id & integer &  \\ \hline
-collection & text &  \\ \hline
-Brève description & text &  \\ \hline
-Description & text &  \\ \hline
-Tags & text &  \\ \hline
-fiche technique & text &  \\ \hline
-alt image(71 caracteres) & text &  \\ \hline
-link & keyword &  \\ \hline
-meta-description & text &  \\ \hline
-meta title & text &  \\ \hline
-old\_optimization grade & keyword &  \\ \hline
-new\_optimization grade & keyword &  \\ \hline
-Poids & float &  \\ \hline
-Couleur & keyword &  \\ \hline
-color\_id & integer &  \\
-\hline
-Marque & keyword &  \\ \hline
-marque\_id & integer &  \\ \hline
-garantie & keyword &  \\ \hline
-Stock & float &  \\ \hline
-fabriqué en & keyword &  \\ \hline
-est retournable & keyword &  \\ \hline
-Prix vendeur & float &  \\ \hline
-Prix brute & float &  \\ \hline
-Prix Promo & float &  \\ \hline
-lien (web et video) & keyword &  \\ \hline
-lien & keyword &  \\ \hline
-image principale & keyword &  \\ \hline
-images secondaires & keyword &  \\ \hline
-seller-id & keyword &  \\ \hline
-Created by & text &  \\ \hline
-LabelProduitVecteur & dense\_vector & dims: 768, index: true, similarity: cosine \\ \hline
-DescriptionVecteur & dense\_vector & dims: 768, index: true, similarity: cosine \\
-\hline
+	\hline
+	code interne                                 & keyword                 &                                            \\ \hline
+	image produit                                & keyword                 &                                            \\ \hline
+	code a barre                                 & keyword                 &                                            \\  \hline
+	REFERENCE                                    & keyword                 &                                            \\ \hline
+	SKU                                          & keyword                 &                                            \\ \hline
+	label produit                                & text                    &                                            \\ \hline
+	SEO label produit                            & text                    &                                            \\ \hline
+	categorie                                    & keyword                 &                                            \\ \hline
+	sous-categorie                               & keyword                 &                                            \\ \hline
+	sous-sous-categorie                          & keyword                 &                                            \\ \hline
+	categorie\_id                                & integer                 &                                            \\ \hline
+	collection                                   & text                    &                                            \\ \hline
+	Brève description                            & text                    &                                            \\ \hline
+	Description                                  & text                    &                                            \\ \hline
+	Tags                                         & text                    &                                            \\ \hline
+	fiche technique                              & text                    &                                            \\ \hline
+	alt image(71 caracteres)                     & text                    &                                            \\ \hline
+	link                                         & keyword                 &                                            \\ \hline
+	meta-description                             & text                    &                                            \\ \hline
+	meta title                                   & text                    &                                            \\ \hline
+	old\_optimization grade                      & keyword                 &                                            \\ \hline
+	new\_optimization grade                      & keyword                 &                                            \\ \hline
+	Poids                                        & float                   &                                            \\ \hline
+	Couleur                                      & keyword                 &                                            \\ \hline
+	color\_id                                    & integer                 &                                            \\
+	\hline
+	Marque                                       & keyword                 &                                            \\ \hline
+	marque\_id                                   & integer                 &                                            \\ \hline
+	garantie                                     & keyword                 &                                            \\ \hline
+	Stock                                        & float                   &                                            \\ \hline
+	fabriqué en                                  & keyword                 &                                            \\ \hline
+	est retournable                              & keyword                 &                                            \\ \hline
+	Prix vendeur                                 & float                   &                                            \\ \hline
+	Prix brute                                   & float                   &                                            \\ \hline
+	Prix Promo                                   & float                   &                                            \\ \hline
+	lien (web et video)                          & keyword                 &                                            \\ \hline
+	lien                                         & keyword                 &                                            \\ \hline
+	image principale                             & keyword                 &                                            \\ \hline
+	images secondaires                           & keyword                 &                                            \\ \hline
+	seller-id                                    & keyword                 &                                            \\ \hline
+	Created by                                   & text                    &                                            \\ \hline
+	LabelProduitVecteur                          & dense\_vector           & dims: 768, index: true, similarity: cosine \\ \hline
+	DescriptionVecteur                           & dense\_vector           & dims: 768, index: true, similarity: cosine \\
+	\hline
 \end{longtable}
 
 \section{Réalisation}
@@ -234,7 +258,6 @@ On utilise AutoTokenizer pour importer le Tokeniser du modéle, aussi que AutoMo
 On a crée une méthode appelé "encode\_sentence\_and\_normalise" pour faire l'encodage en faisant les étapes mentionné dans la partie précédente en ajoutant une autre étape qui est trés importante, qui est le Mean Pooling. \\
 D'abord, on utilise le tokeniser pour effectuer la tokenisation et le padding sur la phrase, en a effectué << truncation >> a True au cas où la phrase dépasse la limite des mots par phrase pour notre modéle qui est 368 mots, il va seulement prendre les 368 premiéres mots si la phrase dépasse la limite. Ensuite, on utilise la méthode << no\_grad >> de Pytorch, pour désactiver les << Gradients >> et passer les séquences tokenisés au modéle pour faire l'encodage.
 
-\newpage
 \subsubsection{Que'est ce qu'un << Gradient >>?}
 \noindent
 Un gradient consiste à mettre à jour les poids de chaque neurone de la dernière couche vers la première. Il vise à corriger les erreurs selon l'importance de la contribution de chaque élément à celles-ci. Mais dans notre cas, on dèsactive les calculs des << gradients >> pour un nombre des raisons importantes qui sont citès dans \citetitle{pytorch:nograd} (\cite{pytorch:nograd}), tels que:
@@ -249,7 +272,6 @@ Un gradient consiste à mettre à jour les poids de chaque neurone de la derniè
 \noindent
 Après que le modéle fais l'encodage de phrase, il nous donne un output qui consiste de plusieurs vecteurs qui représente chaque mot de la phrase. De coup, on a plusieurs vecteurs, c'est à dire chaque mot est isolée, donc on est besoin d'une méthode pour regrouper ces mots, et prendre le contexte de toute la phrase, c'est là qu'intervient la méthode de << Mean Pooling >>.
 
-\newpage
 \subsubsection{Le Mean Pooling}
 \noindent
 Le Mean Pooling est un processus qui calcule efficacement la moyenne de la sequence obtenu aprés le padding et la tokenisation tout en ignorant les jetons de remplissage (padding tokens) qui ont une valeur de 0, ce qui donne un seul vecteur qui représente la phrase entière. La figure ~\ref{fig:meanpoolingex} illustre un exemple.
@@ -277,20 +299,20 @@ Cette méthode consiste de trois étapes, qui sont:
 	\item \small\textbf{L'éxtraction des vecteurs des tokens: }token\_embeddings = model\_output[0] : cette ligne récupère les vecteurs de tokens à partir de l'output du modèle. Généralement, pour les modèles de Sentence-Transformers, le premier élément de la sortie (model\_output[0]) contient les intégrations de tous les tokens de la séquence d'entrée.
 
 	\item \small\textbf{Extension du masque d'attention: }input\_mask\_expanded = \\ attention\_mask.unsqueeze(-1).expand(token\_embeddings.size()).float() : \\ Cette ligne traite le attention\_mask. Le masque d'attention est simplement un masque qui fait la différence entre le contenu et les jetons de remplissage.
-	
-	\begin{itemize}
-		\item unsqueeze(-1) ajoute une dimension supplémentaire à la fin du attention\_mask, le rendant compatible en dimensions avec token\_embeddings lorsque nous appliquons expand().
-		\item expand(token\_embeddings.size()) ajuste le masque pour qu'il corresponde aux dimensions de token\_embeddings, répétant efficacement le masque pour chaque dimension vecteur.
-		\item .float() convertit le masque en float, facilitant les opérations mathématiques ultérieures avec token\_embeddings.
-	\end{itemize}
+
+	      \begin{itemize}
+		      \item unsqueeze(-1) ajoute une dimension supplémentaire à la fin du attention\_mask, le rendant compatible en dimensions avec token\_embeddings lorsque nous appliquons expand().
+		      \item expand(token\_embeddings.size()) ajuste le masque pour qu'il corresponde aux dimensions de token\_embeddings, répétant efficacement le masque pour chaque dimension vecteur.
+		      \item .float() convertit le masque en float, facilitant les opérations mathématiques ultérieures avec token\_embeddings.
+	      \end{itemize}
 
 	\item \small\textbf{Application du masque et calcul de Mean Pooling: }
-	\begin{itemize}
-		\item torch.sum(token\_embeddings * input\_mask\_expanded, 1) : ceci calcule la somme des vecteurs dans la dimension de séquence (dimension 1), mais uniquement pour les vecteurs correspondant aux jetons de données réels (pas de padding(0)), comme indiqué par input\_mask\_expanded.
-		\item torch.clamp(input\_mask\_expanded.sum(1), min=1e-9) : La somme des vecteurs est ensuite divisée par la somme de input\_mask\_expanded le long de la dimension de séquence, ce qui donne le nombre de tokens sans padding. torch.clamp garantit que nous ne divisons pas par zéro en définissant une valeur minimale (1e-9), empêchant ainsi les erreurs de division par zéro.
-	\end{itemize}
+	      \begin{itemize}
+		      \item torch.sum(token\_embeddings * input\_mask\_expanded, 1) : ceci calcule la somme des vecteurs dans la dimension de séquence (dimension 1), mais uniquement pour les vecteurs correspondant aux jetons de données réels (pas de padding(0)), comme indiqué par input\_mask\_expanded.
+		      \item torch.clamp(input\_mask\_expanded.sum(1), min=1e-9) : La somme des vecteurs est ensuite divisée par la somme de input\_mask\_expanded le long de la dimension de séquence, ce qui donne le nombre de tokens sans padding. torch.clamp garantit que nous ne divisons pas par zéro en définissant une valeur minimale (1e-9), empêchant ainsi les erreurs de division par zéro.
+	      \end{itemize}
 \end{enumerate}
-\newpage
+
 \noindent
 Aprés l'étape de Mean Pooling, on obtient un vecteur qui reprèsente la phrase, que l'on ensuite normalise avec la fonction normalize de Pytorch.
 La figure ~\ref{fig:encodesentence} illustre la méthode compléte pour l'encodage d'une phrase.
@@ -351,49 +373,49 @@ Cette méthode prend 2 paramètres qui sont:
 \begin{itemize}
 	\item \small\textbf{queryVector: } Qui est une liste des réels reprèsentant le vecteur encodé.
 	\item \textbf{knnSearchRequest: } Qui est une classe qui prend 4 attributs utilisé dans note query knn:
-	\begin{enumerate}
-		\item \small\textbf{TopResProdLabel: } Un entier reprèsentant le nombre des meilleurs résultats par recherche vectorielle de << LabelProduit >>, valeur par dèfaut: 25.
-		\item \small\textbf{TopResDesc: } Un entier reprèsentant le nombre des meilleurs résultats par recherche vectorielle de << Description >>, valeur par dèfaut: 25.
-		\item \small\textbf{NumCandidatesProdLabel: } Un entier reprèsentant le nombre total des produits que nous souhaitons rechercher par la description, valeur par dèfaut: 20.
-		\item \small\textbf{NumCandidatesProdLabel: } Un entier reprèsentant le nombre total des produits que nous souhaitons rechercher par la label produit, valeur par dèfaut: 10.
-	\end{enumerate}
-	
+	      \begin{enumerate}
+		      \item \small\textbf{TopResProdLabel: } Un entier reprèsentant le nombre des meilleurs résultats par recherche vectorielle de << LabelProduit >>, valeur par dèfaut: 25.
+		      \item \small\textbf{TopResDesc: } Un entier reprèsentant le nombre des meilleurs résultats par recherche vectorielle de << Description >>, valeur par dèfaut: 25.
+		      \item \small\textbf{NumCandidatesProdLabel: } Un entier reprèsentant le nombre total des produits que nous souhaitons rechercher par la description, valeur par dèfaut: 20.
+		      \item \small\textbf{NumCandidatesProdLabel: } Un entier reprèsentant le nombre total des produits que nous souhaitons rechercher par la label produit, valeur par dèfaut: 10.
+	      \end{enumerate}
+
 \end{itemize}
 
 \noindent
 Cette recherche trouve les principales correspondances vectorielles globales k = 25 pour le vecteur << LabelProduit >> et la valeur globale k = 25 aussi pour le vecteur << Description >>. Ces valeurs principales sont ensuite combinées avec les correspondances de la requête de correspondance et les 10 premiers documents sont renvoyés si k > 10, sinon le nombre de résultats renvoyés sont calculé comme ça:\[
-\begin{aligned}
-& kTopResProdLabel + kTopResDescription \\
-& \text{Si } kTopResProdLabel < 10 \text{ Et } kTopResDescription < 10 \\
-\end{aligned}
+	\begin{aligned}
+		 & kTopResProdLabel + kTopResDescription                                \\
+		 & \text{Si } kTopResProdLabel < 10 \text{ Et } kTopResDescription < 10 \\
+	\end{aligned}
 \]
 Les multiples entrées knn et les correspondances de requêtes sont combinées via une disjonction, comme si vous preniez un booléen ou entre elles. Les k premiers résultats vectoriels représentent les voisins globaux les plus proches sur toutes les partitions d'index.
 \noindent
 La notation d'un document avec les améliorations configurées ci-dessus serait comme le suivant, notons:
 \begin{itemize}
-    \item \( \mathbf{q} \) comme vecteur de requête.
-    \item \( \mathbf{v}_{\text{label}} \) and \( \mathbf{v}_{\text{desc}} \) comme vecteurs de document dans les champs ``LabelProduitVecteur'' et ``DescriptionVecteur'', respectivement.
-    \item \( \text{score}_{\text{label}} \) and \( \text{score}_{\text{desc}} \) comme les scores basés sur ces vecteurs.
+	\item \( \mathbf{q} \) comme vecteur de requête.
+	\item \( \mathbf{v}_{\text{label}} \) and \( \mathbf{v}_{\text{desc}} \) comme vecteurs de document dans les champs ``LabelProduitVecteur'' et ``DescriptionVecteur'', respectivement.
+	\item \( \text{score}_{\text{label}} \) and \( \text{score}_{\text{desc}} \) comme les scores basés sur ces vecteurs.
 \end{itemize}
 
 \noindent
 En utilisant la similarité cosinus, le score de chaque composant peut être calculé comme suit :
 \[
-\text{score}_{\text{label}}(\mathbf{q}, \mathbf{v}_{\text{label}}) = \frac{\mathbf{q} \cdot \mathbf{v}_{\text{label}}}{\|\mathbf{q}\| \|\mathbf{v}_{\text{label}}\|}
+	\text{score}_{\text{label}}(\mathbf{q}, \mathbf{v}_{\text{label}}) = \frac{\mathbf{q} \cdot \mathbf{v}_{\text{label}}}{\|\mathbf{q}\| \|\mathbf{v}_{\text{label}}\|}
 \]
 \[
-\text{score}_{\text{desc}}(\mathbf{q}, \mathbf{v}_{\text{desc}}) = \frac{\mathbf{q} \cdot \mathbf{v}_{\text{desc}}}{\|\mathbf{q}\| \|\mathbf{v}_{\text{desc}}\|}
+	\text{score}_{\text{desc}}(\mathbf{q}, \mathbf{v}_{\text{desc}}) = \frac{\mathbf{q} \cdot \mathbf{v}_{\text{desc}}}{\|\mathbf{q}\| \|\mathbf{v}_{\text{desc}}\|}
 \]
 \[
-\text{Score Combinée} = \alpha \cdot \text{score}_{\text{label}} + \beta \cdot \text{score}_{\text{desc}}
+	\text{Score Combinée} = \alpha \cdot \text{score}_{\text{label}} + \beta \cdot \text{score}_{\text{desc}}
 \]
 
 \noindent
 Ici:
 \begin{itemize}
-    \item \( \cdot \) représente le produit scalaire.
-    \item \( \|\mathbf{q}\| \) and \( \|\mathbf{v}\| \) désignent les normes (grandeurs) des vecteurs, qui sont calculées comme la racine carrée de la somme des composantes au carré des vecteurs.
-    \item \( \alpha \) and \( \beta \) sont des pondérations qui pourraient être utilisées pour équilibrer l'importance des scores des deux domaines (en supposant une importance égale, les deux pourraient être fixés à 0,5 par défaut, ou ajustés en fonction de besoins spécifiques).
+	\item \( \cdot \) représente le produit scalaire.
+	\item \( \|\mathbf{q}\| \) and \( \|\mathbf{v}\| \) désignent les normes (grandeurs) des vecteurs, qui sont calculées comme la racine carrée de la somme des composantes au carré des vecteurs.
+	\item \( \alpha \) and \( \beta \) sont des pondérations qui pourraient être utilisées pour équilibrer l'importance des scores des deux domaines (en supposant une importance égale, les deux pourraient être fixés à 0,5 par défaut, ou ajustés en fonction de besoins spécifiques).
 \end{itemize}
 
 \noindent
@@ -405,3 +427,20 @@ La figure ~\ref{fig:vectorsearch} illustre le processus complét de recherche.
 	\caption{Processus de recherche véctorielle Elasticsearch}
 	\label{fig:vectorsearch}
 \end{figure}
+
+\noindent
+L'implementation de ce processus se produit dans la fonction suivante:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/returnencodedvector.png}
+	\caption{Encodage de terme de recherche et recherche vectorielle dans Elasticsearch}
+	\label{fig:returnencodedvector}
+\end{figure}
+
+
+\newpage
+\section{Conclusion}
+\noindent
+Dans ce chapitre, nous avons couvert toutes les étapes nécessaires pour performer le recherche vectorielle dans notre projet, en commençant par la création de la fonction d'encodage << encode\_sentence\_and\_normalise >>à l'aide de notre modèle et de son tokeniser, ensuite la préparation de notre données pour ensuite insérez-les dans Elasticsearch pour avoir la capabilité de recherche vectorielle. Enfin nous préparons notre contrôleur ASP .NET Core pour atteindre l'endpoint << /encode >> afin d'encoder le mot-clé de recherche saisi par l'utilisateur, et l'utiliser dans une query knn à l'aide de la méthode << KnnSearchAsync >> pour performer une query Elasticsearch knn.
+Grâce à ces étapes, le travail pour le reste des sprints a été rendu beaucoup plus facile et évolutifGrâce à ces étapes, le travail des restes des sprints

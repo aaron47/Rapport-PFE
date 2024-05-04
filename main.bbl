@@ -169,6 +169,34 @@
       \verb https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
       \endverb
     \endentry
+    \entry{lucidcharts:classdiagram}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db828b550b960e772cf6278864b53d62}{%
+           family={{Lucidcharts}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{db828b550b960e772cf6278864b53d62}
+      \strng{fullhash}{db828b550b960e772cf6278864b53d62}
+      \strng{bibnamehash}{db828b550b960e772cf6278864b53d62}
+      \strng{authorbibnamehash}{db828b550b960e772cf6278864b53d62}
+      \strng{authornamehash}{db828b550b960e772cf6278864b53d62}
+      \strng{authorfullhash}{db828b550b960e772cf6278864b53d62}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Diagramme de classes}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml
+      \endverb
+      \verb{url}
+      \verb https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml
+      \endverb
+    \endentry
     \entry{meta:react}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
@@ -617,6 +645,34 @@
       \endverb
       \verb{url}
       \verb https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
+      \endverb
+    \endentry
+    \entry{lucidcharts:classdiagram}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db828b550b960e772cf6278864b53d62}{%
+           family={{Lucidcharts}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{db828b550b960e772cf6278864b53d62}
+      \strng{fullhash}{db828b550b960e772cf6278864b53d62}
+      \strng{bibnamehash}{db828b550b960e772cf6278864b53d62}
+      \strng{authorbibnamehash}{db828b550b960e772cf6278864b53d62}
+      \strng{authornamehash}{db828b550b960e772cf6278864b53d62}
+      \strng{authorfullhash}{db828b550b960e772cf6278864b53d62}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Diagramme de classes}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml
+      \endverb
+      \verb{url}
+      \verb https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml
       \endverb
     \endentry
     \entry{meta:react}{misc}{}

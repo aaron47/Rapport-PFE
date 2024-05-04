@@ -1,9 +1,9 @@
 \section{Architecture du systéme}
 \noindent
 Il est indispensable à la conception de tout systéme informatique de choisir le modéle d'architecture adéquat et pourra assurer le bon fonctionnement, une meilleure performance, ainsi que la scalabilité, la fiabilité et trés important, la productivité de développement. \\
-C'est pour cette raison, qu'on a opté pour l'architecture MVC (Modèle, Vue, Contrôleur) comme l'architecture global du projet, et le modèle << Clean Architecture >>, dans le backend, qui seront trés pratique pour gérer les intéractions entre les différents composants de notre application. Nous décrirons ces architectures dans les prochaines sections.
+C'est pour cette raison, qu'on a opté pour l'architecture MVC avec des microservices (Modèle, Vue, Contrôleur, Modèle IA, et Elasticsearch) comme l'architecture global du projet, et le modèle << Clean Architecture >>, dans le backend, qui seront trés pratique pour gérer les intéractions entre les différents composants de notre application. Nous décrirons ces architectures dans les prochaines sections.
 
-\subsection{Architecture "MVC"}
+\subsection{Architecture "MVC Avec Microservices"}
 \noindent
 Le modèle MVC permet de bien organiser son code source. Il va nous aider à savoir quels fichiers créer, mais surtout à définir leur rôle. Le but de MVC est justement de séparer la logique du code en trois parties que l'on retrouve dans des fichiers distincts.
 
@@ -20,15 +20,23 @@ Cette partie se concentre sur l'affichage. Elle ne fait presque aucun calcul et 
 Cette partie gère les échanges avec l'utilisateur. C'est en quelque sorte l'intermédiaire entre l'utilisateur, le modèle et la vue. Le contrôleur va recevoir des requêtes de l'utilisateur. Pour chacune, il va demander au modèle d'effectuer certaines actions (demander les produits en fonction d'un mot-clé de recherche) et de lui renvoyer les résultats (la liste des produits). Puis il va adapter ce résultat et le donner à la vue. Enfin, il va renvoyer la nouvelle page HTML, générée par la vue, à l'utilisateur. Il est implémenté avec ASP .NET Core et C\# et utilise des requêtes SQL et Elasticsearch pour manipuler les donnèes.
 
 \noindent
+{\small\textbf{\textit{Modèle IA}}}\mbox{}\\
+Notre modèle IA a une et une seule responsabilité, qui est de faire l'encodage de la requête de l'utilisateur qui est envoyé au contrôleur et retourner le résultat encodé.
+
+\noindent
+{\small\textbf{\textit{Elasticseach}}}\mbox{}\\
+Elasticsearch agit comme notre base de données de recherche de vecteurs qui contient notre index de produits contenant 2 colonnes de vecteurs recherchables à l'aide du vecteur codé renvoyé par le modèle AI.
+
+\newpage
+\noindent
 La figure ~\ref{fig:mvc} schématise le rôle de chacun de ces éléments.
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{logos/mvc.png}
-\caption{L'architecture MVC}
+\includegraphics[width=1\textwidth]{logos/mvcavecservice.png}
+\caption{L'architecture MVC avec microservices}
 \label{fig:mvc}
 \end{figure}
 
-\newpage
 \noindent
 Il est important de bien comprendre comment ces éléments s'agencent et communiquent entre eux. La figure ~\ref{fig:mvcechange} montre cette communication.
 

@@ -37,32 +37,45 @@
 \contentsline {section}{\numberline {3.4}Backlog De Produit}{24}{section.3.4}%
 \contentsline {section}{\numberline {3.5}La Plannification De Release}{26}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Architecture du systéme}{26}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Architecture "MVC"}{26}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Architecture "Clean Architecture"}{28}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}L'environnement de développement et choix techniques: }{30}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Introduction}{30}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}L'environnement matériel}{30}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}L'environnement logiciel}{31}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}Logiciel de modèlisation UML}{38}{subsection.3.7.4}%
-\contentsline {section}{\numberline {3.8}Conclusion}{38}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Étude et réalisation du Sprint 1}{39}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{39}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Backlog du Sprint 1}{39}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Spécification fonctionnelle}{39}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Diagramme de cas d'utilisation général}{40}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Description textuelle du CU << Rechercher produit en Français >>}{40}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Diagramme de séquence detaillé}{41}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Architecture de la base de données}{42}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Diagramme de classes}{42}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Schéma de la base de données}{42}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Tables de base de données MySQL}{42}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Tables de base de données Elasticsearch}{43}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Réalisation}{44}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}La création des colonnes des vecteurs}{45}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Le modéle Sentence-Transformers et encodage des phrases}{46}{subsection.4.5.2}%
-\contentsline {subsubsection}{Comment le modèle encode une phrase?}{48}{section*.47}%
-\contentsline {subsubsection}{Que'est ce qu'un << Gradient >>?}{49}{section*.48}%
-\contentsline {subsubsection}{Le Mean Pooling}{50}{section*.49}%
-\contentsline {subsection}{\numberline {4.5.3}Préparation des données dans Elasticsearch pour recherche vectorielle}{52}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Elasticsearch et Similarité Cosinus}{54}{subsection.4.5.4}%
-\contentsline {chapter}{Bibliographie}{58}{chapter*.58}%
+\contentsline {subsection}{\numberline {3.6.1}Architecture "MVC Avec Microservices"}{26}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Architecture "Clean Architecture"}{29}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}L'environnement de développement et choix techniques: }{31}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Introduction}{31}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}L'environnement matériel}{31}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}L'environnement logiciel}{32}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Logiciel de modèlisation UML}{39}{subsection.3.7.4}%
+\contentsline {section}{\numberline {3.8}Conclusion}{39}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Étude et réalisation du Sprint 1}{40}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{40}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Backlog du Sprint 1}{40}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Spécification fonctionnelle}{40}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Diagramme de cas d'utilisation général}{41}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Description textuelle du CU << Rechercher produit en Français >>}{41}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Diagramme de séquence detaillé}{43}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Architecture de la base de données}{44}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Diagramme de classes}{44}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Schéma de la base de données}{45}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Tables de base de données MySQL}{46}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Tables de base de données Elasticsearch}{46}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Réalisation}{48}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}La création des colonnes des vecteurs}{48}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Le modéle Sentence-Transformers et encodage des phrases}{50}{subsection.4.5.2}%
+\contentsline {subsubsection}{Comment le modèle encode une phrase?}{52}{section*.49}%
+\contentsline {subsubsection}{Que'est ce qu'un << Gradient >>?}{52}{section*.50}%
+\contentsline {subsubsection}{Le Mean Pooling}{53}{section*.51}%
+\contentsline {subsection}{\numberline {4.5.3}Préparation des données dans Elasticsearch pour recherche vectorielle}{55}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Elasticsearch et Similarité Cosinus}{57}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Conclusion}{61}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Étude et réalisation du Sprint 2}{62}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{62}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Backlog du Sprint 2}{62}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Spécification fonctionnelle}{62}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Diagramme de cas d'utilisation général}{63}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Description textuelle des cas d’utilisations}{63}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Description textuelle du CU « Rechercher produit en Arabe traditionnel »}{64}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Description textuelle du CU « Rechercher produit en Arabe en dialecte Tunisien »}{65}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}Conception}{67}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Diagramme de séquence détaillé}{67}{subsection.5.6.1}%
+\contentsline {section}{\numberline {5.7}Réalisation}{68}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Les premières approches}{68}{subsection.5.7.1}%
+\contentsline {chapter}{Bibliographie}{69}{chapter*.64}%
