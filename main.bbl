@@ -495,6 +495,34 @@
       \verb https://pytorch.org/docs/stable/generated/torch.no_grad.html
       \endverb
     \endentry
+    \entry{symbl:latin1supp}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9aa085a81f990262471677a84515aaaf}{%
+           family={{Symbl}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9aa085a81f990262471677a84515aaaf}
+      \strng{fullhash}{9aa085a81f990262471677a84515aaaf}
+      \strng{bibnamehash}{9aa085a81f990262471677a84515aaaf}
+      \strng{authorbibnamehash}{9aa085a81f990262471677a84515aaaf}
+      \strng{authornamehash}{9aa085a81f990262471677a84515aaaf}
+      \strng{authorfullhash}{9aa085a81f990262471677a84515aaaf}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Latin-1 Supplement}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://symbl.cc/en/unicode/blocks/latin-1-supplement/
+      \endverb
+      \verb{url}
+      \verb https://symbl.cc/en/unicode/blocks/latin-1-supplement/
+      \endverb
+    \endentry
     \entry{techtarget:finetuning}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=700f0e630e939fff4cff6be3fc518b34}{%
@@ -999,6 +1027,34 @@
       \endverb
       \verb{url}
       \verb https://pytorch.org/docs/stable/generated/torch.no_grad.html
+      \endverb
+    \endentry
+    \entry{symbl:latin1supp}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9aa085a81f990262471677a84515aaaf}{%
+           family={{Symbl}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9aa085a81f990262471677a84515aaaf}
+      \strng{fullhash}{9aa085a81f990262471677a84515aaaf}
+      \strng{bibnamehash}{9aa085a81f990262471677a84515aaaf}
+      \strng{authorbibnamehash}{9aa085a81f990262471677a84515aaaf}
+      \strng{authornamehash}{9aa085a81f990262471677a84515aaaf}
+      \strng{authorfullhash}{9aa085a81f990262471677a84515aaaf}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Latin-1 Supplement}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://symbl.cc/en/unicode/blocks/latin-1-supplement/
+      \endverb
+      \verb{url}
+      \verb https://symbl.cc/en/unicode/blocks/latin-1-supplement/
       \endverb
     \endentry
     \entry{techtarget:finetuning}{misc}{}

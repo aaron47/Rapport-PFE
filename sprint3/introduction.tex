@@ -1,0 +1,138 @@
+\chapter{Étude et réalisation du Sprint 3}
+\etocsettocstyle{\section*{Sommaire}}{}
+\localtableofcontents
+\newpage
+\section{Introduction}
+\noindent
+Aprés avoir terminé le Sprint 2 du chapitre 5 qui tratait la recherche des produits dans la langue Arabe traditionnel et en dialecte Tunisien, nous entamons maintenant le Sprint 2 qui va aborder le dashboard de l'admin qui lui permettra de modifier ces paramétres de recherche.
+
+\section{Backlog du Sprint 3}
+\begin{table}[H]
+	\centering
+
+	\begin{tabularx}{\textwidth}{|c|X|c|c|}
+		\hline
+		\rowcolor{blue!20}
+		\textbf{ID} & \textbf{Scénario}                                                                                     & \textbf{Priorité} & \textbf{Complexité} \\ \hline
+		1           & En tant qu'un admin, je veux modifier mes paramétres de recherche, pour chercher le(s) produit(s) & 2                 & 7                  \\ \hline
+
+	2           & En tant qu'un admin, je veux consulter le tableau de bord des produits avec le meilleur score de similarité. & 1                 & 10 \\ \hline
+	\end{tabularx}
+	\caption{Backlog du Sprint 2}
+	\label{tab:sprint3}
+\end{table}
+
+\section{Spéficiation fonctionnelle}
+\noindent
+Au cours de cette partie, nous mettrons en avant les différentes fonctionnalités du
+Sprint 3 à travers le diagramme de cas d'utilisation. Par la suite, nous détaillerons quelques
+scénarios de cas d'utilisation grâce à des descriptions textuelles.
+
+\newpage
+\subsection{Diagramme de cas d'utilisation du CU "Modifier paramétres de recherche"}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/cusprint3.png}
+	\caption{Diagramme de cas d'utilisation de CU << Modifier paramétres de recherche >>}
+	\label{fig:cusprint3}
+\end{figure}
+
+\subsection{Diagramme de cas d'utilisation du CU "Consulter tableau de bord"}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/consultertb.png}
+	\caption{Diagramme de cas d'utilisation de CU << Consulter tableau de bord >>}
+	\label{fig:consultertb}
+\end{figure}
+
+
+
+\subsection{Description textuelle des cas d'utilisations}
+\noindent
+Suite à l'exposition des cas d'utilisations, nous approfondirons leurs descriptions textuelle.
+
+\subsubsection{Description textuelle du CU "Modifier paramétres de recherche"}
+\noindent
+\textbf{Titre:} Modifier paramétres de recherche \\
+\textbf{Résumé:} L'admin saisit son terme de recherche en Arabe traditionnel, dialecte Tunisien ou en Français, aussi que modifier un ou plusieurs paramétres de recherche, en cliquant sur la boutton pour rechercher le(s) produit(s) qu'il veut chercher. \\
+\textbf{Acteur Principal:} Admin \\
+\textbf{Précondition:} \begin{enumerate}
+	\item L'admin est sur la page de recherche de l'admin, et il est authentifié.
+	\item L'admin a saisi son terme de recherche en l'un des trois langages mentionnées.
+	\item L'admin a modifié l'un des quatres paramétres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
+	\item L'admin a cliqué sur "Rechercher"
+\end{enumerate}
+\textbf{Postcondition:} Le(s) produit(s) que l'admin cherche est renvoyé, si'il n'existe pas, le systéme renvoie des produits similaires comme suggestion. \\
+\textbf{Scénario de base: }
+\begin{enumerate}
+	\item L'admin saisit son terme de recherche.
+	\item L'admin modifie l'un des quatres paramétres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
+	\item L'admin clique sur la boutton "Rechercher"
+	\item Le système prend la terme de recherche, en vérifiant que c'est valide.
+	\item Le systéme prend cette terme de recherche, et performe les étapes nécessaires pour la convertir en vecteur.
+	\item Le systéme compare cette vecteur contre les vecteurs dans Elasticsearch en utilisant les paramétres de recherche que l'admin a saisi.
+	\item Le systéme renvoie les produits.
+\end{enumerate}
+
+\newpage
+\textbf{Scénario alternatifs : }
+\begin{enumerate}
+	\item La terme de recherche est vide:
+	      \begin{enumerate}
+		      \item Le système affiche un message d'erreur informant le client que la terme de recherche est requis.
+		      \item Retour à l'étape 1 du scénario de base.
+	      \end{enumerate}
+	\item La terme de recherche n'est pas valide:
+	      \begin{enumerate}
+		      \item Le système suppose que le terme recherché est en Français.
+		      \item Passer à la 6ème étape des scénarios de base.
+	      \end{enumerate}
+	\item L'admin n'as pas modifié l'un des quatres paramétres de recherche:
+	      \begin{enumerate}
+		      \item Le système utilise les valeurs par dèfauts pour la recherche:
+		      \begin{itemize}
+						\item NumCandidatesProdLabel: 25
+						\item NumCandidatesDesc: 25
+						\item TopResProdLabel: 10
+						\item TopResDesc: 20
+					\end{itemize}
+		      \item Passer à la 6ème étape des scénarios de base.
+	      \end{enumerate}
+	\item Le(s) produit(s) que l'admin cherche n'existe pas.
+	      \begin{enumerate}
+		      \item Le systéme essaie de renvoyer les produits les plus similaires comme des suggestions.
+		      \item Retour à l'étape 1 du scénario de base.
+	      \end{enumerate}
+\end{enumerate}
+
+
+\subsubsection{Description textuelle du CU "Consulter tableau de bord"}
+\noindent
+\textbf{Titre:} Consulter tableau de bord des produits \\
+\textbf{Résumé:} L'admin consulte le tableau de bord pour visualiser les produits renvoyés avec le meilleur score de similarité. \\
+\textbf{Acteur Principal:} Admin \\
+\textbf{Précondition:} \begin{enumerate}
+	\item L'admin est sur la page de recherche de l'admin, et il est authentifié.
+	\item L'admin a saisi son terme de recherche en l'un des trois langages mentionnées.
+	\item L'admin a modifié l'un des quatres paramétres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
+	\item L'admin a cliqué sur "Rechercher"
+\end{enumerate}
+\textbf{Postcondition:} Le(s) produit(s) que l'admin cherche est renvoyé, avec leurs scores et visualisation. \\
+\textbf{Scénario de base: }
+\begin{enumerate}
+	\item L'admin accède à son tableau de bord
+	\item L'admin saisit son terme de recherche.
+	\item L'admin modifie l'un des quatres paramétres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
+	\item L'admin clique sur la boutton "Rechercher"
+	\item Le système prend la terme de recherche, en vérifiant que c'est valide.
+	\item Le systéme prend cette terme de recherche, et performe les étapes nécessaires pour la convertir en vecteur.
+	\item Le systéme compare cette vecteur contre les vecteurs dans Elasticsearch en utilisant les paramétres de recherche que l'admin a saisi.
+	\item Le systéme renvoie les produits avec les scores et les visualise.
+\end{enumerate}
+
+\newpage
+\section{Conception}
+\noindent
+Au cours de cette section, nous examinerons les diagrammes de séquence en relation avec les descriptions textuelles des cas d'utilisation précédemment exposés correspondant au troisième sprint.
+
+\subsection{Diagramme de séquence détaillé}

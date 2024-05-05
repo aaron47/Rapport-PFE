@@ -1,4 +1,6 @@
 \chapter{Étude et réalisation du Sprint 1}
+\etocsettocstyle{\section*{Sommaire}}{}
+\localtableofcontents
 \section{Introduction}
 \noindent
 Après avoir examiné l'étude technique de notre projet d'assurance automobile en ligne, nous entamons maintenant le Sprint 1, qui ce concentra sur la création d'un systéme de recherche des produits dans la langue Française.
@@ -443,4 +445,4 @@ L'implementation de ce processus se produit dans la fonction suivante:
 \section{Conclusion}
 \noindent
 Dans ce chapitre, nous avons couvert toutes les étapes nécessaires pour performer le recherche vectorielle dans notre projet, en commençant par la création de la fonction d'encodage << encode\_sentence\_and\_normalise >>à l'aide de notre modèle et de son tokeniser, ensuite la préparation de notre données pour ensuite insérez-les dans Elasticsearch pour avoir la capabilité de recherche vectorielle. Enfin nous préparons notre contrôleur ASP .NET Core pour atteindre l'endpoint << /encode >> afin d'encoder le mot-clé de recherche saisi par l'utilisateur, et l'utiliser dans une query knn à l'aide de la méthode << KnnSearchAsync >> pour performer une query Elasticsearch knn.
-Grâce à ces étapes, le travail pour le reste des sprints a été rendu beaucoup plus facile et évolutifGrâce à ces étapes, le travail des restes des sprints
+Grâce à ces étapes, le travail pour le reste des sprints a été rendu beaucoup plus facile et évolutif.

@@ -63,18 +63,24 @@ Ensuite, nous continuons en définissant notre première méthode dans la classe
 L'expression régulière utilisée dans notre méthode est :
 \Large\[ [^{\backslash u0000-\backslash u00FF}] \]
 \begin{itemize}
-    \item \texttt{[...]}: Spécifie une classe de caractères, correspondant à n'importe quel caractère unique inclus entre parenthèses.
-    \item \texttt{\^{}}: Entre parenthèses de classe de caractères, cela annule la classe, donc elle correspond à n'importe quel caractère \emph{non} répertorié entre parenthèses.
-    \item \texttt{\textbackslash u0000-\textbackslash u00FF}: Définit une plage de caractères Unicode de \( U+0000 \) à \( U+00FF \), qui comprend à la fois les blocs Basic Latin et Latin-1 Supplement.
+	\item \texttt{[...]}: Spécifie une classe de caractères, correspondant à n'importe quel caractère unique inclus entre parenthèses.
+	\item \texttt{\^{}}: Entre parenthèses de classe de caractères, cela annule la classe, donc elle correspond à n'importe quel caractère \emph{non} répertorié entre parenthèses.
+	\item \texttt{\textbackslash u0000-\textbackslash u00FF}: Définit une plage de caractères Unicode de \( U+0000 \) à \( U+00FF \), qui comprend à la fois les blocs Basic Latin et Latin-1 Supplement.
 \end{itemize}
 
 \newpage
+\noindent
+Le \texttt{Latin-1 Supplement} est défini comme suit: \\
+\textit{Le bloc Latin-1 Supplement fait partie de la norme Unicode, couvrant la plage de \( U+0080 \) jusqu'à \( U+00FF \). Il complète le bloc Basic Latin (ASCII), qui couvre de \( U+0000 \) jusqu'à \( U+007F \). Ce bloc comprend des caractères supplémentaires utilisés dans diverses langues occidentales, comprenant des lettres accentuées, des signes de ponctuation, des symboles monétaires et d'autres symboles typographiques, représentant la moitié supérieure du codage de caractères ISO/IEC 8859-1.} \\
+\citetitle{symbl:latin1supp} (\cite{symbl:latin1supp})
+
+
 \subsubsection{Logique de méthode}
 \noindent
 La méthode \texttt{re.search(r"[\textbackslash u0000-\textbackslash u00FF]", s)} recherche dans la chaîne \( s \), recherchant tout caractère en dehors de plage \( U+0000 \) jusqu'à \( U+00FF \):
 \begin{itemize}
-    \item Si un tel caractère est trouvé, \texttt{re.search} renvoie un objet de correspondance, qui est évalué à \texttt{True}.
-    \item Si aucun caractère de ce type n'est trouvé (c'est-à-dire que tous les caractères sont dans la plage spécifiée), il renvoie \texttt{None}, qui est évalué à \texttt{False}.
+	\item Si un tel caractère est trouvé, \texttt{re.search} renvoie un objet de correspondance, qui est évalué à \texttt{True}.
+	\item Si aucun caractère de ce type n'est trouvé (c'est-à-dire que tous les caractères sont dans la plage spécifiée), il renvoie \texttt{None}, qui est évalué à \texttt{False}.
 \end{itemize}
 L'utilisation de l'opérateur \texttt{not} inverse le résultat de \texttt{re.search}. Ainsi, la méthode renvoie \texttt{False} si des caractères se trouvent en dehors de la plage Unicode spécifiée, et \texttt{True} si tous les caractères s'y trouvent.
 
@@ -87,3 +93,122 @@ La figure ~\ref{fig:islatin} illustre le code nécessaire pour cette méthode.
 	\caption{Code de méthode \_\_is\_latin}
 	\label{fig:islatin}
 \end{figure}
+
+\noindent
+Cette méthode étant terminée, nous passons maintenant à notre deuxième méthode, qui est une méthode privée appelée \texttt{\_\_find\_best\_match} pour vérifier le mot correspondant le plus proche dans notre dictionnaire Tunisien. \\
+Pour avoir cette fonctionnalité, on va utiliser la bibliothéque \texttt{difflib} du langage de programmation Python, qui fournit des aides pour calculer les différences entre les séquences, y compris des outils pour trouver des séquences correspondant étroitement à une séquence d'entrée donnée.
+
+\subsubsection{Répartition des fonctionnalités}
+\noindent
+Pour trouver cette mot correspondant, on va utiliser la méthode \\
+\texttt{get\_closest\_matches} qui prends 4 paramétres:
+\begin{enumerate}
+	\item \texttt{tunisian\_text:} La chaîne de caractères pour laquelle des correspondances proches sont recherchées.
+	\item \texttt{self.\_\_translation\_dict.keys():} La séquence à laquelle le tunisian\_text est comparé. Ici, ce sont les clés du notre dictionnaire Tunisien \_\_translation\_dict.
+	\item \texttt{n=1:} Ce paramètre spécifie le nombre de correspondances proches à renvoyer. Le réglage n=1 signifie que la fonction renverra au plus une correspondance la plus proche.
+	\item \texttt{cutoff=0.7:} C'est le seuil de similarité. Les correspondances avec un score de similarité inférieur à 0,7 (où 1,0 correspond à une correspondance exacte et 0 à une absence de similarité) ne sont pas incluses. Une valeur de 0,7 implique que la fonction prendra en compte les correspondances qui sont similaires à au moins 70 à tunisian\_text.
+\end{enumerate}
+
+\subsubsection{Renvoie du rèsultat}
+\noindent
+La fonction sauveguarde les résultats de \texttt{get\_close\_matches} dans la variable \texttt{matches}, elle vérifie ensuite si des correspondances ont été trouvées. Si \texttt{matches} contient des éléments, \texttt{matches[0]} (la meilleure correspondance due à n=1) est renvoyé. Si \texttt{matches} est vide, ce qui indique qu'aucune correspondance suffisamment proche n'a été trouvée, la méthode renvoie None.\\ La figure ~\ref{fig:findbestmatch} illustre le code nècessaire pour cette mèhode.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/findbestmatch.png}
+	\caption{Code de méthode \_\_find\_best\_matches}
+	\label{fig:findbestmatch}
+\end{figure}
+
+\newpage
+\noindent
+Une fois les 2 méthodes précédentes sont terminées, nous pouvons maintenant passer à notre méthode la plus importante, qui utilisera ces méthodes pour gérer la logique de traduction et renverra le terme de recherche traduit. La méthode est appelé \texttt{translate}, et sa visibilité est publique.
+
+\subsubsection{Aperçu de la méthode}
+\noindent
+\textit{But:} Traduire du texte du tunisien ou ou du texte en Arabe traditionnel (non latin) vers le Français,, en utilisant à la fois des services de traduction automatisée et un dictionnaire de traduction prédéfini. \\
+\textit{Input:} \texttt{text:} Une chaîne de caractères contenant le texte à traduire. \\
+\textit{Output:} Le texte traduit en Français, ou un message d'erreur si la traduction échoue.
+
+\newpage
+\subsubsection{Répartition détaillée}
+\begin{enumerate}
+	\item Initialisation des variables:
+	      \begin{itemize}
+		      \item \texttt{mots = [] :} Initialise une liste vide qui contiendra plus tard des mots individuels du texte saisi.
+	      \end{itemize}
+	\item Vérifiez les caractères non latins:
+	      \begin{itemize}
+		      \item On utilise la méthode \texttt{\_\_is\_latin} pour vérifier si le texte est en latin ou non. Si cette méthode renvoie \texttt{False}, nous utilisons Google Traduction pour traduire ce texte en Français, sinon, nous vérifions si le texte est en Tunisien en vérifiant si il y'a une correspondance dans notre dictionnaire.
+	      \end{itemize}
+	\item Utilisation de Google Traduction
+	      \begin{itemize}
+		      \item Création de l'instance de l'objet \texttt{Translator} importé de la bibliothéque \texttt{googletrans}.
+		      \item La méthode essaie de traduire le texte en Français (dest="fr"). En cas de succès, le texte du résultat traduit remplace le texte original.
+	      \end{itemize}
+	\item Traduction en utilisation de notre dictionnaire
+	      \begin{itemize}
+		      \item Nous initialisons une liste vide pour stocker les mots traduits (translated\_words = []).
+		      \item Ensuite, nous performons une itération sur les mots de terme de recherche.
+		      \item Recherche de la meilleure correspondance : pour chaque mot, il appelle self.\_\_find\_best\_match(word) pour trouver la clé correspondante la plus proche dans le dictionnaire de traduction \_\_translation\_dict.
+		      \item Si une correspondance est trouvée (la clé n'est pas None), la méthode ajoute la valeur correspondante de \_\_translation\_dict à translated\_words.
+		      \item Si aucune correspondance n'est trouvée, le mot original est ajouté à translated\_words car elle suppose que le mot n'a pas besoin de traduction ou qu'aucune traduction appropriée n'existe dans le dictionnaire, supposons qu'elle est en Français.
+	      \end{itemize}
+		\item Construction de la phrase traduite finale en joignant la liste translated\_words en une seule chaîne avec des mots séparés par des espaces (" ".join(translated\_words)) et renvoie cette chaîne comme phrase traduite finale.
+\end{enumerate}
+
+\newpage
+\noindent
+La figure ~\ref{fig:translate} illustre le code nècessaire pour créer cette méthode.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/translate.png}
+	\caption{Code de méthode translate}
+	\label{fig:translate}
+\end{figure}
+
+\noindent
+Enfin, nous doivent exposer une endpoint Flask \texttt{"/encode"} comme une endpoint de microservice publique pour regrouper toutes le fonctionnalités qui sont les suivants:
+\begin{enumerate}
+	\item Extraire le terme de recherche de la requête.
+	\item Essayez de le traduire en Français si nécessaire.
+	\item Utiliser la méthode encode\_sentence\_and\_normalise de notre modéle Sentence-Transformers pour faire l'encodage du terme de recherche en vecteur.
+	\item Renvoyer ce vecteur au contrôleur ASP .NET Core sous forme JSON.
+\end{enumerate}
+
+La figure ~\ref{fig:encodeendpoint} illustre le code complèt du endpoint \texttt{"/encode"}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/encodeendpoint.png}
+	\caption{Code de endpoint "/encode"}
+	\label{fig:encodeendpoint}
+\end{figure}
+
+\newpage
+\noindent
+\section{Processus complèt de recherche vectorielle avec la traduction}
+La figure ~\ref{fig:fullprocesswithtranslation} illustre le processus complèt de recherche vectorielle avec la traduction.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/fullprocesswithtranslation.png}
+	\caption{Processus complèt de recherche vectorielle avec la traduction}
+	\label{fig:fullprocesswithtranslation}
+\end{figure}
+
+\subsection{Rèpartition dètaillèe de processus de recherche vectorielle complèt}
+\begin{enumerate}
+	\item \texttt{Intèraction du client:} Le client saisit son terme de recherche à travers l'interface de recherche.
+	\item \texttt{Contrôleur ASP.NET :} Contrôleur ASP.NET : le terme de recherche est envoyé du client à un contrôleur backend implémenté dans ASP.NET, qui transmet ensuite le terme de recherche à une API Flask.
+	\item \texttt{Analyse des mots clés:} l'API Flask détermine si le terme de recherche est en latin. Si tel est le cas, le processus passe directement à l'encodage du terme en utilisant notre modéle Sentence-Transformers pour qu'il soit adapté à la recherche vectorielle dans Elasticsearch. Si le terme n'est pas en latin, il vérifie s'il est en arabe traditionnel ou en dialecte tunisien, sinon, il suppose qu'il est en Français.
+	\item \texttt{Traduction selon la langue détectée:} Les termes arabes traditionnels sont traduits à l'aide des services de traduction Google. Les termes du dialecte tunisien sont traduits à l'aide de notre dictionnaire tunisien.
+	\item \texttt{Encodage}: Les termes traduits sont éventuellement codés à l'aide de notre modéle Sentence-Transformers.
+	\item \texttt{Recherche vectorielle dans Elasticsearch:} Les vecteurs codés sont utilisés pour interroger Elasticsearch, qui recherche des vecteurs (documents) similaires stockés dans son index, qui sont notre produits dans notre cas.
+	\item \texttt{Récupération des résultats:} Les résultats de la recherche sont récupérés et renvoyés via le contrôleur ASP.NET au client, complétant ainsi le processus de recherche.
+\end{enumerate}
+
+\section{Conclusion}
+\noindent
+Dans ce chapitre, nous avons couvert toutes les étapes nécéssaires pour permettre le client à rechercher notres produits en Arabe traditionnel et en dialecte Tunisien a travers le processus de traduction et traitement du mot clé qu'il cherche en utilisant les divers techniques, fonctions et bibliothéque mentionné tout au long de notre chapitre.

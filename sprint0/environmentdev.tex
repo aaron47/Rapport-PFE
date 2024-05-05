@@ -199,6 +199,20 @@ Visual Paradigm est un outil de conception de diagrammes UML.Il est capable de p
 \label{fig:vp}
 \end{figure}
 
+\newpage
+\section{Diagramme de deploiement}
+\noindent
+Un diagramme de déploiement est une représentation visuelle de la configuration
+matérielle et logicielle d'une application, ainsi que des connexions entre les différents composants. Il permet de comprendre comment les différents éléments de l'application sont déployés et interagissent les uns avec les autres. La figure ~\ref{fig:diagdepglobal} présente le diagramme de deploiement de notre application. On peut observer que notre serveur d'application est connecté a un serveur web Kestrel de .NET, aussi que deux bases de données, Elasticsearch, et MySQL, et qu'on a deux services API, ASP .NET Core et Flask qui contient notre modéle Sentence-Transformers.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{logos/deployment.png}
+\caption{Présentation de Diagramme de deploiement global}
+\label{fig:diagdepglobal}
+\end{figure}
+
 
 \section{Conclusion}
 \noindent

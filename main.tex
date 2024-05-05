@@ -18,7 +18,7 @@
 \usepackage[autolanguage]{numprint}
 \usepackage[backend=biber,style=apa,sorting=nyt]{biblatex}
 \usepackage[font=small,labelfont=bf]{caption}
-\usepackage[margin=1cm, textwidth=4.5cm]{geometry}
+\usepackage[left=2cm,right=2cm]{geometry}
 \usepackage{booktabs}
 \usepackage[french]{algorithm2e}
 \usepackage{float}
@@ -37,7 +37,25 @@
 \usepackage{longtable}
 \usepackage{booktabs}
 \usepackage{amsmath}
+\usepackage{titlesec} 
+\usepackage{tocloft}
+\usepackage{etoolbox}
+\usepackage{titletoc}   
+\usepackage[Lenny]{fncychap}
+\usepackage{etoc}
+\setcounter{secnumdepth}{3}
+\titleformat*{\section}{\LARGE\bfseries}
+\titleformat*{\subsection}{\Large\bfseries}
+\titleformat*{\subsubsection}{\large\bfseries}
+\titleformat*{\paragraph}{\large\bfseries}
+\titleformat*{\subparagraph}{\large\bfseries}
 %\usepackage{enumitem}
+% \titleformat{\chapter}[display]
+%   {\normalfont\bfseries\Huge}
+%   {\filleft\Large\chaptertitlename\ \thechapter}
+%   {4ex}
+%   {\titlerule\vspace{2ex}\filright}
+%   [\vspace{2ex}\titlerule]
 
 \addbibresource{biblio.bib}
 
@@ -84,6 +102,7 @@
 \input{sprint0/introduction}
 \input{sprint1/introduction}
 \input{sprint2/introduction}
+\input{sprint3/introduction}
 
 % \input{matmet}
 
