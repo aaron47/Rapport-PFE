@@ -61,5 +61,11 @@
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Processus complèt de recherche vectorielle avec la traduction}}{84}{figure.caption.62}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Diagramme de cas d'utilisation de CU << Modifier paramétres de recherche >>}}{89}{figure.caption.64}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagramme de cas d'utilisation de CU << Consulter tableau de bord >>}}{89}{figure.caption.65}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagramme de cas d'utilisation de CU << Consulter tableau de bord >>}}{90}{figure.caption.65}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Diagramme de séquence de CU "Modifier paramétres de recherche"}}{94}{figure.caption.66}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagramme de séquence de CU "Consulter tableau de bord"}}{95}{figure.caption.67}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagramme de séquence de CU "S'authentifier"}}{95}{figure.caption.68}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Interface de Tableau de bord de l'administrateur}}{98}{figure.caption.70}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Interface de modification de paramétres de recherche pour l'admin}}{99}{figure.caption.71}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Interface de pour l'authentification de l'admin}}{100}{figure.caption.72}%
 \contentsfinish 

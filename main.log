@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.10)  6 MAY 2024 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.10)  6 MAY 2024 21:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -948,35 +948,35 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \etoc@framed@titlebox=\box119
 \etoc@framed@contentsbox=\box120
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 72.
+Package hyperref Info: Option `colorlinks' set `true' on input line 71.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 81.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 80.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (main.aux (couverture.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count504
@@ -996,14 +996,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \degres on input line 81.
+LaTeX Info: Redefining \degres on input line 80.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 81.
+(french.ldf)             reported on input line 80.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 81.
-LaTeX Info: Redefining \up on input line 81.
+(french.ldf)             reported on input line 80.
+LaTeX Info: Redefining \up on input line 80.
 Package biblatex Info: Trying to load language 'french' -> 'french-apa'...
 Package biblatex Info: ... file 'french-apa.lbx' found.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\french-apa.lbx
@@ -1048,8 +1048,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 81.
-Package biblatex Info: Reference segment=0 on input line 81.
+Package biblatex Info: Reference section=0 on input line 80.
+Package biblatex Info: Reference segment=0 on input line 80.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1093,7 +1093,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 81.
+Package hyperref Info: Link coloring ON on input line 80.
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1102,7 +1102,7 @@ Package hyperref Info: Link coloring ON on input line 81.
 \openout2 = `couverture.aux'.
 
  (couverture.tex
-<logos/isgs.png, id=362, 163.91135pt x 163.91135pt>
+<logos/isgs.png, id=378, 163.91135pt x 163.91135pt>
 File: logos/isgs.png Graphic file (type png)
 <use logos/isgs.png>
 Package pdftex.def Info: logos/isgs.png  used on input line 3.
@@ -1111,11 +1111,6 @@ Package pdftex.def Info: logos/isgs.png  used on input line 3.
 
 
 {C:/Users/Aaron/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./logos/isgs.png (PNG copy)>]) (remerciements.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--2
-[]\T1/lmr/bx/n/20.74 Remerciements|
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
@@ -1124,11 +1119,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
 
 ]) (dedicace.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--2
-[]\T1/lmr/bx/n/20.74 Dédicace|
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1137,63 +1127,63 @@ l.18 \newpage
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 94.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 93.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 94.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 93.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 94.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 93.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 94.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 93.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 94.
+(Font)              <14.4> on input line 93.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 94.
+(Font)              <10> on input line 93.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 94.
+(Font)              <7> on input line 93.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 \listoffigures
+l.93 \listoffigures
                     [2]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 \listoffigures
+l.93 \listoffigures
                     [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 \listoffigures
+l.93 \listoffigures
                     [4] (main.lof
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 ...tilisation global}}{25}{figure.caption.12}
+l.10 ...us de tokenisation}}{18}{figure.caption.8}
                                                   % [5]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 ...s de Tokenisation}}{55}{figure.caption.44}
-                                                  % [6])
-\tf@lof=\write6
-\openout6 = `main.lof'.
-
- (main.lot
+l.39 ...gramme de classes}}{48}{figure.caption.38}
+                                                  % [6]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5 ...ketplaces Tunisiennes}}{5}{table.caption.3}
+l.65 ...res de recherche"}}{94}{figure.caption.66}
                                                   % [7])
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ (main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
@@ -1201,7 +1191,7 @@ l.5 ...ketplaces Tunisiennes}}{5}{table.caption.3}
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.96 \newpage
+l.95 \newpage
               [8] (introduction.tex
 Chapitre 1.
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1.
@@ -1223,7 +1213,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 10
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (etudedeprojet/presentationdelentreprise.tex
-<logos/axam.png, id=656, 501.875pt x 501.875pt>
+<logos/axam.png, id=690, 501.875pt x 501.875pt>
 File: logos/axam.png Graphic file (type png)
 <use logos/axam.png>
 Package pdftex.def Info: logos/axam.png  used on input line 8.
@@ -1281,7 +1271,7 @@ Underfull \hbox (badness 1221) in paragraph at lines 23--23
 [5 <./logos/jumia.png> <./logos/tunisianet.png> <./logos/wamia.png (PNG copy)>] [6{C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]) (etudedeprojet/methodologie.tex [7] [8]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 28.
-<logos/scrum.png, id=696, 918.43124pt x 434.62375pt>
+<logos/scrum.png, id=730, 918.43124pt x 434.62375pt>
 File: logos/scrum.png Graphic file (type png)
 <use logos/scrum.png>
 Package pdftex.def Info: logos/scrum.png  used on input line 37.
@@ -1291,13 +1281,13 @@ Chapitre 2.
 [11
 
 ] [12]
-<logos/fullprocess.png, id=728, 8500.75874pt x 2950.02126pt>
+<logos/fullprocess.png, id=762, 8500.75874pt x 2950.02126pt>
 File: logos/fullprocess.png Graphic file (type png)
 <use logos/fullprocess.png>
 Package pdftex.def Info: logos/fullprocess.png  used on input line 28.
 (pdftex.def)             Requested size: 525.23788pt x 182.26024pt.
  [13 <./logos/fullprocess.png>]
-<logos/cosine.png, id=735, 1027.84pt x 645.41125pt>
+<logos/cosine.png, id=769, 1027.84pt x 645.41125pt>
 File: logos/cosine.png Graphic file (type png)
 <use logos/cosine.png>
 Package pdftex.def Info: logos/cosine.png  used on input line 54.
@@ -1307,31 +1297,31 @@ Overfull \hbox (0.37564pt too wide) in paragraph at lines 64--64
 |[]\T1/lmr/bx/n/20.74 Utilisation d'un mo-déle Sentence-Transformers| 
  []
 
-<logos/paddingexplanation.png, id=754, 1075.01625pt x 911.405pt>
+<logos/paddingexplanation.png, id=788, 1075.01625pt x 911.405pt>
 File: logos/paddingexplanation.png Graphic file (type png)
 <use logos/paddingexplanation.png>
 Package pdftex.def Info: logos/paddingexplanation.png  used on input line 75.
 (pdftex.def)             Requested size: 525.23788pt x 445.29901pt.
 [16]
-<logos/padding.png, id=762, 218.48291pt x 265.32458pt>
+<logos/padding.png, id=796, 218.48291pt x 265.32458pt>
 File: logos/padding.png Graphic file (type png)
 <use logos/padding.png>
 Package pdftex.def Info: logos/padding.png  used on input line 85.
 (pdftex.def)             Requested size: 525.23788pt x 637.97417pt.
  [17 <./logos/paddingexplanation.png>] [18 <./logos/padding.png>]
-<logos/mean_pooling.png, id=774, 697.60625pt x 246.9225pt>
+<logos/mean_pooling.png, id=808, 697.60625pt x 246.9225pt>
 File: logos/mean_pooling.png Graphic file (type png)
 <use logos/mean_pooling.png>
 Package pdftex.def Info: logos/mean_pooling.png  used on input line 106.
 (pdftex.def)             Requested size: 525.23788pt x 185.92233pt.
  [19 <./logos/mean_pooling.png>]
-<logos/max_pooling.png, id=781, 1395.2125pt x 497.86pt>
+<logos/max_pooling.png, id=815, 1395.2125pt x 497.86pt>
 File: logos/max_pooling.png Graphic file (type png)
 <use logos/max_pooling.png>
 Package pdftex.def Info: logos/max_pooling.png  used on input line 121.
 (pdftex.def)             Requested size: 525.23788pt x 187.41872pt.
  [20 <./logos/max_pooling.png>]
-<logos/min_pooling.png, id=788, 1782.66pt x 975.645pt>
+<logos/min_pooling.png, id=822, 1782.66pt x 975.645pt>
 File: logos/min_pooling.png Graphic file (type png)
 <use logos/min_pooling.png>
 Package pdftex.def Info: logos/min_pooling.png  used on input line 133.
@@ -1341,7 +1331,7 @@ Chapitre 3.
 [22
 
 ] (sprint0/identificationdesbesoins.tex [23] [24]) (sprint0/diagcuglobal.tex
-<logos/CU_global.png, id=826, 1235.61626pt x 744.7825pt>
+<logos/CU_global.png, id=860, 1235.61626pt x 744.7825pt>
 File: logos/CU_global.png Graphic file (type png)
 <use logos/CU_global.png>
 Package pdftex.def Info: logos/CU_global.png  used on input line 17.
@@ -1357,12 +1347,12 @@ Overfull \hbox (25.19566pt too wide) in paragraph at lines 12--31
  []
 
 ) (sprint0/plannificationderelease.tex [26]) (sprint0/architecture.tex [27] [28] [29]
-<logos/mvcavecservice.png, id=849, 1187.43625pt x 696.6025pt>
+<logos/mvcavecservice.png, id=883, 1187.43625pt x 696.6025pt>
 File: logos/mvcavecservice.png Graphic file (type png)
 <use logos/mvcavecservice.png>
 Package pdftex.def Info: logos/mvcavecservice.png  used on input line 35.
 (pdftex.def)             Requested size: 525.23788pt x 308.13232pt.
-<logos/mvcechange.png, id=851, 698.61pt x 387.4475pt>
+<logos/mvcechange.png, id=885, 698.61pt x 387.4475pt>
 File: logos/mvcechange.png Graphic file (type png)
 <use logos/mvcechange.png>
 Package pdftex.def Info: logos/mvcechange.png  used on input line 45.
@@ -1372,7 +1362,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
  []
 
-<logos/clean_architecture.png, id=858, 670.54639pt x 372.52577pt>
+<logos/clean_architecture.png, id=892, 670.54639pt x 372.52577pt>
 File: logos/clean_architecture.png Graphic file (type png)
 <use logos/clean_architecture.png>
 Package pdftex.def Info: logos/clean_architecture.png  used on input line 71.
@@ -1383,95 +1373,95 @@ Overfull \hbox (24.76073pt too wide) in paragraph at lines 1--1
  []
 
 [32 <./logos/clean_architecture.png (PNG copy)>] [33]
-<logos/vs.png, id=876, 3854.4pt x 2168.1pt>
+<logos/vs.png, id=910, 3854.4pt x 2168.1pt>
 File: logos/vs.png Graphic file (type png)
 <use logos/vs.png>
 Package pdftex.def Info: logos/vs.png  used on input line 36.
 (pdftex.def)             Requested size: 157.57297pt x 88.628pt.
-<logos/vsc.png, id=878, 298.02061pt x 298.02061pt>
+<logos/vsc.png, id=912, 298.02061pt x 298.02061pt>
 File: logos/vsc.png Graphic file (type png)
 <use logos/vsc.png>
 Package pdftex.def Info: logos/vsc.png  used on input line 47.
 (pdftex.def)             Requested size: 157.57297pt x 157.57272pt.
  [34 <./logos/vs.png>]
-<logos/csharp.png, id=885, 268.00125pt x 301.125pt>
+<logos/csharp.png, id=919, 268.00125pt x 301.125pt>
 File: logos/csharp.png Graphic file (type png)
 <use logos/csharp.png>
 Package pdftex.def Info: logos/csharp.png  used on input line 57.
 (pdftex.def)             Requested size: 157.57297pt x 177.0465pt.
-<logos/dotnetcore.png, id=887, 1204.5pt x 1204.5pt>
+<logos/dotnetcore.png, id=921, 1204.5pt x 1204.5pt>
 File: logos/dotnetcore.png Graphic file (type png)
 <use logos/dotnetcore.png>
 Package pdftex.def Info: logos/dotnetcore.png  used on input line 68.
 (pdftex.def)             Requested size: 157.57297pt x 157.56459pt.
  [35 <./logos/vsc.png (PNG copy)> <./logos/csharp.png>]
-<logos/pypng.png, id=894, 1876.00874pt x 2055.68pt>
+<logos/pypng.png, id=928, 1876.00874pt x 2055.68pt>
 File: logos/pypng.png Graphic file (type png)
 <use logos/pypng.png>
 Package pdftex.def Info: logos/pypng.png  used on input line 78.
 (pdftex.def)             Requested size: 157.57297pt x 172.64458pt.
-<logos/jupyter.png, id=896, 1773.62625pt x 2055.68pt>
+<logos/jupyter.png, id=930, 1773.62625pt x 2055.68pt>
 File: logos/jupyter.png Graphic file (type png)
 <use logos/jupyter.png>
 Package pdftex.def Info: logos/jupyter.png  used on input line 88.
 (pdftex.def)             Requested size: 157.57297pt x 182.61931pt.
  [36 <./logos/dotnetcore.png> <./logos/pypng.png>]
-<logos/flask.png, id=904, 1284.8pt x 502.87875pt>
+<logos/flask.png, id=938, 1284.8pt x 502.87875pt>
 File: logos/flask.png Graphic file (type png)
 <use logos/flask.png>
 Package pdftex.def Info: logos/flask.png  used on input line 99.
 (pdftex.def)             Requested size: 157.57297pt x 61.67032pt.
-<logos/react.png, id=906, 4111.36pt x 4111.36pt>
+<logos/react.png, id=940, 4111.36pt x 4111.36pt>
 File: logos/react.png Graphic file (type png)
 <use logos/react.png>
 Package pdftex.def Info: logos/react.png  used on input line 110.
 (pdftex.def)             Requested size: 157.57297pt x 157.52562pt.
  [37 <./logos/jupyter.png> <./logos/flask.png>]
-<logos/typescript.png, id=914, 3011.25pt x 3011.25pt>
+<logos/typescript.png, id=948, 3011.25pt x 3011.25pt>
 File: logos/typescript.png Graphic file (type png)
 <use logos/typescript.png>
 Package pdftex.def Info: logos/typescript.png  used on input line 120.
 (pdftex.def)             Requested size: 157.57297pt x 157.5554pt.
-<logos/docker.png, id=916, 3854.4pt x 2168.1pt>
+<logos/docker.png, id=950, 3854.4pt x 2168.1pt>
 File: logos/docker.png Graphic file (type png)
 <use logos/docker.png>
 Package pdftex.def Info: logos/docker.png  used on input line 131.
 (pdftex.def)             Requested size: 157.57297pt x 88.628pt.
  [38 <./logos/react.png> <./logos/typescript.png>]
-<logos/elasticsearch.png, id=924, 2569.6pt x 564.1075pt>
+<logos/elasticsearch.png, id=958, 2569.6pt x 564.1075pt>
 File: logos/elasticsearch.png Graphic file (type png)
 <use logos/elasticsearch.png>
 Package pdftex.def Info: logos/elasticsearch.png  used on input line 143.
 (pdftex.def)             Requested size: 157.57297pt x 34.58524pt.
-<logos/kibana.png, id=926, 1005.49565pt x 1005.49565pt>
+<logos/kibana.png, id=960, 1005.49565pt x 1005.49565pt>
 File: logos/kibana.png Graphic file (type png)
 <use logos/kibana.png>
 Package pdftex.def Info: logos/kibana.png  used on input line 154.
 (pdftex.def)             Requested size: 157.57297pt x 157.56859pt.
-<logos/postman.png, id=928, 317.5062pt x 96.36pt>
+<logos/postman.png, id=962, 317.5062pt x 96.36pt>
 File: logos/postman.png Graphic file (type png)
 <use logos/postman.png>
 Package pdftex.def Info: logos/postman.png  used on input line 164.
 (pdftex.def)             Requested size: 157.57297pt x 47.82257pt.
  [39 <./logos/docker.png> <./logos/elasticsearch.png> <./logos/kibana.png>]
-<logos/overleaf.png, id=938, 845.3181pt x 279.9258pt>
+<logos/overleaf.png, id=972, 845.3181pt x 279.9258pt>
 File: logos/overleaf.png Graphic file (type png)
 <use logos/overleaf.png>
 Package pdftex.def Info: logos/overleaf.png  used on input line 175.
 (pdftex.def)             Requested size: 157.57297pt x 52.17842pt.
-<logos/latex.png, id=940, 2569.6pt x 1071.00125pt>
+<logos/latex.png, id=974, 2569.6pt x 1071.00125pt>
 File: logos/latex.png Graphic file (type png)
 <use logos/latex.png>
 Package pdftex.def Info: logos/latex.png  used on input line 185.
 (pdftex.def)             Requested size: 157.57297pt x 65.66272pt.
  [40 <./logos/postman.png> <./logos/overleaf.png> <./logos/latex.png>]
-<logos/vp.png, id=949, 433.62pt x 117.43875pt>
+<logos/vp.png, id=983, 433.62pt x 117.43875pt>
 File: logos/vp.png Graphic file (type png)
 <use logos/vp.png>
 Package pdftex.def Info: logos/vp.png  used on input line 197.
 (pdftex.def)             Requested size: 157.57297pt x 42.67572pt.
  [41 <./logos/vp.png>]
-<logos/deployment.png, id=956, 1273.14pt x 690.03pt>
+<logos/deployment.png, id=990, 1273.14pt x 690.03pt>
 File: logos/deployment.png Graphic file (type png)
 <use logos/deployment.png>
 Package pdftex.def Info: logos/deployment.png  used on input line 211.
@@ -1481,24 +1471,24 @@ Chapitre 4.
 [43
 
 ]
-<logos/cusprint1.png, id=985, 700.6175pt x 426.59375pt>
+<logos/cusprint1.png, id=1019, 700.6175pt x 426.59375pt>
 File: logos/cusprint1.png Graphic file (type png)
 <use logos/cusprint1.png>
 Package pdftex.def Info: logos/cusprint1.png  used on input line 35.
 (pdftex.def)             Requested size: 525.23788pt x 319.82735pt.
  [44] [45 <./logos/cusprint1.png>] [46]
-<logos/seqsprint1.png, id=1009, 1484.01pt x 681.12pt>
+<logos/seqsprint1.png, id=1043, 1484.01pt x 681.12pt>
 File: logos/seqsprint1.png Graphic file (type png)
 <use logos/seqsprint1.png>
 Package pdftex.def Info: logos/seqsprint1.png  used on input line 84.
 (pdftex.def)             Requested size: 525.23788pt x 241.06657pt.
  [47 <./logos/seqsprint1.png (PNG copy)>]
-<logos/class.png, id=1023, 1584.0pt x 727.65pt>
+<logos/class.png, id=1057, 1584.0pt x 727.65pt>
 File: logos/class.png Graphic file (type png)
 <use logos/class.png>
 Package pdftex.def Info: logos/class.png  used on input line 101.
 (pdftex.def)             Requested size: 525.23788pt x 241.27995pt.
-<logos/class2.png, id=1024, 736.56pt x 717.75pt>
+<logos/class2.png, id=1058, 736.56pt x 717.75pt>
 File: logos/class2.png Graphic file (type png)
 <use logos/class2.png>
 Package pdftex.def Info: logos/class2.png  used on input line 107.
@@ -1507,7 +1497,7 @@ Package pdftex.def Info: logos/class2.png  used on input line 107.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 123.
  [49 <./logos/class2.png (PNG copy)>] [50] [51]
-<logos/index_mapping.png, id=1044, 1076.02pt x 1176.395pt>
+<logos/index_mapping.png, id=1078, 1076.02pt x 1176.395pt>
 File: logos/index_mapping.png Graphic file (type png)
 <use logos/index_mapping.png>
 Package pdftex.def Info: logos/index_mapping.png  used on input line 227.
@@ -1517,13 +1507,13 @@ Overfull \hbox (18.59705pt too wide) in paragraph at lines 236--236
 |[]\T1/lmr/bx/n/17.28 Le mo-déle Sentence-Transformers et en-co-dage des phrases| 
  []
 
-<logos/import_model.png, id=1055, 1124.2pt x 614.295pt>
+<logos/import_model.png, id=1089, 1124.2pt x 614.295pt>
 File: logos/import_model.png Graphic file (type png)
 <use logos/import_model.png>
 Package pdftex.def Info: logos/import_model.png  used on input line 242.
 (pdftex.def)             Requested size: 525.23492pt x 287.00336pt.
 [54 <./logos/import_model.png>]
-<logos/tokenisation.png, id=1062, 991.705pt x 862.22125pt>
+<logos/tokenisation.png, id=1096, 991.705pt x 862.22125pt>
 File: logos/tokenisation.png Graphic file (type png)
 <use logos/tokenisation.png>
 Package pdftex.def Info: logos/tokenisation.png  used on input line 253.
@@ -1533,47 +1523,47 @@ File: logos/mean_pooling.png Graphic file (type png)
 <use logos/mean_pooling.png>
 Package pdftex.def Info: logos/mean_pooling.png  used on input line 283.
 (pdftex.def)             Requested size: 472.71088pt x 167.32106pt.
-<logos/mean_pooling_method.png, id=1081, 1603.9925pt x 815.045pt>
+<logos/mean_pooling_method.png, id=1115, 1603.9925pt x 815.045pt>
 File: logos/mean_pooling_method.png Graphic file (type png)
 <use logos/mean_pooling_method.png>
 Package pdftex.def Info: logos/mean_pooling_method.png  used on input line 293.
 (pdftex.def)             Requested size: 472.71088pt x 240.19989pt.
  [57] [58 <./logos/mean_pooling_method.png>]
-<logos/encode_sentence.png, id=1097, 1919.17pt x 1055.945pt>
+<logos/encode_sentence.png, id=1131, 1919.17pt x 1055.945pt>
 File: logos/encode_sentence.png Graphic file (type png)
 <use logos/encode_sentence.png>
 Package pdftex.def Info: logos/encode_sentence.png  used on input line 324.
 (pdftex.def)             Requested size: 525.23788pt x 288.99205pt.
-<logos/vectors.png, id=1099, 1907.125pt x 413.545pt>
+<logos/vectors.png, id=1133, 1907.125pt x 413.545pt>
 File: logos/vectors.png Graphic file (type png)
 <use logos/vectors.png>
 Package pdftex.def Info: logos/vectors.png  used on input line 335.
 (pdftex.def)             Requested size: 525.23788pt x 113.89244pt.
  [59 <./logos/encode_sentence.png>]
-<logos/encodedvectors.png, id=1106, 497.86pt x 187.70125pt>
+<logos/encodedvectors.png, id=1140, 497.86pt x 187.70125pt>
 File: logos/encodedvectors.png Graphic file (type png)
 <use logos/encodedvectors.png>
 Package pdftex.def Info: logos/encodedvectors.png  used on input line 345.
 (pdftex.def)             Requested size: 525.23788pt x 198.04013pt.
  [60 <./logos/vectors.png> <./logos/encodedvectors.png>]
-<logos/insert_into_elastic.png, id=1114, 1648.1575pt x 1096.095pt>
+<logos/insert_into_elastic.png, id=1148, 1648.1575pt x 1096.095pt>
 File: logos/insert_into_elastic.png Graphic file (type png)
 <use logos/insert_into_elastic.png>
 Package pdftex.def Info: logos/insert_into_elastic.png  used on input line 356.
 (pdftex.def)             Requested size: 525.23788pt x 349.30249pt.
-<logos/knnsearch.png, id=1116, 2296.58pt x 1336.995pt>
+<logos/knnsearch.png, id=1150, 2296.58pt x 1336.995pt>
 File: logos/knnsearch.png Graphic file (type png)
 <use logos/knnsearch.png>
 Package pdftex.def Info: logos/knnsearch.png  used on input line 368.
 (pdftex.def)             Requested size: 525.23788pt x 305.76831pt.
  [61 <./logos/insert_into_elastic.png>] [62 <./logos/knnsearch.png>]
-<logos/vectorsearch.png, id=1132, 6579.58125pt x 3711.8675pt>
+<logos/vectorsearch.png, id=1166, 6579.58125pt x 3711.8675pt>
 File: logos/vectorsearch.png Graphic file (type png)
 <use logos/vectorsearch.png>
 Package pdftex.def Info: logos/vectorsearch.png  used on input line 428.
 (pdftex.def)             Requested size: 525.23788pt x 296.2758pt.
  [63]
-<logos/returnencodedvector.png, id=1138, 2069.7325pt x 694.595pt>
+<logos/returnencodedvector.png, id=1172, 2069.7325pt x 694.595pt>
 File: logos/returnencodedvector.png Graphic file (type png)
 <use logos/returnencodedvector.png>
 Package pdftex.def Info: logos/returnencodedvector.png  used on input line 438.
@@ -1583,19 +1573,19 @@ Chapitre 5.
 [66
 
 ] (sprint2/diagcugenerale.tex
-<logos/cusprint2.png, id=1172, 739.76375pt x 549.05125pt>
+<logos/cusprint2.png, id=1206, 739.76375pt x 549.05125pt>
 File: logos/cusprint2.png Graphic file (type png)
 <use logos/cusprint2.png>
 Package pdftex.def Info: logos/cusprint2.png  used on input line 7.
 (pdftex.def)             Requested size: 525.23788pt x 389.82912pt.
  [67] [68 <./logos/cusprint2.png>] [69] [70]) (sprint2/diagseq.tex [71]
-<logos/seqsprint2.png, id=1231, 2027.52pt x 1164.24pt>
+<logos/seqsprint2.png, id=1265, 2027.52pt x 1164.24pt>
 File: logos/seqsprint2.png Graphic file (type png)
 <use logos/seqsprint2.png>
 Package pdftex.def Info: logos/seqsprint2.png  used on input line 11.
 (pdftex.def)             Requested size: 525.23788pt x 301.59384pt.
  [72 <./logos/seqsprint2.png (PNG copy)>] [73]
-<logos/dictionary.png, id=1246, 790.955pt x 815.045pt>
+<logos/dictionary.png, id=1280, 790.955pt x 815.045pt>
 File: logos/dictionary.png Graphic file (type png)
 <use logos/dictionary.png>
 Package pdftex.def Info: logos/dictionary.png  used on input line 53.
@@ -1608,25 +1598,25 @@ Overfull \hbox (8.91885pt too wide) in paragraph at lines 79--82
 \T1/lmr/m/n/17.28 La mé-thode \T1/lmtt/m/n/17.28 re.search(r"[\u0000-\u00FF]", s) \T1/lmr/m/n/17.28 re-cherche dans la chaîne
  []
 
-<logos/islatin.png, id=1265, 2284.535pt x 413.545pt>
+<logos/islatin.png, id=1299, 2284.535pt x 413.545pt>
 File: logos/islatin.png Graphic file (type png)
 <use logos/islatin.png>
 Package pdftex.def Info: logos/islatin.png  used on input line 92.
 (pdftex.def)             Requested size: 525.23788pt x 95.07549pt.
 [76] [77 <./logos/islatin.png>]
-<logos/findbestmatch.png, id=1282, 1411.2725pt x 574.145pt>
+<logos/findbestmatch.png, id=1316, 1411.2725pt x 574.145pt>
 File: logos/findbestmatch.png Graphic file (type png)
 <use logos/findbestmatch.png>
 Package pdftex.def Info: logos/findbestmatch.png  used on input line 118.
 (pdftex.def)             Requested size: 525.23788pt x 213.6831pt.
  [78 <./logos/findbestmatch.png>] [79] [80] [81]
-<logos/translate.png, id=1311, 1543.7675pt x 1216.545pt>
+<logos/translate.png, id=1345, 1543.7675pt x 1216.545pt>
 File: logos/translate.png Graphic file (type png)
 <use logos/translate.png>
 Package pdftex.def Info: logos/translate.png  used on input line 166.
 (pdftex.def)             Requested size: 525.23788pt x 413.89827pt.
  [82 <./logos/translate.png>]
-<logos/encodeendpoint.png, id=1321, 1497.595pt x 935.495pt>
+<logos/encodeendpoint.png, id=1355, 1497.595pt x 935.495pt>
 File: logos/encodeendpoint.png Graphic file (type png)
 <use logos/encodeendpoint.png>
 Package pdftex.def Info: logos/encodeendpoint.png  used on input line 184.
@@ -1636,7 +1626,7 @@ Overfull \hbox (0.8933pt too wide) in paragraph at lines 191--191
 |[]\T1/lmr/bx/n/20.74 Processus com-plèt de re-cherche vec-to-rielle avec
  []
 
-<logos/fullprocesswithtranslation.png, id=1329, 8500.75874pt x 4865.17625pt>
+<logos/fullprocesswithtranslation.png, id=1363, 8500.75874pt x 4865.17625pt>
 File: logos/fullprocesswithtranslation.png Graphic file (type png)
 <use logos/fullprocesswithtranslation.png>
 Package pdftex.def Info: logos/fullprocesswithtranslation.png  used on input line 196.
@@ -1651,19 +1641,75 @@ Overfull \hbox (2.10774pt too wide) in paragraph at lines 4--4
 [87
 
 ] [88]
-<logos/cusprint3.png, id=1370, 638.385pt x 359.3425pt>
+<logos/cusprint3.png, id=1408, 638.385pt x 359.3425pt>
 File: logos/cusprint3.png Graphic file (type png)
 <use logos/cusprint3.png>
 Package pdftex.def Info: logos/cusprint3.png  used on input line 35.
 (pdftex.def)             Requested size: 525.23788pt x 295.6552pt.
-<logos/consultertb.png, id=1371, 1177.39874pt x 394.47375pt>
+<logos/consultertb.png, id=1409, 1187.43625pt x 664.4825pt>
 File: logos/consultertb.png Graphic file (type png)
 <use logos/consultertb.png>
 Package pdftex.def Info: logos/consultertb.png  used on input line 43.
-(pdftex.def)             Requested size: 525.23788pt x 175.97665pt.
- [89 <./logos/cusprint3.png> <./logos/consultertb.png>] [90] [91] [92] [93]) [94] [95
+(pdftex.def)             Requested size: 525.23788pt x 293.92448pt.
+ [89 <./logos/cusprint3.png>] [90 <./logos/consultertb.png>] [91] [92] [93]
+<logos/modifierparametres.png, id=1468, 2055.68pt x 712.6625pt>
+File: logos/modifierparametres.png Graphic file (type png)
+<use logos/modifierparametres.png>
+Package pdftex.def Info: logos/modifierparametres.png  used on input line 151.
+(pdftex.def)             Requested size: 525.24226pt x 289.07259pt.
+File: logos/consultertb.png Graphic file (type png)
+<use logos/consultertb.png>
+Package pdftex.def Info: logos/consultertb.png  used on input line 159.
+(pdftex.def)             Requested size: 525.23788pt x 293.92448pt.
+ [94 <./logos/modifierparametres.png>]
+<logos/sauthentifier.png, id=1474, 1109.14375pt x 652.4375pt>
+File: logos/sauthentifier.png Graphic file (type png)
+<use logos/sauthentifier.png>
+Package pdftex.def Info: logos/sauthentifier.png  used on input line 167.
+(pdftex.def)             Requested size: 525.23788pt x 308.96527pt.
+ (sprint3/tableaudebord.tex [95 <./logos/sauthentifier.png>] [96]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]|\T1/lmr/m/n/12 Similarité entre le
+ []
 
-] [96] (main.aux (couverture.aux))
+
+Underfull \hbox (badness 1354) in paragraph at lines 32--32
+[]|\T1/lmr/m/n/12 Mesure les mots les
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 32--33
+\T1/lmr/m/n/12 pour-cen-tage) re-cher-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+[97]
+<logos/dashboard.png, id=1492, 1663.21375pt x 859.21pt>
+File: logos/dashboard.png Graphic file (type png)
+<use logos/dashboard.png>
+Package pdftex.def Info: logos/dashboard.png  used on input line 48.
+(pdftex.def)             Requested size: 525.23788pt x 271.33434pt.
+ [98 <./logos/dashboard.png>]
+<logos/knnsearchform.png, id=1499, 789.95125pt x 845.1575pt>
+File: logos/knnsearchform.png Graphic file (type png)
+<use logos/knnsearchform.png>
+Package pdftex.def Info: logos/knnsearchform.png  used on input line 59.
+(pdftex.def)             Requested size: 525.23788pt x 561.94531pt.
+ [99 <./logos/knnsearchform.png>]
+<logos/login.png, id=1507, 638.385pt x 476.78125pt>
+File: logos/login.png Graphic file (type png)
+<use logos/login.png>
+Package pdftex.def Info: logos/login.png  used on input line 70.
+(pdftex.def)             Requested size: 525.23788pt x 392.27994pt.
+)) (conclusionetperspectives.tex [100 <./logos/login.png>]) [101
+
+] [102
+
+] [103] (main.aux (couverture.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -1673,27 +1719,27 @@ L3 programming layer <2023-11-09>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 425D0FD6256D1716534E5D070432B524;19272.
+(rerunfilecheck)             Checksum: E240B9A94714DA739E2D445793A072A1;19847.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 85 (\begingroup)
+### semi simple group (level 1) entered at line 84 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 27766 strings out of 474587
- 494900 string characters out of 5745701
+ 27851 strings out of 474587
+ 496972 string characters out of 5745701
  1964558 words of memory out of 5000000
- 49078 multiletter control sequences out of 15000+600000
+ 49136 multiletter control sequences out of 15000+600000
  683552 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,14n,81p,1242b,4990s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (106 pages, 9296004 bytes).
+Output written on main.pdf (113 pages, 10172331 bytes).
 PDF statistics:
- 1654 PDF objects out of 1728 (max. 8388607)
- 410 named destinations out of 1000 (max. 500000)
- 1016 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1740 PDF objects out of 2073 (max. 8388607)
+ 431 named destinations out of 1000 (max. 500000)
+ 1073 words of extra memory for PDF output out of 10000 (max. 10000000)
 
