@@ -18,544 +18,10 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/apasortcite//global/global}
-    \entry{dock:docker}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
-           family={{Docker}},
-           familyi={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{fullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{bibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Docker Overview}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://docs.docker.com/get-started/overview/
-      \endverb
-      \verb{url}
-      \verb https://docs.docker.com/get-started/overview/
-      \endverb
-    \endentry
-    \entry{medium:cleanarch}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6c7b3f6e7175860c7d57a356a4e6f07a}{%
-           family={{Edin Šahbaz}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{6c7b3f6e7175860c7d57a356a4e6f07a}
-      \strng{fullhash}{6c7b3f6e7175860c7d57a356a4e6f07a}
-      \strng{bibnamehash}{6c7b3f6e7175860c7d57a356a4e6f07a}
-      \strng{authorbibnamehash}{6c7b3f6e7175860c7d57a356a4e6f07a}
-      \strng{authornamehash}{6c7b3f6e7175860c7d57a356a4e6f07a}
-      \strng{authorfullhash}{6c7b3f6e7175860c7d57a356a4e6f07a}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Getting Started with Clean Architecture in .NET Core}
-      \field{year}{2023}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://medium.com/@edin.sahbaz/getting-started-with-clean-architecture-in-net-core-fa9151bc5918
-      \endverb
-      \verb{url}
-      \verb https://medium.com/@edin.sahbaz/getting-started-with-clean-architecture-in-net-core-fa9151bc5918
-      \endverb
-    \endentry
-    \entry{elastic:hardwarespecifications}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
-           family={{Elastic}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{fullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{bibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authorbibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authornamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authorfullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \field{extraname}{1}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{ECE Hardware Prereq}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://www.elastic.co/guide/en/cloud-enterprise/current/ece-hardware-prereq.html
-      \endverb
-      \verb{url}
-      \verb https://www.elastic.co/guide/en/cloud-enterprise/current/ece-hardware-prereq.html
-      \endverb
-    \endentry
-    \entry{elastic:elasticsearch}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
-           family={{Elastic}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{fullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{bibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authorbibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authornamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authorfullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \field{extraname}{2}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Elasticsearch}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.elastic.co/
-      \endverb
-      \verb{url}
-      \verb https://www.elastic.co/
-      \endverb
-    \endentry
-    \entry{elastic:knnsearch}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
-           family={{Elastic}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{fullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{bibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authorbibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authornamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authorfullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \field{extraname}{3}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{knn-search}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
-      \endverb
-      \verb{url}
-      \verb https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
-      \endverb
-    \endentry
-    \entry{lucidcharts:classdiagram}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=db828b550b960e772cf6278864b53d62}{%
-           family={{Lucidcharts}},
-           familyi={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{db828b550b960e772cf6278864b53d62}
-      \strng{fullhash}{db828b550b960e772cf6278864b53d62}
-      \strng{bibnamehash}{db828b550b960e772cf6278864b53d62}
-      \strng{authorbibnamehash}{db828b550b960e772cf6278864b53d62}
-      \strng{authornamehash}{db828b550b960e772cf6278864b53d62}
-      \strng{authorfullhash}{db828b550b960e772cf6278864b53d62}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Diagramme de classes}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml
-      \endverb
-      \verb{url}
-      \verb https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml
-      \endverb
-    \endentry
-    \entry{meta:react}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
-           family={{Meta}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{fullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{bibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{authorbibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{authornamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{React}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://react.dev/
-      \endverb
-      \verb{url}
-      \verb https://react.dev/
-      \endverb
-    \endentry
-    \entry{microsoft:csharp}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{1}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{A tour of the C\# language}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/
-      \endverb
-      \verb{url}
-      \verb https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/
-      \endverb
-    \endentry
-    \entry{microsoft:vectors}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{2}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Vecteurs dans Recherche}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://learn.microsoft.com/fr-fr/azure/search/vector-search-overview
-      \endverb
-      \verb{url}
-      \verb https://learn.microsoft.com/fr-fr/azure/search/vector-search-overview
-      \endverb
-    \endentry
-    \entry{microsoft:vs}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{3}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Visual Studio}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://visualstudio.microsoft.com/
-      \endverb
-      \verb{url}
-      \verb https://visualstudio.microsoft.com/
-      \endverb
-    \endentry
-    \entry{microsoft:vsc}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{4}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Visual Studio Code}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://code.visualstudio.com/
-      \endverb
-      \verb{url}
-      \verb https://code.visualstudio.com/
-      \endverb
-    \endentry
-    \entry{microsoft:netcore}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{5}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What is ASP .NET Core?}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet-core
-      \endverb
-      \verb{url}
-      \verb https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet-core
-      \endverb
-    \endentry
-    \entry{openclassrooms:mvc}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6f2ef05c6c23eb730ebbe96711765285}{%
-           family={{Openclassrooms}},
-           familyi={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{6f2ef05c6c23eb730ebbe96711765285}
-      \strng{fullhash}{6f2ef05c6c23eb730ebbe96711765285}
-      \strng{bibnamehash}{6f2ef05c6c23eb730ebbe96711765285}
-      \strng{authorbibnamehash}{6f2ef05c6c23eb730ebbe96711765285}
-      \strng{authornamehash}{6f2ef05c6c23eb730ebbe96711765285}
-      \strng{authorfullhash}{6f2ef05c6c23eb730ebbe96711765285}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Adoptez une architecture MVC}
-      \field{year}{2022}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://openclassrooms.com/fr/courses/4670706-adoptez-une-architecture-mvc-en-php
-      \endverb
-      \verb{url}
-      \verb https://openclassrooms.com/fr/courses/4670706-adoptez-une-architecture-mvc-en-php
-      \endverb
-    \endentry
-    \entry{pinecone:mpnet}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=f6af38c920e468b8adbdd5793a09b4ca}{%
-           family={{Pinecone}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{f6af38c920e468b8adbdd5793a09b4ca}
-      \strng{fullhash}{f6af38c920e468b8adbdd5793a09b4ca}
-      \strng{bibnamehash}{f6af38c920e468b8adbdd5793a09b4ca}
-      \strng{authorbibnamehash}{f6af38c920e468b8adbdd5793a09b4ca}
-      \strng{authornamehash}{f6af38c920e468b8adbdd5793a09b4ca}
-      \strng{authorfullhash}{f6af38c920e468b8adbdd5793a09b4ca}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{All-Mpnet-Base-V2}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://www.pinecone.io/models/ll-mpnet-base-v2/
-      \endverb
-      \verb{url}
-      \verb https://www.pinecone.io/models/ll-mpnet-base-v2/
-      \endverb
-    \endentry
-    \entry{post:postman}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6f061e1cad5e2783cea0b2976ed2f4c3}{%
-           family={{Postman}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
-      \strng{fullhash}{6f061e1cad5e2783cea0b2976ed2f4c3}
-      \strng{bibnamehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
-      \strng{authorbibnamehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
-      \strng{authornamehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
-      \strng{authorfullhash}{6f061e1cad5e2783cea0b2976ed2f4c3}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What is Postman?}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.postman.com/product/what-is-postman/
-      \endverb
-      \verb{url}
-      \verb https://www.postman.com/product/what-is-postman/
-      \endverb
-    \endentry
-    \entry{pytorch:nograd}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=edf7dd0dd9dbc3b022a1ef1fdb134ea1}{%
-           family={{Pytorch}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
-      \strng{fullhash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
-      \strng{bibnamehash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
-      \strng{authorbibnamehash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
-      \strng{authornamehash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
-      \strng{authorfullhash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{no\_grad}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://pytorch.org/docs/stable/generated/torch.no_grad.html
-      \endverb
-      \verb{url}
-      \verb https://pytorch.org/docs/stable/generated/torch.no_grad.html
-      \endverb
-    \endentry
-    \entry{symbl:latin1supp}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9aa085a81f990262471677a84515aaaf}{%
-           family={{Symbl}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{9aa085a81f990262471677a84515aaaf}
-      \strng{fullhash}{9aa085a81f990262471677a84515aaaf}
-      \strng{bibnamehash}{9aa085a81f990262471677a84515aaaf}
-      \strng{authorbibnamehash}{9aa085a81f990262471677a84515aaaf}
-      \strng{authornamehash}{9aa085a81f990262471677a84515aaaf}
-      \strng{authorfullhash}{9aa085a81f990262471677a84515aaaf}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Latin-1 Supplement}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://symbl.cc/en/unicode/blocks/latin-1-supplement/
-      \endverb
-      \verb{url}
-      \verb https://symbl.cc/en/unicode/blocks/latin-1-supplement/
-      \endverb
-    \endentry
-    \entry{techtarget:finetuning}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=700f0e630e939fff4cff6be3fc518b34}{%
-           family={{TechTarget}},
-           familyi={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{700f0e630e939fff4cff6be3fc518b34}
-      \strng{fullhash}{700f0e630e939fff4cff6be3fc518b34}
-      \strng{bibnamehash}{700f0e630e939fff4cff6be3fc518b34}
-      \strng{authorbibnamehash}{700f0e630e939fff4cff6be3fc518b34}
-      \strng{authornamehash}{700f0e630e939fff4cff6be3fc518b34}
-      \strng{authorfullhash}{700f0e630e939fff4cff6be3fc518b34}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What is fine-tuning in machine learning and AI?}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://www.techtarget.com/searchenterpriseai/definition/fine-tuning
-      \endverb
-      \verb{url}
-      \verb https://www.techtarget.com/searchenterpriseai/definition/fine-tuning
-      \endverb
-    \endentry
-  \enddatalist
   \datalist[entry]{nyt/global//global/global}
     \entry{dock:docker}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
+        {{hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
            family={{Docker}},
            familyi={D\bibinitperiod}}}%
       }
@@ -567,9 +33,6 @@
       \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Docker Overview}
@@ -584,7 +47,7 @@
     \endentry
     \entry{medium:cleanarch}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6c7b3f6e7175860c7d57a356a4e6f07a}{%
+        {{hash=6c7b3f6e7175860c7d57a356a4e6f07a}{%
            family={{Edin Šahbaz}},
            familyi={E\bibinitperiod}}}%
       }
@@ -596,9 +59,6 @@
       \strng{authorfullhash}{6c7b3f6e7175860c7d57a356a4e6f07a}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Getting Started with Clean Architecture in .NET Core}
@@ -613,7 +73,7 @@
     \endentry
     \entry{elastic:hardwarespecifications}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
+        {{hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
            family={{Elastic}},
            familyi={E\bibinitperiod}}}%
       }
@@ -626,10 +86,6 @@
       \field{extraname}{1}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{ECE Hardware Prereq}
@@ -643,7 +99,7 @@
     \endentry
     \entry{elastic:elasticsearch}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
+        {{hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
            family={{Elastic}},
            familyi={E\bibinitperiod}}}%
       }
@@ -656,10 +112,6 @@
       \field{extraname}{2}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Elasticsearch}
@@ -674,7 +126,7 @@
     \endentry
     \entry{elastic:knnsearch}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
+        {{hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
            family={{Elastic}},
            familyi={E\bibinitperiod}}}%
       }
@@ -687,10 +139,6 @@
       \field{extraname}{3}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{knn-search}
@@ -705,7 +153,7 @@
     \endentry
     \entry{lucidcharts:classdiagram}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=db828b550b960e772cf6278864b53d62}{%
+        {{hash=db828b550b960e772cf6278864b53d62}{%
            family={{Lucidcharts}},
            familyi={L\bibinitperiod}}}%
       }
@@ -717,9 +165,6 @@
       \strng{authorfullhash}{db828b550b960e772cf6278864b53d62}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Diagramme de classes}
@@ -733,7 +178,7 @@
     \endentry
     \entry{meta:react}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
+        {{hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
            family={{Meta}},
            familyi={M\bibinitperiod}}}%
       }
@@ -745,9 +190,6 @@
       \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{React}
@@ -762,7 +204,7 @@
     \endentry
     \entry{microsoft:csharp}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={{Microsoft}},
            familyi={M\bibinitperiod}}}%
       }
@@ -775,10 +217,6 @@
       \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A tour of the C\# language}
@@ -793,7 +231,7 @@
     \endentry
     \entry{microsoft:vectors}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={{Microsoft}},
            familyi={M\bibinitperiod}}}%
       }
@@ -806,10 +244,6 @@
       \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Vecteurs dans Recherche}
@@ -824,7 +258,7 @@
     \endentry
     \entry{microsoft:vs}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={{Microsoft}},
            familyi={M\bibinitperiod}}}%
       }
@@ -837,10 +271,6 @@
       \field{extraname}{3}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Visual Studio}
@@ -855,7 +285,7 @@
     \endentry
     \entry{microsoft:vsc}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={{Microsoft}},
            familyi={M\bibinitperiod}}}%
       }
@@ -868,10 +298,6 @@
       \field{extraname}{4}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Visual Studio Code}
@@ -886,7 +312,7 @@
     \endentry
     \entry{microsoft:netcore}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={{Microsoft}},
            familyi={M\bibinitperiod}}}%
       }
@@ -899,10 +325,6 @@
       \field{extraname}{5}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{What is ASP .NET Core?}
@@ -917,7 +339,7 @@
     \endentry
     \entry{openclassrooms:mvc}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6f2ef05c6c23eb730ebbe96711765285}{%
+        {{hash=6f2ef05c6c23eb730ebbe96711765285}{%
            family={{Openclassrooms}},
            familyi={O\bibinitperiod}}}%
       }
@@ -929,9 +351,6 @@
       \strng{authorfullhash}{6f2ef05c6c23eb730ebbe96711765285}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Adoptez une architecture MVC}
@@ -946,7 +365,7 @@
     \endentry
     \entry{pinecone:mpnet}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=f6af38c920e468b8adbdd5793a09b4ca}{%
+        {{hash=f6af38c920e468b8adbdd5793a09b4ca}{%
            family={{Pinecone}},
            familyi={P\bibinitperiod}}}%
       }
@@ -958,9 +377,6 @@
       \strng{authorfullhash}{f6af38c920e468b8adbdd5793a09b4ca}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{All-Mpnet-Base-V2}
@@ -974,7 +390,7 @@
     \endentry
     \entry{post:postman}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6f061e1cad5e2783cea0b2976ed2f4c3}{%
+        {{hash=6f061e1cad5e2783cea0b2976ed2f4c3}{%
            family={{Postman}},
            familyi={P\bibinitperiod}}}%
       }
@@ -986,9 +402,6 @@
       \strng{authorfullhash}{6f061e1cad5e2783cea0b2976ed2f4c3}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{What is Postman?}
@@ -1003,7 +416,7 @@
     \endentry
     \entry{pytorch:nograd}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=edf7dd0dd9dbc3b022a1ef1fdb134ea1}{%
+        {{hash=edf7dd0dd9dbc3b022a1ef1fdb134ea1}{%
            family={{Pytorch}},
            familyi={P\bibinitperiod}}}%
       }
@@ -1015,9 +428,6 @@
       \strng{authorfullhash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{no\_grad}
@@ -1031,7 +441,7 @@
     \endentry
     \entry{symbl:latin1supp}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9aa085a81f990262471677a84515aaaf}{%
+        {{hash=9aa085a81f990262471677a84515aaaf}{%
            family={{Symbl}},
            familyi={S\bibinitperiod}}}%
       }
@@ -1043,9 +453,6 @@
       \strng{authorfullhash}{9aa085a81f990262471677a84515aaaf}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Latin-1 Supplement}
@@ -1059,7 +466,7 @@
     \endentry
     \entry{techtarget:finetuning}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=700f0e630e939fff4cff6be3fc518b34}{%
+        {{hash=700f0e630e939fff4cff6be3fc518b34}{%
            family={{TechTarget}},
            familyi={T\bibinitperiod}}}%
       }
@@ -1071,9 +478,6 @@
       \strng{authorfullhash}{700f0e630e939fff4cff6be3fc518b34}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{What is fine-tuning in machine learning and AI?}
