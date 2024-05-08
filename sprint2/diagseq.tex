@@ -6,18 +6,21 @@ Dans cette partie, nous allons présenter le diagramme de séquence correspondan
 \noindent
 Nous avons regroupé les deux cas d'utilisation << Rechercher produits en Arabe traditionnel >> et << Rechercher produits en Arabe en dialecte Tunisien >> dans un seul diagramme de séquence présenté dans la figure ~\ref{fig:diagseqsprint2}.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{logos/seqsprint2.png}
-	\caption{Diagramme de séquence des cas d’utilisations « Rechercher produits en Arabe Traditionnel » et << Rechercher produits en Arabe en dialecte Tunisien >>}
-	\label{fig:diagseqsprint2}
-\end{figure}
+\afterpage{
+	\newgeometry{margin=1in, paperwidth=420mm, paperheight=297mm}
+	\begin{figure}[p]
+		\includegraphics[width=\textwidth,height=220mm]{logos/seqsprint2.png}
+		\caption{Diagramme de séquence des cas d’utilisations « Rechercher produits en Arabe Traditionnel » et « Rechercher produits en Arabe en dialecte Tunisien »}
+		\label{fig:diagseqsprint2}
+	\end{figure}
+	\clearpage
+	\restoregeometry
+}
 
 \section{Réalisation}
 \noindent
 Cette partie est consacrée à la présentation des étapes nécessaires pour réaliser le travail nécessaire pour satisfaire notres cas d'utilisations, qui consiste à permettre le client ou le visiteur à rechercher notres produits en Arabe traditionnel et Arabe en dialecte tunisien tout en améliorant l'expérience de recherche en utilisant la traduction et la recherche vectorielle via Elasticsearch.
 
-\newpage
 \subsection{Les premières approches}
 \noindent
 Puisque notre modèle actuel n'est formé que sur les langues latines, nous avons eu l'idée de l'entraîner à la fois sur l'arabe tunisien et l'arabe traditionnel, mais un certain nombre de limitations nous empêchaient de le faire:
@@ -154,7 +157,7 @@ Une fois les 2 méthodes précédentes sont terminées, nous pouvons maintenant 
 		      \item Si une correspondance est trouvée (la clé n'est pas None), la méthode ajoute la valeur correspondante de \_\_translation\_dict à translated\_words.
 		      \item Si aucune correspondance n'est trouvée, le mot original est ajouté à translated\_words car elle suppose que le mot n'a pas besoin de traduction ou qu'aucune traduction appropriée n'existe dans le dictionnaire, supposons qu'elle est en Français.
 	      \end{itemize}
-		\item Construction de la phrase traduite finale en joignant la liste translated\_words en une seule chaîne avec des mots séparés par des espaces (" ".join(translated\_words)) et renvoie cette chaîne comme phrase traduite finale.
+	\item Construction de la phrase traduite finale en joignant la liste translated\_words en une seule chaîne avec des mots séparés par des espaces (" ".join(translated\_words)) et renvoie cette chaîne comme phrase traduite finale.
 \end{enumerate}
 
 \newpage

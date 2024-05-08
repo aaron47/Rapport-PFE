@@ -15,9 +15,9 @@ Le backlog de notre premier Sprint est présenté dans le tableau ~\ref{tab:spri
 	\begin{tabularx}{\textwidth}{|c|X|c|c|}
 		\hline
 		\rowcolor{blue!20}
-		\textbf{ID} & \textbf{Scénario}                                                                                     & \textbf{Priorité} & \textbf{Complexité} \\ \hline
-		1           & En tant qu'un client, visiteur, je veux saisir ma terme de recherche en Français pour chercher le(s) produit(s) & 1                 & 10                  \\ \hline
-		2           & En tant qu'un client, visiteur, En tant qu'un client, visteur, si le produit exacte que je cherche n'existe pas, je veux voir des suggestions des produits similaires. & 2                 & 8                  \\ \hline
+		\textbf{ID} & \textbf{Scénario}                                                                                                                                                      & \textbf{Priorité} & \textbf{Complexité} \\ \hline
+		1           & En tant qu'un client, visiteur, je veux saisir ma terme de recherche en Français pour chercher le(s) produit(s)                                                        & 1                 & 10                  \\ \hline
+		2           & En tant qu'un client, visiteur, En tant qu'un client, visteur, si le produit exacte que je cherche n'existe pas, je veux voir des suggestions des produits similaires. & 2                 & 8                   \\ \hline
 	\end{tabularx}
 	\caption{Backlog du Sprint 1}
 	\label{tab:sprint1}
@@ -106,13 +106,25 @@ En adoptant l'architecture MVC dans le chapitre précédent, nous avons choisi d
 suivre ce modèle pour simplifier la création des diagrammes de séquence. Cette section
 présentera le diagramme de séquence de cas d'utilisation << Rechercher produits en Français >> qui est présenté dans la figure ~\ref{fig:seqrecherchefrancais}.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{logos/seqsprint1.png}
-	\caption{Diagramme de séquence de cas d’utilisation « Rechercher produits en Français »}
-	\label{fig:seqrecherchefrancais}
-\end{figure}
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[width=1\textwidth]{logos/seqsprint1.png}
+% 	\caption{Diagramme de séquence de cas d’utilisation « Rechercher produits en Français »}
+% 	\label{fig:seqrecherchefrancais}
+% \end{figure}
 
+\afterpage{
+	\newgeometry{margin=1in, paperwidth=420cm, paperheight=297mm}
+	\begin{figure}[p]
+		\includegraphics[width=\textwidth,height=200mm]{logos/seqsprint1.png}
+		\caption{Diagramme de séquence de cas d’utilisation « Rechercher produits en Français »}
+		\label{fig:seqrecherchefrancais}
+	\end{figure}
+	\clearpage
+	\restoregeometry
+}
+
+\newpage
 \section{Architecture de la base de données}
 \noindent
 Dans le cadre de notre projet, l'intégration d'Elasticsearch et MySQL génére un ensemble de tables indispnesables pour garantir son fonctionnement interne. Cependant, nous avons décidé de mettre l'accent uniquement sur les tables
@@ -121,22 +133,20 @@ spécifiques à notre projet durant la conception.
 \subsection{Diagramme de classes}
 \noindent
 Les diagrammes de classes sont l'un des types de diagrammes UML les plus utiles, car ils décrivent clairement la structure d’un système particulier en modélisant ses classes, ses attributs, ses opérations et les relations entre ses objets. \citetitle{lucidcharts:classdiagram} (\cite{lucidcharts:classdiagram}). \\
-Les figures ~\ref{fig:diagclasses} et ~\ref{fig:suitediagclasses} montrent la conception UML diagramme de classe gènèral de notre projet.
+La figure ~\ref{fig:diagclasses} montre la conception UML diagramme de classe gènèral de notre projet.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{logos/class.png}
-	\caption{Diagramme de classes}
-	\label{fig:diagclasses}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{logos/class2.png}
-	\caption{Suite de Diagramme de classes}
-	\label{fig:suitediagclasses}
-\end{figure}
+\afterpage{
+	\newgeometry{margin=1in, width=420mm, height=594mm}
+	\begin{figure}[p]
+		\includegraphics[width=\textwidth,height=500mm]{logos/classes.png}
+		\caption{Diagramme de classes globale}
+		\label{fig:diagclasses}
+	\end{figure}
+	\clearpage
+	\restoregeometry
+}
 
-
+\newpage
 \subsection{Schéma de la base de données}
 \noindent
 Suite à l'exploration du modèle conceptuel de la base de données pour le premier

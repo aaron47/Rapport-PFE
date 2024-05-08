@@ -13,10 +13,10 @@ Aprés avoir terminé le Sprint 2 du chapitre 5 qui tratait la recherche des pro
 	\begin{tabularx}{\textwidth}{|c|X|c|c|}
 		\hline
 		\rowcolor{blue!20}
-		\textbf{ID} & \textbf{Scénario}                                                                                     & \textbf{Priorité} & \textbf{Complexité} \\ \hline
-		1           & En tant qu'un admin, je veux modifier mes paramétres de recherche, pour chercher le(s) produit(s) & 2                 & 7                  \\ \hline
+		\textbf{ID} & \textbf{Scénario}                                                                                            & \textbf{Priorité} & \textbf{Complexité} \\ \hline
+		1           & En tant qu'un admin, je veux modifier mes paramétres de recherche, pour chercher le(s) produit(s)            & 2                 & 7                   \\ \hline
 
-	2           & En tant qu'un admin, je veux consulter le tableau de bord des produits avec le meilleur score de similarité. & 1                 & 10 \\ \hline
+		2           & En tant qu'un admin, je veux consulter le tableau de bord des produits avec le meilleur score de similarité. & 1                 & 10                  \\ \hline
 	\end{tabularx}
 	\caption{Backlog du Sprint 2}
 	\label{tab:sprint3}
@@ -80,12 +80,12 @@ Suite à l'exposition des cas d'utilisations, nous approfondirons leurs descript
 	\item L'admin n'as pas modifié l'un des quatres paramétres de recherche:
 	      \begin{enumerate}
 		      \item Le système utilise les valeurs par dèfauts pour la recherche:
-		      \begin{itemize}
-						\item NumCandidatesProdLabel: 25
-						\item NumCandidatesDesc: 25
-						\item TopResProdLabel: 10
-						\item TopResDesc: 20
-					\end{itemize}
+		            \begin{itemize}
+			            \item NumCandidatesProdLabel: 25
+			            \item NumCandidatesDesc: 25
+			            \item TopResProdLabel: 10
+			            \item TopResDesc: 20
+		            \end{itemize}
 		      \item Passer à la 6ème étape des scénarios de base.
 	      \end{enumerate}
 	\item Le(s) produit(s) que l'admin cherche n'existe pas.
@@ -135,14 +135,16 @@ d'utilisation suivants:
 	\item S'authentifier
 \end{itemize}
 
-\subsubsection{Diagramme de séquence "Modifier paramétres de recherche"}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{logos/modifierparametres.png}
-	\caption{Diagramme de séquence de CU "Modifier paramétres de recherche"}
-	\label{fig:modifierparametres}
-\end{figure}
-
+\afterpage{
+	\subsubsection{Diagramme de séquence "Modifier paramétres de recherche"}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth, height=180mm]{logos/modifierparametres.png}
+		\caption{Diagramme de séquence de CU "Modifier paramétres de recherche"}
+		\label{fig:modifierparametres}
+	\end{figure}
+	\clearpage
+}
 
 \subsubsection{Diagramme de séquence "Consulter tableau de bord"}
 \begin{figure}[H]
