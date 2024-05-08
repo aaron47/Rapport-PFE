@@ -15,107 +15,108 @@
 \contentsline {section}{\numberline {1.5}Méthodologie de développement}{8}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Introduction}{8}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Méthode Adoptée: SCRUM}{8}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Le Langage UML}{11}{subsection.1.5.3}%
-\contentsline {section}{\numberline {1.6}Conclusion}{11}{section.1.6}%
-\contentsline {chapter}{\numberline {2}Approches Proposés}{12}{chapter.2}%
+\contentsline {subsection}{\numberline {1.5.3}Le Langage UML}{10}{subsection.1.5.3}%
+\contentsline {section}{\numberline {1.6}Conclusion}{10}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Approches Proposés}{11}{chapter.2}%
 \etoc@startlocaltoc {3}
-\contentsline {section}{\numberline {2.1}Introduction}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Les solutions possibles}{13}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Recherche Régulière}{13}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Utilisaton d'une base de donnèes SQL altèrnatif et performante}{13}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Choix d'approche de Recherche Vectorielle}{14}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Recherche Vectorielle}{15}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Elasticsearch}{16}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Utilisation d'un modéle Sentence-Transformers}{17}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Comment le modéle intérpréte les phrases?}{17}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Pourquoi utiliser Mean Pooling plutôt qu'un autre type de pooling?}{21}{subsection.2.6.2}%
-\contentsline {section}{\numberline {2.7}Conclusion}{23}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Sprint 0: Plannification du projet}{25}{chapter.3}%
+\contentsline {section}{\numberline {2.1}Introduction}{12}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Les solutions possibles}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Recherche Régulière}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Utilisaton d'une base de donnèes SQL altèrnatif et performante}{12}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Choix d'approche de Recherche Vectorielle}{13}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Recherche Vectorielle}{14}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Elasticsearch}{15}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Utilisation d'un modéle Sentence-Transformers}{16}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Comment le modéle intérpréte les phrases?}{16}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Pourquoi utiliser Mean Pooling plutôt qu'un autre type de pooling?}{20}{subsection.2.6.2}%
+\contentsline {section}{\numberline {2.7}Conclusion}{21}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Sprint 0: Plannification du projet}{22}{chapter.3}%
 \etoc@startlocaltoc {4}
-\contentsline {section}{\numberline {3.1}Introduction}{26}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Identification des besoins}{26}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Les besoins fonctionnels}{26}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Les besoins non fonctionnels}{28}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Diagramme de cas d’utilisation global}{29}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Introduction}{29}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Backlog De Produit}{30}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Plannification des sprints}{31}{section.3.5}%
-\contentsline {section}{\numberline {3.6}La Plannification De Release}{32}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Architecture du systéme}{32}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Architecture "MVC Avec Microservices"}{33}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Architecture "Clean Architecture"}{36}{subsection.3.7.2}%
-\contentsline {section}{\numberline {3.8}L'environnement de développement et choix techniques: }{38}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Introduction}{38}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}L'environnement matériel}{39}{subsection.3.8.2}%
-\contentsline {subsection}{\numberline {3.8.3}L'environnement logiciel}{40}{subsection.3.8.3}%
-\contentsline {subsection}{\numberline {3.8.4}Logiciel de modèlisation UML}{48}{subsection.3.8.4}%
-\contentsline {section}{\numberline {3.9}Diagramme de deploiement}{49}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Conclusion}{50}{section.3.10}%
-\contentsline {chapter}{\numberline {4}Étude et réalisation du Sprint 1}{51}{chapter.4}%
+\contentsline {section}{\numberline {3.1}Introduction}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Identification des besoins}{23}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Les besoins fonctionnels}{23}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Les besoins non fonctionnels}{24}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Diagramme de cas d’utilisation global}{25}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Introduction}{25}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Backlog De Produit}{26}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Plannification des sprints}{27}{section.3.5}%
+\contentsline {section}{\numberline {3.6}La Plannification De Release}{28}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Architecture du systéme}{28}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Architecture "MVC Avec Microservices"}{29}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Architecture "Clean Architecture"}{32}{subsection.3.7.2}%
+\contentsline {section}{\numberline {3.8}L'environnement de développement et choix techniques: }{34}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Introduction}{34}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}L'environnement matériel}{34}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.3}L'environnement logiciel}{35}{subsection.3.8.3}%
+\contentsline {subsection}{\numberline {3.8.4}Logiciel de modèlisation UML}{42}{subsection.3.8.4}%
+\contentsline {section}{\numberline {3.9}Diagramme de deploiement}{43}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Conclusion}{43}{section.3.10}%
+\contentsline {chapter}{\numberline {4}Étude et réalisation du Sprint 1}{44}{chapter.4}%
 \etoc@startlocaltoc {5}
-\contentsline {section}{\numberline {4.1}Introduction}{52}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Backlog du Sprint 1}{52}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Spécification fonctionnelle}{52}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Diagramme de cas d'utilisation général}{53}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Description textuelle du CU << Rechercher produit en Français >>}{53}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Description textuelle du CU << Voir suggestions >>}{55}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Diagramme de séquence detaillé}{56}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4.4}Architecture de la base de données}{56}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Diagramme de classes}{57}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Schéma de la base de données}{58}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Tables de base de données MySQL}{59}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Tables de base de données Elasticsearch}{59}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Réalisation}{61}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}La création des colonnes des vecteurs}{62}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Le modéle Sentence-Transformers et encodage des phrases}{63}{subsection.4.5.2}%
-\contentsline {subsubsection}{\numberline {4.5.2.1}Comment le modèle encode une phrase?}{66}{subsubsection.4.5.2.1}%
-\contentsline {subsubsection}{\numberline {4.5.2.2}Que'est ce qu'un << Gradient >>?}{67}{subsubsection.4.5.2.2}%
-\contentsline {subsubsection}{\numberline {4.5.2.3}Le Mean Pooling}{68}{subsubsection.4.5.2.3}%
-\contentsline {subsection}{\numberline {4.5.3}Préparation des données dans Elasticsearch pour recherche vectorielle}{70}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Elasticsearch et Similarité Cosinus}{73}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Conclusion}{77}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Étude et réalisation du Sprint 2}{78}{chapter.5}%
+\contentsline {section}{\numberline {4.1}Introduction}{45}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Backlog du Sprint 1}{45}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Spécification fonctionnelle}{45}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Diagramme de cas d'utilisation général}{46}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Description textuelle du CU << Rechercher produit en Français >>}{46}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Description textuelle du CU << Voir suggestions >>}{47}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Diagramme de séquence detaillé}{49}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Architecture de la base de données}{49}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Diagramme de classes}{50}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Schéma de la base de données}{51}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Tables de base de données MySQL}{52}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Tables de base de données Elasticsearch}{52}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Réalisation}{54}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}La création des colonnes des vecteurs}{54}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Le modéle Sentence-Transformers et encodage des phrases}{56}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}Comment le modèle encode une phrase?}{58}{subsubsection.4.5.2.1}%
+\contentsline {subsubsection}{\numberline {4.5.2.2}Que'est ce qu'un << Gradient >>?}{58}{subsubsection.4.5.2.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.3}Le Mean Pooling}{59}{subsubsection.4.5.2.3}%
+\contentsline {subsection}{\numberline {4.5.3}Préparation des données dans Elasticsearch pour recherche vectorielle}{61}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Elasticsearch et Similarité Cosinus}{63}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Conclusion}{69}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Étude et réalisation du Sprint 2}{70}{chapter.5}%
 \etoc@startlocaltoc {6}
-\contentsline {section}{\numberline {5.1}Introduction}{80}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Backlog du Sprint 2}{80}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Spécification fonctionnelle}{80}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Diagramme de cas d'utilisation général}{80}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Description textuelle des cas d’utilisations}{81}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Description textuelle du CU « Rechercher produit en Arabe traditionnel »}{82}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Description textuelle du CU « Rechercher produit en Arabe en dialecte Tunisien »}{83}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Description textuelle du CU << Voir suggestions >>}{85}{subsection.5.5.3}%
-\contentsline {section}{\numberline {5.6}Conception}{85}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}Diagramme de séquence détaillé}{86}{subsection.5.6.1}%
-\contentsline {section}{\numberline {5.7}Réalisation}{86}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Les premières approches}{88}{subsection.5.7.1}%
-\contentsline {subsection}{\numberline {5.7.2}Création de notre propre classe traducteur}{89}{subsection.5.7.2}%
-\contentsline {subsubsection}{\numberline {5.7.2.1}La création du dictionnaire}{89}{subsubsection.5.7.2.1}%
-\contentsline {subsubsection}{\numberline {5.7.2.2}Analyse des expressions régulières}{91}{subsubsection.5.7.2.2}%
-\contentsline {subsubsection}{\numberline {5.7.2.3}Logique de méthode}{92}{subsubsection.5.7.2.3}%
-\contentsline {subsubsection}{\numberline {5.7.2.4}Répartition des fonctionnalités}{93}{subsubsection.5.7.2.4}%
-\contentsline {subsubsection}{\numberline {5.7.2.5}Renvoie du rèsultat}{94}{subsubsection.5.7.2.5}%
-\contentsline {subsubsection}{\numberline {5.7.2.6}Aperçu de la méthode}{96}{subsubsection.5.7.2.6}%
-\contentsline {subsubsection}{\numberline {5.7.2.7}Répartition détaillée}{97}{subsubsection.5.7.2.7}%
-\contentsline {section}{\numberline {5.8}Processus complèt de recherche vectorielle avec la traduction}{101}{section.5.8}%
-\contentsline {subsection}{\numberline {5.8.1}Rèpartition dètaillèe de processus de recherche vectorielle complèt}{101}{subsection.5.8.1}%
-\contentsline {section}{\numberline {5.9}Conclusion}{103}{section.5.9}%
-\contentsline {chapter}{\numberline {6}Étude et réalisation du Sprint 3}{104}{chapter.6}%
+\contentsline {section}{\numberline {5.1}Introduction}{72}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Backlog du Sprint 2}{72}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Spécification fonctionnelle}{72}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Diagramme de cas d'utilisation général}{72}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Description textuelle des cas d’utilisations}{73}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Description textuelle du CU « Rechercher produit en Arabe traditionnel »}{74}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Description textuelle du CU « Rechercher produit en Arabe en dialecte Tunisien »}{75}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Description textuelle du CU << Voir suggestions >>}{76}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}Conception}{77}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Diagramme de séquence détaillé}{77}{subsection.5.6.1}%
+\contentsline {section}{\numberline {5.7}Réalisation}{78}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Les premières approches}{79}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Création de notre propre classe traducteur}{80}{subsection.5.7.2}%
+\contentsline {subsubsection}{\numberline {5.7.2.1}La création du dictionnaire}{80}{subsubsection.5.7.2.1}%
+\contentsline {subsubsection}{\numberline {5.7.2.2}Analyse des expressions régulières}{81}{subsubsection.5.7.2.2}%
+\contentsline {subsubsection}{\numberline {5.7.2.3}Logique de méthode}{83}{subsubsection.5.7.2.3}%
+\contentsline {subsubsection}{\numberline {5.7.2.4}Répartition des fonctionnalités}{84}{subsubsection.5.7.2.4}%
+\contentsline {subsubsection}{\numberline {5.7.2.5}Renvoie du rèsultat}{85}{subsubsection.5.7.2.5}%
+\contentsline {subsubsection}{\numberline {5.7.2.6}Aperçu de la méthode}{86}{subsubsection.5.7.2.6}%
+\contentsline {subsubsection}{\numberline {5.7.2.7}Répartition détaillée}{87}{subsubsection.5.7.2.7}%
+\contentsline {section}{\numberline {5.8}Processus complèt de recherche vectorielle avec la traduction}{91}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Rèpartition dètaillèe de processus de recherche vectorielle complèt}{91}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Interface de recherche et affichage des suggestions}{93}{subsection.5.8.2}%
+\contentsline {section}{\numberline {5.9}Conclusion}{94}{section.5.9}%
+\contentsline {chapter}{\numberline {6}Étude et réalisation du Sprint 3}{95}{chapter.6}%
 \etoc@startlocaltoc {7}
-\contentsline {section}{\numberline {6.1}Introduction}{105}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Backlog du Sprint 3}{105}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Spéficiation fonctionnelle}{105}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Diagramme de cas d'utilisation du CU général}{106}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Description textuelle des cas d'utilisations}{106}{subsection.6.3.2}%
-\contentsline {subsubsection}{\numberline {6.3.2.1}Description textuelle du CU "Modifier paramétres de recherche"}{106}{subsubsection.6.3.2.1}%
-\contentsline {subsubsection}{\numberline {6.3.2.2}Description textuelle du CU "Consulter tableau de bord"}{110}{subsubsection.6.3.2.2}%
-\contentsline {section}{\numberline {6.4}Conception}{112}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Diagrammes de séquence détaillé}{112}{subsection.6.4.1}%
-\contentsline {subsubsection}{\numberline {6.4.1.1}Diagramme de séquence "Modifier paramétres de recherche"}{112}{subsubsection.6.4.1.1}%
-\contentsline {subsubsection}{\numberline {6.4.1.2}Diagramme de séquence "Consulter tableau de bord"}{113}{subsubsection.6.4.1.2}%
-\contentsline {subsubsection}{\numberline {6.4.1.3}Diagramme de séquence "S'authentifier"}{114}{subsubsection.6.4.1.3}%
-\contentsline {section}{\numberline {6.5}Tableau de bord}{114}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Les indicateurs de performance}{115}{subsection.6.5.1}%
-\contentsline {section}{\numberline {6.6}Réalisation}{116}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Conclusion}{120}{section.6.7}%
-\contentsline {chapter}{Bibliographie}{123}{section.6.7}%
+\contentsline {section}{\numberline {6.1}Introduction}{96}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Backlog du Sprint 3}{96}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Spéficiation fonctionnelle}{96}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Diagramme de cas d'utilisation du CU général}{97}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Description textuelle des cas d'utilisations}{97}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}Description textuelle du CU "Modifier paramétres de recherche"}{97}{subsubsection.6.3.2.1}%
+\contentsline {subsubsection}{\numberline {6.3.2.2}Description textuelle du CU "Consulter tableau de bord"}{100}{subsubsection.6.3.2.2}%
+\contentsline {section}{\numberline {6.4}Conception}{102}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Diagrammes de séquence détaillé}{102}{subsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.1}Diagramme de séquence "Modifier paramétres de recherche"}{102}{subsubsection.6.4.1.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.2}Diagramme de séquence "Consulter tableau de bord"}{103}{subsubsection.6.4.1.2}%
+\contentsline {subsubsection}{\numberline {6.4.1.3}Diagramme de séquence "S'authentifier"}{104}{subsubsection.6.4.1.3}%
+\contentsline {section}{\numberline {6.5}Tableau de bord}{104}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Les indicateurs de performance}{105}{subsection.6.5.1}%
+\contentsline {section}{\numberline {6.6}Réalisation}{106}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Conclusion}{110}{section.6.7}%
+\contentsline {chapter}{Bibliographie}{}{section.6.7}%
 \contentsfinish 

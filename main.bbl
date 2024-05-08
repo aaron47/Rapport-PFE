@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,60 +18,35 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
-    \entry{dock:docker}{misc}{}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{pinecone:mpnet}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
-           family={{Docker}},
-           familyi={D\bibinitperiod}}}%
+        {{hash=f6af38c920e468b8adbdd5793a09b4ca}{%
+           family={{Pinecone}},
+           familyi={P\bibinitperiod}}}%
       }
-      \strng{namehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{fullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{bibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \strng{namehash}{f6af38c920e468b8adbdd5793a09b4ca}
+      \strng{fullhash}{f6af38c920e468b8adbdd5793a09b4ca}
+      \strng{fullhashraw}{f6af38c920e468b8adbdd5793a09b4ca}
+      \strng{bibnamehash}{f6af38c920e468b8adbdd5793a09b4ca}
+      \strng{authorbibnamehash}{f6af38c920e468b8adbdd5793a09b4ca}
+      \strng{authornamehash}{f6af38c920e468b8adbdd5793a09b4ca}
+      \strng{authorfullhash}{f6af38c920e468b8adbdd5793a09b4ca}
+      \strng{authorfullhashraw}{f6af38c920e468b8adbdd5793a09b4ca}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Docker Overview}
+      \field{title}{All-Mpnet-Base-V2}
       \field{year}{2024}
-      \true{nocite}
       \verb{urlraw}
-      \verb https://docs.docker.com/get-started/overview/
+      \verb https://www.pinecone.io/models/ll-mpnet-base-v2/
       \endverb
       \verb{url}
-      \verb https://docs.docker.com/get-started/overview/
+      \verb https://www.pinecone.io/models/ll-mpnet-base-v2/
       \endverb
     \endentry
-    \entry{medium:cleanarch}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=6c7b3f6e7175860c7d57a356a4e6f07a}{%
-           family={{Edin Šahbaz}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{6c7b3f6e7175860c7d57a356a4e6f07a}
-      \strng{fullhash}{6c7b3f6e7175860c7d57a356a4e6f07a}
-      \strng{bibnamehash}{6c7b3f6e7175860c7d57a356a4e6f07a}
-      \strng{authorbibnamehash}{6c7b3f6e7175860c7d57a356a4e6f07a}
-      \strng{authornamehash}{6c7b3f6e7175860c7d57a356a4e6f07a}
-      \strng{authorfullhash}{6c7b3f6e7175860c7d57a356a4e6f07a}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Getting Started with Clean Architecture in .NET Core}
-      \field{year}{2023}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://medium.com/@edin.sahbaz/getting-started-with-clean-architecture-in-net-core-fa9151bc5918
-      \endverb
-      \verb{url}
-      \verb https://medium.com/@edin.sahbaz/getting-started-with-clean-architecture-in-net-core-fa9151bc5918
-      \endverb
-    \endentry
-    \entry{elastic:hardwarespecifications}{misc}{}
+    \entry{elastic:hardwarespecifications}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
            family={{Elastic}},
@@ -79,13 +54,15 @@
       }
       \strng{namehash}{a078ed5ade8df4aac54efbdb57e63ad2}
       \strng{fullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{fullhashraw}{a078ed5ade8df4aac54efbdb57e63ad2}
       \strng{bibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
       \strng{authorbibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
       \strng{authornamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
       \strng{authorfullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorfullhashraw}{a078ed5ade8df4aac54efbdb57e63ad2}
       \field{extraname}{1}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{ECE Hardware Prereq}
@@ -97,61 +74,7 @@
       \verb https://www.elastic.co/guide/en/cloud-enterprise/current/ece-hardware-prereq.html
       \endverb
     \endentry
-    \entry{elastic:elasticsearch}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
-           family={{Elastic}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{fullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{bibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authorbibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authornamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authorfullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \field{extraname}{2}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Elasticsearch}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.elastic.co/
-      \endverb
-      \verb{url}
-      \verb https://www.elastic.co/
-      \endverb
-    \endentry
-    \entry{elastic:knnsearch}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
-           family={{Elastic}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{fullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{bibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authorbibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authornamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \strng{authorfullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
-      \field{extraname}{3}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{knn-search}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
-      \endverb
-      \verb{url}
-      \verb https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
-      \endverb
-    \endentry
-    \entry{lucidcharts:classdiagram}{misc}{}
+    \entry{lucidcharts:classdiagram}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=db828b550b960e772cf6278864b53d62}{%
            family={{Lucidcharts}},
@@ -159,12 +82,14 @@
       }
       \strng{namehash}{db828b550b960e772cf6278864b53d62}
       \strng{fullhash}{db828b550b960e772cf6278864b53d62}
+      \strng{fullhashraw}{db828b550b960e772cf6278864b53d62}
       \strng{bibnamehash}{db828b550b960e772cf6278864b53d62}
       \strng{authorbibnamehash}{db828b550b960e772cf6278864b53d62}
       \strng{authornamehash}{db828b550b960e772cf6278864b53d62}
       \strng{authorfullhash}{db828b550b960e772cf6278864b53d62}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \strng{authorfullhashraw}{db828b550b960e772cf6278864b53d62}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Diagramme de classes}
@@ -176,33 +101,88 @@
       \verb https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml
       \endverb
     \endentry
-    \entry{meta:react}{misc}{}
+    \entry{pytorch:nograd}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
-           family={{Meta}},
-           familyi={M\bibinitperiod}}}%
+        {{hash=edf7dd0dd9dbc3b022a1ef1fdb134ea1}{%
+           family={{Pytorch}},
+           familyi={P\bibinitperiod}}}%
       }
-      \strng{namehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{fullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{bibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{authorbibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{authornamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \strng{namehash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
+      \strng{fullhash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
+      \strng{fullhashraw}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
+      \strng{bibnamehash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
+      \strng{authorbibnamehash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
+      \strng{authornamehash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
+      \strng{authorfullhash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
+      \strng{authorfullhashraw}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{React}
-      \field{year}{2024}
-      \true{nocite}
+      \field{title}{no\_grad}
+      \field{year}{2023}
       \verb{urlraw}
-      \verb https://react.dev/
+      \verb https://pytorch.org/docs/stable/generated/torch.no_grad.html
       \endverb
       \verb{url}
-      \verb https://react.dev/
+      \verb https://pytorch.org/docs/stable/generated/torch.no_grad.html
       \endverb
     \endentry
-    \entry{microsoft:csharp}{misc}{}
+    \entry{techtarget:finetuning}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=700f0e630e939fff4cff6be3fc518b34}{%
+           family={{TechTarget}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{fullhash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{fullhashraw}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{bibnamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authorbibnamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authornamehash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authorfullhash}{700f0e630e939fff4cff6be3fc518b34}
+      \strng{authorfullhashraw}{700f0e630e939fff4cff6be3fc518b34}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is fine-tuning in machine learning and AI?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.techtarget.com/searchenterpriseai/definition/fine-tuning
+      \endverb
+      \verb{url}
+      \verb https://www.techtarget.com/searchenterpriseai/definition/fine-tuning
+      \endverb
+    \endentry
+    \entry{symbl:latin1supp}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9aa085a81f990262471677a84515aaaf}{%
+           family={{Symbl}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9aa085a81f990262471677a84515aaaf}
+      \strng{fullhash}{9aa085a81f990262471677a84515aaaf}
+      \strng{fullhashraw}{9aa085a81f990262471677a84515aaaf}
+      \strng{bibnamehash}{9aa085a81f990262471677a84515aaaf}
+      \strng{authorbibnamehash}{9aa085a81f990262471677a84515aaaf}
+      \strng{authornamehash}{9aa085a81f990262471677a84515aaaf}
+      \strng{authorfullhash}{9aa085a81f990262471677a84515aaaf}
+      \strng{authorfullhashraw}{9aa085a81f990262471677a84515aaaf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Latin-1 Supplement}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://symbl.cc/en/unicode/blocks/latin-1-supplement/
+      \endverb
+      \verb{url}
+      \verb https://symbl.cc/en/unicode/blocks/latin-1-supplement/
+      \endverb
+    \endentry
+    \entry{microsoft:vectors}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={{Microsoft}},
@@ -210,40 +190,15 @@
       }
       \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
       \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
       \field{extraname}{1}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{A tour of the C\# language}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/
-      \endverb
-      \verb{url}
-      \verb https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/
-      \endverb
-    \endentry
-    \entry{microsoft:vectors}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{2}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Vecteurs dans Recherche}
@@ -256,7 +211,35 @@
       \verb https://learn.microsoft.com/fr-fr/azure/search/vector-search-overview
       \endverb
     \endentry
-    \entry{microsoft:vs}{misc}{}
+    \entry{medium:cleanarch}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6c7b3f6e7175860c7d57a356a4e6f07a}{%
+           family={{Edin Šahbaz}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c7b3f6e7175860c7d57a356a4e6f07a}
+      \strng{fullhash}{6c7b3f6e7175860c7d57a356a4e6f07a}
+      \strng{fullhashraw}{6c7b3f6e7175860c7d57a356a4e6f07a}
+      \strng{bibnamehash}{6c7b3f6e7175860c7d57a356a4e6f07a}
+      \strng{authorbibnamehash}{6c7b3f6e7175860c7d57a356a4e6f07a}
+      \strng{authornamehash}{6c7b3f6e7175860c7d57a356a4e6f07a}
+      \strng{authorfullhash}{6c7b3f6e7175860c7d57a356a4e6f07a}
+      \strng{authorfullhashraw}{6c7b3f6e7175860c7d57a356a4e6f07a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Getting Started with Clean Architecture in .NET Core}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://medium.com/@edin.sahbaz/getting-started-with-clean-architecture-in-net-core-fa9151bc5918
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@edin.sahbaz/getting-started-with-clean-architecture-in-net-core-fa9151bc5918
+      \endverb
+    \endentry
+    \entry{microsoft:vs}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={{Microsoft}},
@@ -264,13 +247,15 @@
       }
       \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
       \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{3}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Visual Studio}
@@ -283,7 +268,7 @@
       \verb https://visualstudio.microsoft.com/
       \endverb
     \endentry
-    \entry{microsoft:vsc}{misc}{}
+    \entry{microsoft:vsc}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={{Microsoft}},
@@ -291,13 +276,15 @@
       }
       \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
       \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{4}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Visual Studio Code}
@@ -310,85 +297,64 @@
       \verb https://code.visualstudio.com/
       \endverb
     \endentry
-    \entry{microsoft:netcore}{misc}{}
+    \entry{meta:react}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
+        {{hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
+           family={{Meta}},
            familyi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{5}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \strng{namehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{bibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorbibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authornamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{What is ASP .NET Core?}
+      \field{title}{React}
       \field{year}{2024}
       \true{nocite}
       \verb{urlraw}
-      \verb https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet-core
+      \verb https://react.dev/
       \endverb
       \verb{url}
-      \verb https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet-core
+      \verb https://react.dev/
       \endverb
     \endentry
-    \entry{openclassrooms:mvc}{misc}{}
+    \entry{elastic:elasticsearch}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=6f2ef05c6c23eb730ebbe96711765285}{%
-           family={{Openclassrooms}},
-           familyi={O\bibinitperiod}}}%
+        {{hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
+           family={{Elastic}},
+           familyi={E\bibinitperiod}}}%
       }
-      \strng{namehash}{6f2ef05c6c23eb730ebbe96711765285}
-      \strng{fullhash}{6f2ef05c6c23eb730ebbe96711765285}
-      \strng{bibnamehash}{6f2ef05c6c23eb730ebbe96711765285}
-      \strng{authorbibnamehash}{6f2ef05c6c23eb730ebbe96711765285}
-      \strng{authornamehash}{6f2ef05c6c23eb730ebbe96711765285}
-      \strng{authorfullhash}{6f2ef05c6c23eb730ebbe96711765285}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \strng{namehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{fullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{fullhashraw}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{bibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorbibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authornamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorfullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorfullhashraw}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Adoptez une architecture MVC}
-      \field{year}{2022}
+      \field{title}{Elasticsearch}
+      \field{year}{2024}
       \true{nocite}
       \verb{urlraw}
-      \verb https://openclassrooms.com/fr/courses/4670706-adoptez-une-architecture-mvc-en-php
+      \verb https://www.elastic.co/
       \endverb
       \verb{url}
-      \verb https://openclassrooms.com/fr/courses/4670706-adoptez-une-architecture-mvc-en-php
+      \verb https://www.elastic.co/
       \endverb
     \endentry
-    \entry{pinecone:mpnet}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=f6af38c920e468b8adbdd5793a09b4ca}{%
-           family={{Pinecone}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{f6af38c920e468b8adbdd5793a09b4ca}
-      \strng{fullhash}{f6af38c920e468b8adbdd5793a09b4ca}
-      \strng{bibnamehash}{f6af38c920e468b8adbdd5793a09b4ca}
-      \strng{authorbibnamehash}{f6af38c920e468b8adbdd5793a09b4ca}
-      \strng{authornamehash}{f6af38c920e468b8adbdd5793a09b4ca}
-      \strng{authorfullhash}{f6af38c920e468b8adbdd5793a09b4ca}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{All-Mpnet-Base-V2}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://www.pinecone.io/models/ll-mpnet-base-v2/
-      \endverb
-      \verb{url}
-      \verb https://www.pinecone.io/models/ll-mpnet-base-v2/
-      \endverb
-    \endentry
-    \entry{post:postman}{misc}{}
+    \entry{post:postman}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=6f061e1cad5e2783cea0b2976ed2f4c3}{%
            family={{Postman}},
@@ -396,12 +362,14 @@
       }
       \strng{namehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
       \strng{fullhash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \strng{fullhashraw}{6f061e1cad5e2783cea0b2976ed2f4c3}
       \strng{bibnamehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
       \strng{authorbibnamehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
       \strng{authornamehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
       \strng{authorfullhash}{6f061e1cad5e2783cea0b2976ed2f4c3}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \strng{authorfullhashraw}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{What is Postman?}
@@ -414,79 +382,147 @@
       \verb https://www.postman.com/product/what-is-postman/
       \endverb
     \endentry
-    \entry{pytorch:nograd}{misc}{}
+    \entry{dock:docker}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=edf7dd0dd9dbc3b022a1ef1fdb134ea1}{%
-           family={{Pytorch}},
-           familyi={P\bibinitperiod}}}%
+        {{hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
+           family={{Docker}},
+           familyi={D\bibinitperiod}}}%
       }
-      \strng{namehash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
-      \strng{fullhash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
-      \strng{bibnamehash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
-      \strng{authorbibnamehash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
-      \strng{authornamehash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
-      \strng{authorfullhash}{edf7dd0dd9dbc3b022a1ef1fdb134ea1}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \strng{namehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{fullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{fullhashraw}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{bibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorfullhashraw}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{no\_grad}
-      \field{year}{2023}
+      \field{title}{Docker Overview}
+      \field{year}{2024}
+      \true{nocite}
       \verb{urlraw}
-      \verb https://pytorch.org/docs/stable/generated/torch.no_grad.html
+      \verb https://docs.docker.com/get-started/overview/
       \endverb
       \verb{url}
-      \verb https://pytorch.org/docs/stable/generated/torch.no_grad.html
+      \verb https://docs.docker.com/get-started/overview/
       \endverb
     \endentry
-    \entry{symbl:latin1supp}{misc}{}
+    \entry{microsoft:csharp}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=9aa085a81f990262471677a84515aaaf}{%
-           family={{Symbl}},
-           familyi={S\bibinitperiod}}}%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{9aa085a81f990262471677a84515aaaf}
-      \strng{fullhash}{9aa085a81f990262471677a84515aaaf}
-      \strng{bibnamehash}{9aa085a81f990262471677a84515aaaf}
-      \strng{authorbibnamehash}{9aa085a81f990262471677a84515aaaf}
-      \strng{authornamehash}{9aa085a81f990262471677a84515aaaf}
-      \strng{authorfullhash}{9aa085a81f990262471677a84515aaaf}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Latin-1 Supplement}
+      \field{title}{A tour of the C\# language}
       \field{year}{2024}
+      \true{nocite}
       \verb{urlraw}
-      \verb https://symbl.cc/en/unicode/blocks/latin-1-supplement/
+      \verb https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/
       \endverb
       \verb{url}
-      \verb https://symbl.cc/en/unicode/blocks/latin-1-supplement/
+      \verb https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/
       \endverb
     \endentry
-    \entry{techtarget:finetuning}{misc}{}
+    \entry{microsoft:netcore}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=700f0e630e939fff4cff6be3fc518b34}{%
-           family={{TechTarget}},
-           familyi={T\bibinitperiod}}}%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{700f0e630e939fff4cff6be3fc518b34}
-      \strng{fullhash}{700f0e630e939fff4cff6be3fc518b34}
-      \strng{bibnamehash}{700f0e630e939fff4cff6be3fc518b34}
-      \strng{authorbibnamehash}{700f0e630e939fff4cff6be3fc518b34}
-      \strng{authornamehash}{700f0e630e939fff4cff6be3fc518b34}
-      \strng{authorfullhash}{700f0e630e939fff4cff6be3fc518b34}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{What is fine-tuning in machine learning and AI?}
+      \field{title}{What is ASP .NET Core?}
       \field{year}{2024}
+      \true{nocite}
       \verb{urlraw}
-      \verb https://www.techtarget.com/searchenterpriseai/definition/fine-tuning
+      \verb https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet-core
       \endverb
       \verb{url}
-      \verb https://www.techtarget.com/searchenterpriseai/definition/fine-tuning
+      \verb https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet-core
+      \endverb
+    \endentry
+    \entry{openclassrooms:mvc}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6f2ef05c6c23eb730ebbe96711765285}{%
+           family={{Openclassrooms}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f2ef05c6c23eb730ebbe96711765285}
+      \strng{fullhash}{6f2ef05c6c23eb730ebbe96711765285}
+      \strng{fullhashraw}{6f2ef05c6c23eb730ebbe96711765285}
+      \strng{bibnamehash}{6f2ef05c6c23eb730ebbe96711765285}
+      \strng{authorbibnamehash}{6f2ef05c6c23eb730ebbe96711765285}
+      \strng{authornamehash}{6f2ef05c6c23eb730ebbe96711765285}
+      \strng{authorfullhash}{6f2ef05c6c23eb730ebbe96711765285}
+      \strng{authorfullhashraw}{6f2ef05c6c23eb730ebbe96711765285}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Adoptez une architecture MVC}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://openclassrooms.com/fr/courses/4670706-adoptez-une-architecture-mvc-en-php
+      \endverb
+      \verb{url}
+      \verb https://openclassrooms.com/fr/courses/4670706-adoptez-une-architecture-mvc-en-php
+      \endverb
+    \endentry
+    \entry{elastic:knnsearch}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a078ed5ade8df4aac54efbdb57e63ad2}{%
+           family={{Elastic}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{fullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{fullhashraw}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{bibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorbibnamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authornamehash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorfullhash}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \strng{authorfullhashraw}{a078ed5ade8df4aac54efbdb57e63ad2}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{knn-search}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
+      \endverb
+      \verb{url}
+      \verb https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
       \endverb
     \endentry
   \enddatalist

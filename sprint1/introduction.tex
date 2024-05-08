@@ -430,10 +430,10 @@ La notation d'un document avec les améliorations configurées ci-dessus serait 
 \noindent
 En utilisant la similarité cosinus, le score de chaque composant peut être calculé comme suit :
 \[
-	\text{score}_{\text{label}}(\mathbf{q}, \mathbf{v}_{\text{label}}) = \frac{\mathbf{q} \cdot \mathbf{v}_{\text{label}}}{\|\mathbf{q}\| \|\mathbf{v}_{\text{label}}\|}
+	\text{score}_{\text{label}}(\mathbf{q}, \mathbf{v}_{\text{label}}) = \frac{\mathbf{q} \cdot \mathbf{v}_{\text{label}}}{\|\mathbf{q}\| \|\mathbf{v}_{\text{label}}\|} = \frac{\sum_{i=1}^n q_i v_{\text{label}, i}}{\sqrt{\sum_{i=1}^n q_i^2} \sqrt{\sum_{i=1}^n v_{\text{label}, i}^2}}
 \]
 \[
-	\text{score}_{\text{desc}}(\mathbf{q}, \mathbf{v}_{\text{desc}}) = \frac{\mathbf{q} \cdot \mathbf{v}_{\text{desc}}}{\|\mathbf{q}\| \|\mathbf{v}_{\text{desc}}\|}
+	\text{score}_{\text{desc}}(\mathbf{q}, \mathbf{v}_{\text{desc}}) = \frac{\mathbf{q} \cdot \mathbf{v}_{\text{desc}}}{\|\mathbf{q}\| \|\mathbf{v}_{\text{desc}}\|} = \frac{\sum_{i=1}^n q_i v_{\text{desc}, i}}{\sqrt{\sum_{i=1}^n q_i^2} \sqrt{\sum_{i=1}^n v_{\text{desc}, i}^2}}
 \]
 \[
 	\text{Score Combinée} = \alpha \cdot \text{score}_{\text{label}} + \beta \cdot \text{score}_{\text{desc}}
@@ -467,6 +467,17 @@ L'implementation de ce processus se produit dans la fonction suivante:
 	\label{fig:returnencodedvector}
 \end{figure}
 
+
+\newpage
+\noindent
+La figure ~\ref{fig:testsearch} illustre la recherche des produits à partir de Postman.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/testsearch.png}
+	\caption{Recherche à partir de Postman}
+	\label{fig:testsearch}
+\end{figure}
 
 \newpage
 \section{Conclusion}

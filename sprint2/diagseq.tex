@@ -189,10 +189,10 @@ La figure ~\ref{fig:encodeendpoint} illustre le code complèt du endpoint \textt
 \newpage
 \noindent
 \section{Processus complèt de recherche vectorielle avec la traduction}
+\noindent
 La figure ~\ref{fig:fullprocesswithtranslation} illustre le processus complèt de recherche vectorielle avec la traduction.
 
 \begin{figure}[H]
-	\centering
 	\includegraphics[width=1\textwidth]{logos/fullprocesswithtranslation.png}
 	\caption{Processus complèt de recherche vectorielle avec la traduction}
 	\label{fig:fullprocesswithtranslation}
@@ -208,6 +208,30 @@ La figure ~\ref{fig:fullprocesswithtranslation} illustre le processus complèt d
 	\item \texttt{Recherche vectorielle dans Elasticsearch:} Les vecteurs codés sont utilisés pour interroger Elasticsearch, qui recherche des vecteurs (documents) similaires stockés dans son index, qui sont notre produits dans notre cas.
 	\item \texttt{Récupération des résultats:} Les résultats de la recherche sont récupérés et renvoyés via le contrôleur ASP.NET au client, complétant ainsi le processus de recherche.
 \end{enumerate}
+
+
+\subsection{Interface de recherche et affichage des suggestions}
+\noindent
+Cette section est consacrée pour la réalisation de l'interface de recherche pour le client et le visiteur ainsi que l'affichage des suggestions des produits similaires a son terme de recherche. \\
+
+\noindent
+La figure ~\ref{fig:interfacerecherche} illustre l'interface de recherche, dans ce cas un visiteur a cherché pour parfum en Arabe traditionnel, et les résultats sont renvoyés, ainsi que des suggestions au bas de la page qui sont dans la figure ~\ref{fig:suggestions}.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/interfacerecherche.png}
+	\caption{Interface de recherche de client et visiteur}
+	\label{fig:interfacerecherche}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/suggestions.png}
+	\caption{Affichage des suggestions des noms des produits similaires}
+	\label{fig:suggestions}
+\end{figure}
+
 
 \section{Conclusion}
 \noindent
