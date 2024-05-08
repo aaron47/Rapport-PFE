@@ -3,7 +3,7 @@
 \localtableofcontents
 \section{Introduction}
 \noindent
-Après avoir examiné l'étude technique de notre projet d'assurance automobile en ligne, nous entamons maintenant le Sprint 1, qui ce concentra sur la création d'un systéme de recherche des produits dans la langue Française.
+Après avoir examiné l'étude technique de notre projet d'amélioration de recherche et intégration de recherche intelligente, nous entamons maintenant le Sprint 1, qui ce concentra sur la création d'un systéme de recherche des produits dans la langue Française.
 
 \section{Backlog du Sprint 1}
 \noindent
@@ -16,7 +16,8 @@ Le backlog de notre premier Sprint est présenté dans le tableau ~\ref{tab:spri
 		\hline
 		\rowcolor{blue!20}
 		\textbf{ID} & \textbf{Scénario}                                                                                     & \textbf{Priorité} & \textbf{Complexité} \\ \hline
-		1           & En tant qu'un client, je veux saisir ma terme de recherche en Français pour chercher le(s) produit(s) & 1                 & 10                  \\ \hline
+		1           & En tant qu'un client, visiteur, je veux saisir ma terme de recherche en Français pour chercher le(s) produit(s) & 1                 & 10                  \\ \hline
+		2           & En tant qu'un client, visiteur, En tant qu'un client, visteur, si le produit exacte que je cherche n'existe pas, je veux voir des suggestions des produits similaires. & 2                 & 8                  \\ \hline
 	\end{tabularx}
 	\caption{Backlog du Sprint 1}
 	\label{tab:sprint1}
@@ -43,7 +44,7 @@ La figure ~\ref{fig:recherchefrancais} illustre le diagramme de cas d'utilisatio
 \textbf{Résumé:} Le client saisit son terme de recherche (en Français), en cliquant sur la boutton pour rechercher le(s) produit(s) qu'il veut chercher. \\
 \textbf{Acteur Principal:} Client, Visiteur \\
 \textbf{Précondition:} \begin{enumerate}
-	\item Le client (ou le visiteur) son sur la page de recherche
+	\item Le client (ou le visiteur) est sur la page de recherche
 	\item Le client (ou le visiteur) a saisi son terme de recherche
 	\item Le client (ou le visiteur) a cliqué sur "Rechercher"
 \end{enumerate}
@@ -57,15 +58,41 @@ La figure ~\ref{fig:recherchefrancais} illustre le diagramme de cas d'utilisatio
 	\item Le systéme renvoie les produits.
 \end{enumerate}
 
-\newpage
 \textbf{Scénario alternatifs : }
 \begin{enumerate}
-	\item La terme de recherche est vide:
+	\item Le terme de recherche est vide:
 	      \begin{enumerate}
-		      \item Le système affiche un message d'erreur informant le client que la terme de recherche est requis.
+		      \item Le système affiche un message d'erreur informant le client que le terme de recherche est requis.
 		      \item Retour à l'étape 1 du scénario de base.
 	      \end{enumerate}
 
+	\item Le(s) produit(s) que le client cherche n'existe pas.
+	      \begin{enumerate}
+		      \item Le systéme essaie de renvoyer les produits les plus similaires comme des suggestions.
+		      \item Retour à l'étape 1 du scénario de base.
+	      \end{enumerate}
+\end{enumerate}
+
+\subsection{Description textuelle du CU << Voir suggestions >>}
+\noindent
+\textbf{Titre:} Rechercher produit en Français \\
+\textbf{Résumé:} Aprés que le client a cherché un produit, le systéme essaie de lui suggérer des produits similaires. \\
+\textbf{Acteur Principal:} Client \\
+\textbf{Précondition:} \begin{enumerate}
+	\item Le client est authentifié.
+	\item Le client à déja cherché un produit.
+\end{enumerate}
+\textbf{Postcondition:} Le(s) produit(s) que le client cherche est renvoyé, et le systéme renvoie des produits similaires comme suggestions. \\
+\textbf{Scénario de base: }
+\begin{enumerate}
+	\item Le client cherche pour un produit.
+	\item Le systéme cherche le produit.
+	\item Le systéme renvoie les produits ainsi que des suggestions des produits similaires.
+\end{enumerate}
+
+\newpage
+\textbf{Scénario alternatifs : }
+\begin{enumerate}
 	\item Le(s) produit(s) que le client cherche n'existe pas.
 	      \begin{enumerate}
 		      \item Le systéme essaie de renvoyer les produits les plus similaires comme des suggestions.
@@ -444,5 +471,5 @@ L'implementation de ce processus se produit dans la fonction suivante:
 \newpage
 \section{Conclusion}
 \noindent
-Dans ce chapitre, nous avons couvert toutes les étapes nécessaires pour performer le recherche vectorielle dans notre projet, en commençant par la création de la fonction d'encodage << encode\_sentence\_and\_normalise >>à l'aide de notre modèle et de son tokeniser, ensuite la préparation de notre données pour ensuite insérez-les dans Elasticsearch pour avoir la capabilité de recherche vectorielle. Enfin nous préparons notre contrôleur ASP .NET Core pour atteindre l'endpoint << /encode >> afin d'encoder le mot-clé de recherche saisi par l'utilisateur, et l'utiliser dans une query knn à l'aide de la méthode << KnnSearchAsync >> pour performer une query Elasticsearch knn.
+Dans ce chapitre, nous avons couvert toutes les étapes nécessaires pour performer le recherche vectorielle dans notre projet, en commençant par la création de la fonction d'encodage << encode\_sentence\_and\_normalise >>à l'aide de notre modèle et de son tokeniser, ensuite la préparation de notre données pour ensuite insérez-les dans Elasticsearch pour avoir la capabilité de recherche vectorielle. Enfin nous préparons notre contrôleur ASP .NET Core pour atteindre l'endpoint << /encode >> afin d'encoder le mot-clé de recherche saisi par l'utilisateur, et l'utiliser dans une query knn à l'aide de la méthode << KnnSearchAsync >> pour performer une query Elasticsearch knn pour renvoyer des produits et des suggestions.
 Grâce à ces étapes, le travail pour le reste des sprints a été rendu beaucoup plus facile et évolutif.

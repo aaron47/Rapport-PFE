@@ -29,7 +29,7 @@ d'entre eux en fournissant la description textuelle de certains d'entre eux.
 \begin{enumerate}
 	\item Le client saisit son terme de recherche.
 	\item Le client clique sur la boutton "Rechercher"
-	\item Le système prend la terme de recherche, en vérifiant que c'est en Arabe traditionnel, et le traduit en Français.
+	\item Le système prend le terme de recherche, en vérifiant que c'est en Arabe traditionnel, et le traduit en Français.
 	\item Le systéme prend cette terme de recherche, et performe les étapes nécessaires pour la convertir en vecteur.
 	\item Le systéme compare cette vecteur contre les vecteurs dans Elasticsearch.
 	\item Le systéme renvoie les produits.
@@ -38,12 +38,12 @@ d'entre eux en fournissant la description textuelle de certains d'entre eux.
 \newpage
 \textbf{Scénario alternatifs : }
 \begin{enumerate}
-	\item La terme de recherche est vide:
+	\item Le terme de recherche est vide:
 	      \begin{enumerate}
-		      \item Le système affiche un message d'erreur informant le client que la terme de recherche est requis.
+		      \item Le système affiche un message d'erreur informant le client que le terme de recherche est requis.
 		      \item Retour à l'étape 1 du scénario de base.
 	      \end{enumerate}
-	\item La terme de recherche n'est pas en Arabe traditionnel:
+	\item Le terme de recherche n'est pas en Arabe traditionnel:
 	      \begin{enumerate}
 		      \item Le système suppose que le terme recherché est en Français.
 		      \item Passer à la 4ème étape des scénarios de base.
@@ -55,14 +55,13 @@ d'entre eux en fournissant la description textuelle de certains d'entre eux.
 	      \end{enumerate}
 \end{enumerate}
 
-
 \subsection{Description textuelle du CU « Rechercher produit en Arabe en dialecte Tunisien »}
 \noindent
 \textbf{Titre:} Rechercher produit en Arabe en dialecte Tunisien \\
 \textbf{Résumé:} Le client saisit son terme de recherche en Arabe en dialecte Tunisien, en cliquant sur la boutton pour rechercher le(s) produit(s) qu'il veut chercher. \\
 \textbf{Acteur Principal:} Client \\
 \textbf{Précondition:} \begin{enumerate}
-	\item Le client (ou le visiteur) son sur la page de recherche
+	\item Le client (ou le visiteur) sont sur la page de recherche
 	\item Le client (ou le visiteur) a saisi son terme de recherche en Arabe en dialecte Tunisien
 	\item Le client (ou le visiteur) a cliqué sur "Rechercher"
 \end{enumerate}
@@ -71,7 +70,7 @@ d'entre eux en fournissant la description textuelle de certains d'entre eux.
 \begin{enumerate}
 	\item Le client saisit son terme de recherche en Arabe en dialecte Tunisien.
 	\item Le client clique sur la boutton "Rechercher"
-	\item Le système prend la terme de recherche, en vérifiant que c'est en Arabe en dialecte Tunisien, et le traduit en Français.
+	\item Le système prend le terme de recherche, en vérifiant que c'est en Arabe en dialecte Tunisien, et le traduit en Français.
 	\item Le systéme prend cette terme de recherche, et performe les étapes nécessaires pour la convertir en vecteur.
 	\item Le systéme compare cette vecteur contre les vecteurs dans Elasticsearch.
 	\item Le systéme renvoie les produits.
@@ -79,17 +78,43 @@ d'entre eux en fournissant la description textuelle de certains d'entre eux.
 
 \textbf{Scénario alternatifs : }
 \begin{enumerate}
-	\item La terme de recherche est vide:
+	\item Le terme de recherche est vide:
 	      \begin{enumerate}
-		      \item Le système affiche un message d'erreur informant le client que la terme de recherche est requis.
+		      \item Le système affiche un message d'erreur informant le client que le terme de recherche est requis.
 		      \item Retour à l'étape 1 du scénario de base.
 	      \end{enumerate}
-	\item La terme de recherche n'est pas en Arabe en dialecte Tunisien:
+	\item Le terme de recherche n'est pas en Arabe en dialecte Tunisien:
 	      \begin{enumerate}
 		      \item Le système suppose que le terme recherché est en Français.
 		      \item Passer à la 4ème étape des scénarios de base.
 	      \end{enumerate}
 
+	\item Le(s) produit(s) que le client cherche n'existe pas.
+	      \begin{enumerate}
+		      \item Le systéme essaie de renvoyer les produits les plus similaires comme des suggestions.
+		      \item Retour à l'étape 1 du scénario de base.
+	      \end{enumerate}
+\end{enumerate}
+
+\subsection{Description textuelle du CU << Voir suggestions >>}
+\noindent
+\textbf{Titre:} Rechercher produit en Français \\
+\textbf{Résumé:} Aprés que le client a cherché un produit, le systéme essaie de lui suggérer des produits similaires. \\
+\textbf{Acteur Principal:} Client \\
+\textbf{Précondition:} \begin{enumerate}
+	\item Le client est authentifié.
+	\item Le client à déja cherché un produit.
+\end{enumerate}
+\textbf{Postcondition:} Le(s) produit(s) que le client cherche est renvoyé, et le systéme renvoie des produits similaires comme suggestions. \\
+\textbf{Scénario de base: }
+\begin{enumerate}
+	\item Le client cherche pour un produit.
+	\item Le systéme cherche le produit.
+	\item Le systéme renvoie les produits ainsi que des suggestions des produits similaires.
+\end{enumerate}
+
+\textbf{Scénario alternatifs : }
+\begin{enumerate}
 	\item Le(s) produit(s) que le client cherche n'existe pas.
 	      \begin{enumerate}
 		      \item Le systéme essaie de renvoyer les produits les plus similaires comme des suggestions.

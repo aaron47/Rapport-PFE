@@ -8,25 +8,73 @@ Notre backlog est composé de trois colonnes: \\
 \textbf{Scénario: } Comporte la description des scénarios suivant le forme << En tant que ... Je veux >> \\
 
 \begin{table}[H]
-\centering
-\begin{tabular}{|c|c|p{10cm}|}
-\hline
-\rowcolor{blue!20}
-\textbf{ID} & \textbf{Fonctionnalité} & \textbf{Scénario} \\ \hline
-1 & Recherche en Arabe Tunisienne  & En tant qu'un client, je veux rechercher un ou plusieurs produits dans la langue Tunisienne. \\ \hline
-2 & Recherche en Arabe Classique & En tant qu'un client, je veux rechercher un ou plusieurs produits en Arabe Classique. \\ \hline
-3 & Recherche en Français & En tant qu'un client, je veux rechercher un ou plusieurs produits en Français. \\ \hline
-4 & Vitesse de recherche & En tant qu'un client, je veux avoir une vitesse de recherche rapide. \\ \hline
-5 & Suggestion des produits & En tant qu'un client, si le produit que je cherche n'existe pas, je veux avoir des suggestions des produits similaires. \\ \hline
-6 & Recherche en Arabe Tunisienne  & En tant qu'un visiteur, je veux rechercher un ou plusieurs produits dans la langue Tunisienne. \\ \hline
-7 & Recherche en Arabe Classique & En tant qu'un visiteur, je veux rechercher un ou plusieurs produits en Arabe Classique. \\ \hline
-8 & Recherche en Français & En tant qu'un visiteur, je veux rechercher un ou plusieurs produits en Français. \\ \hline
-9 & Vitesse de recherche & En tant qu'un visiteur, je veux avoir une vitesse de recherche rapide. \\ \hline
-10 & Suggestion des produits & En tant qu'un visiteur, si le produit que je cherche n'existe pas, je veux avoir des suggestions des produits similaires. \\ \hline
-11 & Recherche en Arabe Tunisienne  & En tant qu'un admin, je veux rechercher un ou plusieurs produits dans la langue Tunisienne. \\ \hline
-12 & Recherche en Arabe Classique & En tant qu'un admin, je veux rechercher un ou plusieurs produits en Arabe Classique. \\ \hline
-13 & Recherche en Français & En tant qu'un admin, je veux rechercher un ou plusieurs produits en Français. \\ \hline
-13 & Modification des paramétres de recherche & En tant qu'un admin, je veux avoir les permissions pour modifier les paramétres de ma recherche. \\ \hline
-\end{tabular}
-\caption{Table des fonctionnalités et scénarios.}
+	\centering
+	\begin{tabular}{|c|c|p{10cm}|}
+		\hline
+		\rowcolor{blue!20}
+		\textbf{ID} & \textbf{Fonctionnalité}                 & \textbf{Scénario}                                                                                                                      \\ \hline
+		1           & Recherche en Arabe en dialecte Tunisien & En tant qu'un client, visiteur, je veux rechercher un ou plusieurs produits dans la langue Tunisienne.                                 \\ \hline
+		2           & Recherche en Arabe Classique            & En tant qu'un client, visiteur, je veux rechercher un ou plusieurs produits en Arabe Classique.                                        \\ \hline
+		3           & Recherche en Français                   & En tant qu'un client, visiteur, je veux rechercher un ou plusieurs produits en Français.                                               \\ \hline
+		4           & Suggestion des produits                 & En tant qu'un client, visteur, si le produit exacte que je cherche n'existe pas, je veux voir des suggestions des produits similaires. \\ \hline
+
+		5           & Modifier paramètres de recherche                 & En tant qu'un administrateur, je veux modifier mes paramètres de recherche des produits. \\ \hline
+
+		6           & Consulter tableau de bord               & En tant qu'un administrateur, je veux s'authentifier et accéder à mon tableau de bord.                                                 \\  \hline
+	\end{tabular}
+	\caption{Table des fonctionnalités et scénarios.}
 \end{table}
+
+\section{Plannification des sprints}
+\noindent
+Une fois que le Product Backlog a été établi, la réunion de planification peut être
+tenue. Le but de cette réunion est de préparer le plan de travail. Le résultat de cette réunion est
+le choix des durées des Sprints. La liste suivante détaille la planification des Sprints: \\
+
+\newpage
+\noindent
+\textbf{Sprint 1:}
+\begin{enumerate}
+	\item Rechercher des produits en Français
+	\item Voir suggestions
+\end{enumerate}
+
+\noindent
+\textbf{Sprint 2:}
+\begin{enumerate}
+	\item Rechercher des produits en Arabe Traditionnel
+	\item Rechercher des produits en Arabe en dialecte Tunisien
+	\item Voir suggestions
+\end{enumerate}
+
+\noindent
+\textbf{Sprint 3:}
+\begin{enumerate}
+	\item Modifier paramètres de recherche
+	\item Consulter tableau de bord
+\end{enumerate}
+
+
+% \begin{table}[H]
+% 	\centering
+% 	\Large
+% 	\rowcolors{2}{white}{white} % To reset alternate colors if previously set
+% 	\begin{tabular}{|p{10cm}|p{4cm}|p{4cm}|}
+% 		\hline
+% 		\rowcolor{blue!50} \textcolor{white}{Sprint 1}              & \textcolor{white}{Sprint 2} & \textcolor{white}{Sprint3} \\
+% 		\hline
+% 		\begin{enumerate}
+% 			\item Rechercher des produits en Français
+% 			\item Voir suggestions
+% 		\end{enumerate}                   & Auto-incrément              & Clé primaire                                         \\ \hline
+% 		\begin{enumerate}
+% 			\item Rechercher des produits en Arabe Traditionnel
+% 			\item Rechercher des produits en Arabe en dialecte Tunisien
+% 			\item Voir suggestions
+% 		\end{enumerate} & String                      & Non nul                                                             \\ \hline
+% 		password                                                    & String                      & Non nul                    \\ \hline
+% 		role                                                        & String                      & Non nul                    \\ \hline
+% 	\end{tabular}
+% 	\caption{Tableau de plannifiation des sprints}
+% 	\label{tab:plansprints}
+% \end{table}

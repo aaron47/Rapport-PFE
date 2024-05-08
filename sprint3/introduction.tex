@@ -29,23 +29,13 @@ Sprint 3 à travers le diagramme de cas d'utilisation. Par la suite, nous détai
 scénarios de cas d'utilisation grâce à des descriptions textuelles.
 
 \newpage
-\subsection{Diagramme de cas d'utilisation du CU "Modifier paramétres de recherche"}
+\subsection{Diagramme de cas d'utilisation du CU général}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{logos/cusprint3.png}
-	\caption{Diagramme de cas d'utilisation de CU << Modifier paramétres de recherche >>}
+	\caption{Diagramme de cas d'utilisation général de Sprint 3}
 	\label{fig:cusprint3}
 \end{figure}
-
-\subsection{Diagramme de cas d'utilisation du CU "Consulter tableau de bord"}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{logos/consultertb.png}
-	\caption{Diagramme de cas d'utilisation de CU << Consulter tableau de bord >>}
-	\label{fig:consultertb}
-\end{figure}
-
-
 
 \subsection{Description textuelle des cas d'utilisations}
 \noindent
@@ -68,7 +58,7 @@ Suite à l'exposition des cas d'utilisations, nous approfondirons leurs descript
 	\item L'admin saisit son terme de recherche.
 	\item L'admin modifie l'un des quatres paramétres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
 	\item L'admin clique sur la boutton "Rechercher"
-	\item Le système prend la terme de recherche, en vérifiant que c'est valide.
+	\item Le système prend le terme de recherche, en vérifiant que c'est valide.
 	\item Le systéme prend cette terme de recherche, et performe les étapes nécessaires pour la convertir en vecteur.
 	\item Le systéme compare cette vecteur contre les vecteurs dans Elasticsearch en utilisant les paramétres de recherche que l'admin a saisi.
 	\item Le systéme renvoie les produits.
@@ -77,12 +67,12 @@ Suite à l'exposition des cas d'utilisations, nous approfondirons leurs descript
 \newpage
 \textbf{Scénario alternatifs : }
 \begin{enumerate}
-	\item La terme de recherche est vide:
+	\item Le terme de recherche est vide:
 	      \begin{enumerate}
-		      \item Le système affiche un message d'erreur informant le client que la terme de recherche est requis.
+		      \item Le système affiche un message d'erreur informant le client que le terme de recherche est requis.
 		      \item Retour à l'étape 1 du scénario de base.
 	      \end{enumerate}
-	\item La terme de recherche n'est pas valide:
+	\item Le terme de recherche n'est pas valide:
 	      \begin{enumerate}
 		      \item Le système suppose que le terme recherché est en Français.
 		      \item Passer à la 6ème étape des scénarios de base.
@@ -124,7 +114,7 @@ Suite à l'exposition des cas d'utilisations, nous approfondirons leurs descript
 	\item L'admin saisit son terme de recherche.
 	\item L'admin modifie l'un des quatres paramétres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
 	\item L'admin clique sur la boutton "Rechercher"
-	\item Le système prend la terme de recherche, en vérifiant que c'est valide.
+	\item Le système prend le terme de recherche, en vérifiant que c'est valide.
 	\item Le systéme prend cette terme de recherche, et performe les étapes nécessaires pour la convertir en vecteur.
 	\item Le systéme compare cette vecteur contre les vecteurs dans Elasticsearch en utilisant les paramétres de recherche que l'admin a saisi.
 	\item Le systéme renvoie les produits avec les scores et les visualise.
@@ -148,10 +138,11 @@ d'utilisation suivants:
 \subsubsection{Diagramme de séquence "Modifier paramétres de recherche"}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth,height=4in]{logos/modifierparametres.png}
+	\includegraphics[width=\textwidth]{logos/modifierparametres.png}
 	\caption{Diagramme de séquence de CU "Modifier paramétres de recherche"}
 	\label{fig:modifierparametres}
 \end{figure}
+
 
 \subsubsection{Diagramme de séquence "Consulter tableau de bord"}
 \begin{figure}[H]
