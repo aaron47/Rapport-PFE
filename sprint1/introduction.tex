@@ -17,7 +17,7 @@ Le backlog de notre premier Sprint est présenté dans le tableau ~\ref{tab:spri
 		\rowcolor{blue!20}
 		\textbf{ID} & \textbf{Scénario}                                                                                                                                                      & \textbf{Priorité} & \textbf{Complexité} \\ \hline
 		1           & En tant qu'un client, visiteur, je veux saisir ma terme de recherche en Français pour chercher le(s) produit(s)                                                        & 1                 & 10                  \\ \hline
-		2           & En tant qu'un client, visiteur, En tant qu'un client, visteur, si le produit exacte que je cherche n'existe pas, je veux voir des suggestions des produits similaires. & 2                 & 8                   \\ \hline
+		2           & En tant qu'un client, visiteur, si le produit exacte que je cherche n'existe pas, je veux voir des suggestions des produits similaires. & 2                 & 8                   \\ \hline
 	\end{tabularx}
 	\caption{Backlog du Sprint 1}
 	\label{tab:sprint1}
@@ -510,7 +510,6 @@ L'implementation de ce processus se produit dans la fonction suivante:
 \end{figure}
 
 
-\newpage
 \noindent
 La figure ~\ref{fig:testsearch} illustre la recherche des produits à partir de Postman.
 
@@ -519,6 +518,17 @@ La figure ~\ref{fig:testsearch} illustre la recherche des produits à partir de 
 	\includegraphics[width=1\textwidth]{logos/testsearch.png}
 	\caption{Recherche à partir de Postman}
 	\label{fig:testsearch}
+\end{figure}
+
+
+\noindent
+La figure ~\ref{fig:testsearch2} illustre l'interface de recherche de client, ou il a cherché pour << lambaa taa tawla >> qui se traduit en << lampe de table >>, avec des produits renvoyès ainsi que des suggestions des produits potentiellement similaires.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{logos/testsearch2.png}
+	\caption{Interface de recherche de client}
+	\label{fig:testsearch2}
 \end{figure}
 
 \newpage

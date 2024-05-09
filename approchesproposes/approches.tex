@@ -17,7 +17,7 @@ Nous aurions pu utiliser la recherche régulière simplement en faisant correspo
 
 \subsection{Utilisaton de base de donnèes Cassandra}
 \noindent
-Nous aurions pu utiliser une différente base de donnèes SQL plus optimisé et performante comme Cassandra pour l'optimisation de vitesse de recherche et la prècision des resultats renvoyès. Avec cette approche la migration des donnèes existantes va être beaucoup plus complexe aussi que l'intègration de cette base de donnèes dans notre application. Mais les rèsultate vont être plus prècis et rapide, mais il reste la limitation la plus importante, qui est la recherche en Arabe avec le dialecte Tunisien, et l'Arabe Traditionnelle. Pour cette raison on a dècidè de prendre l'approche d'Elasticsearch avec le recherche vectorielle qui sont dans les sections ci-dessous.
+Nous aurions pu utiliser une différente base de donnèes SQL plus optimisé et performante comme Cassandra pour l'optimisation de vitesse de recherche et la prècision des resultats renvoyès. Avec cette approche la migration des donnèes existantes va être beaucoup plus complexe aussi que l'intègration de cette base de donnèes dans notre application. Mais les rèsultate vont être plus prècis et rapide, mais il reste la limitation la plus importante, qui est la recherche en Arabe avec le dialecte Tunisien, et l'Arabe Traditionnel. Pour cette raison on a dècidè de prendre l'approche d'Elasticsearch avec le recherche vectorielle qui sont dans les sections ci-dessous.
 
 \section{Choix d'approche de Recherche Vectorielle}
 \noindent
@@ -46,7 +46,7 @@ Soit $A$ et $B$ deux vecteurs de n'importe quelles dimensions, la similarité co
 \end{figure}
 
 \noindent
-Comme la figure ~\ref{fig:fullprocess} montre, d'abord le client va saisir son terme de recherche (mot clé) qui est ensuite envoyé à notre contrôleur ASP .NET Core, qui ensuite envoie cette mot ou phrase à notre microservice en Flask qui contient notre modéle Sentence-Transformers(all-mpnet-base-v2) dans notre cas, qui ensuite verifient si le mot est en Français, si c'est le cas, en fait l'encodage du phrase directe, sinon, en la traduit soit en utilisant Google Traduction si la phrase est en Arabe Traditionnelle, soit en utilisant notre dictionnaire propre des mots du dialecte Tunsienne et aprés faire l'encodage, enfin, le vecteur est renvoyé au contrôleur, qui l'utilise pour faire le recherche vectorielle dans Elasticsearch, et renvoyer les résultats, qui sont les produits dans notre cas.
+Comme la figure ~\ref{fig:fullprocess} montre, d'abord le client va saisir son terme de recherche (mot clé) qui est ensuite envoyé à notre contrôleur ASP .NET Core, qui ensuite envoie cette mot ou phrase à notre microservice en Flask qui contient notre modéle Sentence-Transformers(all-mpnet-base-v2) dans notre cas, qui ensuite verifient si le mot est en Français, si c'est le cas, en fait l'encodage du phrase directe, sinon, en la traduit soit en utilisant Google Traduction si la phrase est en Arabe Traditionnel, soit en utilisant notre dictionnaire propre des mots du dialecte Tunsienne et aprés faire l'encodage, enfin, le vecteur est renvoyé au contrôleur, qui l'utilise pour faire le recherche vectorielle dans Elasticsearch, et renvoyer les résultats, qui sont les produits dans notre cas.
 
 \begin{figure}[H]
 \centering
