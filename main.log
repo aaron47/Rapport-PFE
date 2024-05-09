@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.8)  8 MAY 2024 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.8)  9 MAY 2024 18:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -996,15 +996,48 @@ Package: atabg 1997/01/21  3.05 LaTeX tabbing macros for Arabic
 Package: apatch 2006/07/02  3.11s last minute patches 
 )
 Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
-(ArabTeX) ... now be patient ... ) (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+(ArabTeX) ... now be patient ... ) (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+ (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count528
+\calc@Bcount=\count529
+\calc@Adimen=\dimen303
+\calc@Bdimen=\dimen304
+\calc@Askip=\skip163
+\calc@Bskip=\skip164
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count530
+\calc@Cskip=\skip165
+) (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen305
+\ESO@tempdimb=\dimen306
+)
+\AM@pagewidth=\dimen307
+\AM@pageheight=\dimen308
+\AM@fboxrule=\dimen309
+ (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count531
+\AM@pagebox=\box138
+\AM@global@opts=\toks61
+\AM@pagecnt=\count532
+\AM@toc@title=\toks62
+\AM@lof@heading=\toks63
+\c@AM@survey=\count533
+\AM@templatesizebox=\box139
+) (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks61
-\XKV@tempa@toks=\toks62
+\XKV@toks=\toks64
+\XKV@tempa@toks=\toks65
 )
-\XKV@depth=\count528
+\XKV@depth=\count534
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
@@ -1012,32 +1045,32 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box138
+\collectedbox=\box140
 )
-\tc@llx=\dimen303
-\tc@lly=\dimen304
-\tc@urx=\dimen305
-\tc@ury=\dimen306
+\tc@llx=\dimen310
+\tc@lly=\dimen311
+\tc@urx=\dimen312
+\tc@ury=\dimen313
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen307
-\adjbox@Height=\dimen308
-\adjbox@Depth=\dimen309
-\adjbox@Totalheight=\dimen310
-\adjbox@pwidth=\dimen311
-\adjbox@pheight=\dimen312
-\adjbox@pdepth=\dimen313
-\adjbox@ptotalheight=\dimen314
+\adjbox@Width=\dimen314
+\adjbox@Height=\dimen315
+\adjbox@Depth=\dimen316
+\adjbox@Totalheight=\dimen317
+\adjbox@pwidth=\dimen318
+\adjbox@pheight=\dimen319
+\adjbox@pdepth=\dimen320
+\adjbox@ptotalheight=\dimen321
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box139
-\sift@deathcycles=\count529
-\@vwid@loff=\dimen315
-\@vwid@roff=\dimen316
+\@vwid@box=\box141
+\sift@deathcycles=\count535
+\@vwid@loff=\dimen322
+\@vwid@roff=\dimen323
 )) (ArabTeX) unknown input encoding `utf8'; ArabTeX standard encoding is assumed.
-Package hyperref Info: Option `colorlinks' set `true' on input line 82.
+Package hyperref Info: Option `colorlinks' set `true' on input line 83.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1045,51 +1078,51 @@ Package csquotes Info: Redefining alias 'default' -> 'french'.
  (main.aux (couverture.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count530
-\scratchdimen=\dimen317
-\scratchbox=\box140
-\nofMPsegments=\count531
-\nofMParguments=\count532
-\everyMPshowfont=\toks63
-\MPscratchCnt=\count533
-\MPscratchDim=\dimen318
-\MPnumerator=\count534
-\makeMPintoPDFobject=\count535
-\everyMPtoPDFconversion=\toks64
+\scratchcounter=\count536
+\scratchdimen=\dimen324
+\scratchbox=\box142
+\nofMPsegments=\count537
+\nofMParguments=\count538
+\everyMPshowfont=\toks66
+\MPscratchCnt=\count539
+\MPscratchDim=\dimen325
+\MPnumerator=\count540
+\makeMPintoPDFobject=\count541
+\everyMPtoPDFconversion=\toks67
 ) (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \degres on input line 102.
+LaTeX Info: Redefining \degres on input line 105.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 102.
+(french.ldf)             reported on input line 105.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 102.
-LaTeX Info: Redefining \up on input line 102.
+(french.ldf)             reported on input line 105.
+LaTeX Info: Redefining \up on input line 105.
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\french.lbx
@@ -1108,8 +1141,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 102.
-Package biblatex Info: Reference segment=0 on input line 102.
+Package biblatex Info: Reference section=0 on input line 105.
+Package biblatex Info: Reference segment=0 on input line 105.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1123,7 +1156,7 @@ Package caption Info: End \AtBeginDocument code.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
@@ -1153,23 +1186,31 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 102.
+Package hyperref Info: Link coloring ON on input line 105.
 (main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
 \Etoc@tf=\read4
- (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\apatch.sty
-\a@lines=\count536
-\a@Lwidth=\dimen319
-\a@displaywidth=\dimen320
+ (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\apatch.sty
+\a@lines=\count542
+\a@Lwidth=\dimen326
+\a@displaywidth=\dimen327
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alocal.sty (ArabTeX) 3.11 local stub, 26.02.2006) (ArabTeX) version 3.11s (02.07.2006): second phase of patching)
 \openout2 = `couverture.aux'.
 
  (couverture.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
@@ -1226,33 +1267,33 @@ l.19 \newpage
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 115.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 118.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 115.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 118.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 115.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 118.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 115.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 118.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 115.
+(Font)              <14.4> on input line 118.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 115.
+(Font)              <10> on input line 118.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 115.
+(Font)              <7> on input line 118.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \listoffigures
+l.118 \listoffigures
                      [2]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1265,7 +1306,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \listoffigures
+l.118 \listoffigures
                      [3]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1278,7 +1319,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \listoffigures
+l.118 \listoffigures
                      [4] (main.lof
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
@@ -1293,7 +1334,7 @@ l.28 ...fficiel du Docker}}{40}{figure.caption.27}
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 ...lecte Tunisien Â»}}{79}{figure.caption.56}
+l.55 ...lecte Tunisien Â»}}{80}{figure.caption.58}
                                                   % [7])
 \tf@lof=\write8
 \openout8 = `main.lof'.
@@ -1311,7 +1352,7 @@ l.11 ...acklog du Sprint 1}}{45}{table.caption.35}
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.117 \newpage
+l.120 \newpage
                [9] (introduction.tex
 Chapitre 1.
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1.
@@ -1341,7 +1382,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 10
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (etudedeprojet/presentationdelentreprise.tex
-<logos/axam.png, id=709, 501.875pt x 501.875pt>
+<logos/axam.png, id=713, 501.875pt x 501.875pt>
 File: logos/axam.png Graphic file (type png)
 <use logos/axam.png>
 Package pdftex.def Info: logos/axam.png  used on input line 8.
@@ -1445,7 +1486,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 [8]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 28.
-<logos/scrum.png, id=749, 918.43124pt x 434.62375pt>
+<logos/scrum.png, id=753, 918.43124pt x 434.62375pt>
 File: logos/scrum.png Graphic file (type png)
 <use logos/scrum.png>
 Package pdftex.def Info: logos/scrum.png  used on input line 37.
@@ -1479,10 +1520,23 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
 [12]
-<logos/fullprocess.png, id=780, 2832.5825pt x 1104.125pt>
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
+
+[13{C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
+<logos/cosine.png, id=794, 1027.84pt x 645.41125pt>
+File: logos/cosine.png Graphic file (type png)
+<use logos/cosine.png>
+Package pdftex.def Info: logos/cosine.png  used on input line 43.
+(pdftex.def)             Requested size: 525.23788pt x 329.81522pt.
+<logos/fullprocess.png, id=796, 2832.5825pt x 1104.125pt>
 File: logos/fullprocess.png Graphic file (type png)
 <use logos/fullprocess.png>
-Package pdftex.def Info: logos/fullprocess.png  used on input line 28.
+Package pdftex.def Info: logos/fullprocess.png  used on input line 53.
 (pdftex.def)             Requested size: 525.23788pt x 204.73166pt.
 
 
@@ -1492,38 +1546,25 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[13 <./logos/fullprocess.png>]
-<logos/cosine.png, id=787, 1027.84pt x 645.41125pt>
-File: logos/cosine.png Graphic file (type png)
-<use logos/cosine.png>
-Package pdftex.def Info: logos/cosine.png  used on input line 54.
-(pdftex.def)             Requested size: 525.23788pt x 329.81522pt.
-
-
-Package fancyhdr Warning: \headheight is too small (15.0pt): 
-(fancyhdr)                Make it at least 15.35403pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.35403pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
-
-[14{C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
-
-Package fancyhdr Warning: \headheight is too small (15.0pt): 
-(fancyhdr)                Make it at least 15.35403pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.35403pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
-
-[15 <./logos/cosine.png>]
-Overfull \hbox (0.37564pt too wide) in paragraph at lines 64--64
+[14 <./logos/cosine.png>]
+Overfull \hbox (0.37564pt too wide) in paragraph at lines 65--65
 |[]\T1/lmr/bx/n/20.74 Utilisation d'un mo-déle Sentence-Transformers| 
  []
 
-<logos/paddingexplanation.png, id=806, 1075.01625pt x 911.405pt>
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
+
+[15 <./logos/fullprocess.png>]
+<logos/paddingexplanation.png, id=810, 1075.01625pt x 911.405pt>
 File: logos/paddingexplanation.png Graphic file (type png)
 <use logos/paddingexplanation.png>
-Package pdftex.def Info: logos/paddingexplanation.png  used on input line 75.
+Package pdftex.def Info: logos/paddingexplanation.png  used on input line 76.
 (pdftex.def)             Requested size: 525.23788pt x 445.29901pt.
+
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -1532,10 +1573,10 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
 [16]
-<logos/padding.png, id=814, 218.48291pt x 265.32458pt>
+<logos/padding.png, id=818, 218.48291pt x 265.32458pt>
 File: logos/padding.png Graphic file (type png)
 <use logos/padding.png>
-Package pdftex.def Info: logos/padding.png  used on input line 85.
+Package pdftex.def Info: logos/padding.png  used on input line 86.
 (pdftex.def)             Requested size: 525.23788pt x 637.97417pt.
 
 
@@ -1554,10 +1595,10 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
 [18 <./logos/padding.png>]
-<logos/mean_pooling.png, id=826, 697.60625pt x 246.9225pt>
+<logos/mean_pooling.png, id=830, 697.60625pt x 246.9225pt>
 File: logos/mean_pooling.png Graphic file (type png)
 <use logos/mean_pooling.png>
-Package pdftex.def Info: logos/mean_pooling.png  used on input line 106.
+Package pdftex.def Info: logos/mean_pooling.png  used on input line 107.
 (pdftex.def)             Requested size: 525.23788pt x 185.92233pt.
 
 
@@ -1568,10 +1609,10 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
 [19 <./logos/mean_pooling.png>]
-<logos/max_pooling.png, id=833, 1395.2125pt x 497.86pt>
+<logos/max_pooling.png, id=837, 1395.2125pt x 497.86pt>
 File: logos/max_pooling.png Graphic file (type png)
 <use logos/max_pooling.png>
-Package pdftex.def Info: logos/max_pooling.png  used on input line 121.
+Package pdftex.def Info: logos/max_pooling.png  used on input line 122.
 (pdftex.def)             Requested size: 525.23788pt x 187.41872pt.
 
 
@@ -1582,10 +1623,10 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
 [20 <./logos/max_pooling.png>]
-<logos/min_pooling.png, id=841, 1782.66pt x 975.645pt>
+<logos/min_pooling.png, id=845, 1782.66pt x 975.645pt>
 File: logos/min_pooling.png Graphic file (type png)
 <use logos/min_pooling.png>
-Package pdftex.def Info: logos/min_pooling.png  used on input line 133.
+Package pdftex.def Info: logos/min_pooling.png  used on input line 134.
 (pdftex.def)             Requested size: 525.23788pt x 287.45549pt.
 ) (sprint0/introduction.tex
 
@@ -1600,7 +1641,7 @@ Chapitre 3.
 [22
 
 ] (sprint0/identificationdesbesoins.tex [23] [24]) (sprint0/diagcuglobal.tex
-<logos/CU_global.png, id=879, 875.27pt x 630.355pt>
+<logos/CU_global.png, id=883, 875.27pt x 630.355pt>
 File: logos/CU_global.png Graphic file (type png)
 <use logos/CU_global.png>
 Package pdftex.def Info: logos/CU_global.png  used on input line 17.
@@ -1621,12 +1662,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--33
  []
 
 [26] [27]) (sprint0/plannificationderelease.tex) (sprint0/architecture.tex [28] [29] [30]
-<logos/mvcavecservice.png, id=913, 1187.43625pt x 696.6025pt>
+<logos/mvcavecservice.png, id=917, 1187.43625pt x 696.6025pt>
 File: logos/mvcavecservice.png Graphic file (type png)
 <use logos/mvcavecservice.png>
 Package pdftex.def Info: logos/mvcavecservice.png  used on input line 35.
 (pdftex.def)             Requested size: 525.23788pt x 308.13232pt.
-<logos/mvcechange.png, id=915, 698.61pt x 387.4475pt>
+<logos/mvcechange.png, id=919, 698.61pt x 387.4475pt>
 File: logos/mvcechange.png Graphic file (type png)
 <use logos/mvcechange.png>
 Package pdftex.def Info: logos/mvcechange.png  used on input line 45.
@@ -1637,7 +1678,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--56
  []
 
 [32 <./logos/mvcechange.png (PNG copy)>]
-<logos/clean_architecture.png, id=927, 670.54639pt x 372.52577pt>
+<logos/clean_architecture.png, id=931, 670.54639pt x 372.52577pt>
 File: logos/clean_architecture.png Graphic file (type png)
 <use logos/clean_architecture.png>
 Package pdftex.def Info: logos/clean_architecture.png  used on input line 71.
@@ -1648,95 +1689,95 @@ Overfull \hbox (24.76073pt too wide) in paragraph at lines 1--1
  []
 
 [34]
-<logos/vs.png, id=940, 3854.4pt x 2168.1pt>
+<logos/vs.png, id=944, 3854.4pt x 2168.1pt>
 File: logos/vs.png Graphic file (type png)
 <use logos/vs.png>
 Package pdftex.def Info: logos/vs.png  used on input line 36.
 (pdftex.def)             Requested size: 157.57297pt x 88.628pt.
-<logos/vsc.png, id=942, 298.02061pt x 298.02061pt>
+<logos/vsc.png, id=946, 298.02061pt x 298.02061pt>
 File: logos/vsc.png Graphic file (type png)
 <use logos/vsc.png>
 Package pdftex.def Info: logos/vsc.png  used on input line 47.
 (pdftex.def)             Requested size: 157.57297pt x 157.57272pt.
  [35 <./logos/vs.png>]
-<logos/csharp.png, id=949, 268.00125pt x 301.125pt>
+<logos/csharp.png, id=953, 268.00125pt x 301.125pt>
 File: logos/csharp.png Graphic file (type png)
 <use logos/csharp.png>
 Package pdftex.def Info: logos/csharp.png  used on input line 57.
 (pdftex.def)             Requested size: 157.57297pt x 177.0465pt.
-<logos/dotnetcore.png, id=951, 1204.5pt x 1204.5pt>
+<logos/dotnetcore.png, id=955, 1204.5pt x 1204.5pt>
 File: logos/dotnetcore.png Graphic file (type png)
 <use logos/dotnetcore.png>
 Package pdftex.def Info: logos/dotnetcore.png  used on input line 68.
 (pdftex.def)             Requested size: 157.57297pt x 157.56459pt.
  [36 <./logos/vsc.png (PNG copy)> <./logos/csharp.png>]
-<logos/pypng.png, id=958, 1876.00874pt x 2055.68pt>
+<logos/pypng.png, id=962, 1876.00874pt x 2055.68pt>
 File: logos/pypng.png Graphic file (type png)
 <use logos/pypng.png>
 Package pdftex.def Info: logos/pypng.png  used on input line 78.
 (pdftex.def)             Requested size: 157.57297pt x 172.64458pt.
-<logos/jupyter.png, id=960, 1773.62625pt x 2055.68pt>
+<logos/jupyter.png, id=964, 1773.62625pt x 2055.68pt>
 File: logos/jupyter.png Graphic file (type png)
 <use logos/jupyter.png>
 Package pdftex.def Info: logos/jupyter.png  used on input line 88.
 (pdftex.def)             Requested size: 157.57297pt x 182.61931pt.
  [37 <./logos/dotnetcore.png> <./logos/pypng.png>]
-<logos/flask.png, id=968, 1284.8pt x 502.87875pt>
+<logos/flask.png, id=972, 1284.8pt x 502.87875pt>
 File: logos/flask.png Graphic file (type png)
 <use logos/flask.png>
 Package pdftex.def Info: logos/flask.png  used on input line 99.
 (pdftex.def)             Requested size: 157.57297pt x 61.67032pt.
-<logos/react.png, id=970, 4111.36pt x 4111.36pt>
+<logos/react.png, id=974, 4111.36pt x 4111.36pt>
 File: logos/react.png Graphic file (type png)
 <use logos/react.png>
 Package pdftex.def Info: logos/react.png  used on input line 110.
 (pdftex.def)             Requested size: 157.57297pt x 157.52562pt.
  [38 <./logos/jupyter.png> <./logos/flask.png>]
-<logos/typescript.png, id=979, 3011.25pt x 3011.25pt>
+<logos/typescript.png, id=983, 3011.25pt x 3011.25pt>
 File: logos/typescript.png Graphic file (type png)
 <use logos/typescript.png>
 Package pdftex.def Info: logos/typescript.png  used on input line 120.
 (pdftex.def)             Requested size: 157.57297pt x 157.5554pt.
-<logos/docker.png, id=981, 3854.4pt x 2168.1pt>
+<logos/docker.png, id=985, 3854.4pt x 2168.1pt>
 File: logos/docker.png Graphic file (type png)
 <use logos/docker.png>
 Package pdftex.def Info: logos/docker.png  used on input line 131.
 (pdftex.def)             Requested size: 157.57297pt x 88.628pt.
  [39 <./logos/react.png> <./logos/typescript.png>]
-<logos/elasticsearch.png, id=989, 2569.6pt x 564.1075pt>
+<logos/elasticsearch.png, id=993, 2569.6pt x 564.1075pt>
 File: logos/elasticsearch.png Graphic file (type png)
 <use logos/elasticsearch.png>
 Package pdftex.def Info: logos/elasticsearch.png  used on input line 143.
 (pdftex.def)             Requested size: 157.57297pt x 34.58524pt.
-<logos/kibana.png, id=991, 1005.49565pt x 1005.49565pt>
+<logos/kibana.png, id=995, 1005.49565pt x 1005.49565pt>
 File: logos/kibana.png Graphic file (type png)
 <use logos/kibana.png>
 Package pdftex.def Info: logos/kibana.png  used on input line 154.
 (pdftex.def)             Requested size: 157.57297pt x 157.56859pt.
  [40 <./logos/docker.png> <./logos/elasticsearch.png>]
-<logos/postman.png, id=999, 317.5062pt x 96.36pt>
+<logos/postman.png, id=1003, 317.5062pt x 96.36pt>
 File: logos/postman.png Graphic file (type png)
 <use logos/postman.png>
 Package pdftex.def Info: logos/postman.png  used on input line 164.
 (pdftex.def)             Requested size: 157.57297pt x 47.82257pt.
-<logos/overleaf.png, id=1001, 845.3181pt x 279.9258pt>
+<logos/overleaf.png, id=1005, 845.3181pt x 279.9258pt>
 File: logos/overleaf.png Graphic file (type png)
 <use logos/overleaf.png>
 Package pdftex.def Info: logos/overleaf.png  used on input line 175.
 (pdftex.def)             Requested size: 157.57297pt x 52.17842pt.
-<logos/latex.png, id=1003, 2569.6pt x 1071.00125pt>
+<logos/latex.png, id=1007, 2569.6pt x 1071.00125pt>
 File: logos/latex.png Graphic file (type png)
 <use logos/latex.png>
 Package pdftex.def Info: logos/latex.png  used on input line 185.
 (pdftex.def)             Requested size: 157.57297pt x 65.66272pt.
  [41 <./logos/kibana.png> <./logos/postman.png> <./logos/overleaf.png>]
-<logos/vp.png, id=1012, 433.62pt x 117.43875pt>
+<logos/vp.png, id=1016, 433.62pt x 117.43875pt>
 File: logos/vp.png Graphic file (type png)
 <use logos/vp.png>
 Package pdftex.def Info: logos/vp.png  used on input line 197.
 (pdftex.def)             Requested size: 157.57297pt x 42.67572pt.
  [42 <./logos/latex.png> <./logos/vp.png>]
-<logos/deployment.png, id=1020, 1076.02pt x 583.17876pt>
+<logos/deployment.png, id=1024, 1076.02pt x 583.17876pt>
 File: logos/deployment.png Graphic file (type png)
 <use logos/deployment.png>
 Package pdftex.def Info: logos/deployment.png  used on input line 211.
@@ -1746,7 +1787,7 @@ Chapitre 4.
 [44
 
 ]
-<logos/cusprint1.png, id=1051, 876.27374pt x 573.14125pt>
+<logos/cusprint1.png, id=1055, 876.27374pt x 573.14125pt>
 File: logos/cusprint1.png Graphic file (type png)
 <use logos/cusprint1.png>
 Package pdftex.def Info: logos/cusprint1.png  used on input line 36.
@@ -1800,7 +1841,7 @@ Package geometry Warning: `paperheight': not available in `\newgeometry'; skippe
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
@@ -1830,7 +1871,7 @@ Package geometry Warning: `paperheight': not available in `\newgeometry'; skippe
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logos/seqsprint1.png, id=1095, 2055.68pt x 716.6775pt>
+<logos/seqsprint1.png, id=1099, 2055.68pt x 716.6775pt>
 File: logos/seqsprint1.png Graphic file (type png)
 <use logos/seqsprint1.png>
 Package pdftex.def Info: logos/seqsprint1.png  used on input line 127.
@@ -1856,16 +1897,14 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 
 ]
 
-Package geometry Warning: Over-specification in `h'-direction.
-    `width' (1195.01575pt) is ignored.
+Package geometry Warning: `paperwidth': not available in `\newgeometry'; skipped.
 
 
-Package geometry Warning: Over-specification in `v'-direction.
-    `height' (1690.09369pt) is ignored.
+Package geometry Warning: `paperheight': not available in `\newgeometry'; skipped.
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
@@ -1895,7 +1934,7 @@ Package geometry Warning: Over-specification in `v'-direction.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logos/classes.png, id=1108, 1734.48pt x 1931.215pt>
+<logos/classes.png, id=1112, 1734.48pt x 1931.215pt>
 File: logos/classes.png Graphic file (type png)
 <use logos/classes.png>
 Package pdftex.def Info: logos/classes.png  used on input line 149.
@@ -1942,10 +1981,10 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
 [55]
-<logos/index_mapping.png, id=1126, 1076.02pt x 1176.395pt>
+<logos/index_mapping.png, id=1130, 1076.02pt x 1176.395pt>
 File: logos/index_mapping.png Graphic file (type png)
 <use logos/index_mapping.png>
-Package pdftex.def Info: logos/index_mapping.png  used on input line 264.
+Package pdftex.def Info: logos/index_mapping.png  used on input line 296.
 (pdftex.def)             Requested size: 505.33543pt x 552.47493pt.
 
 
@@ -1955,15 +1994,23 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[56 <./logos/index_mapping.png>]
-Overfull \hbox (18.59705pt too wide) in paragraph at lines 273--273
+[56]
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
+
+[57 <./logos/index_mapping.png>]
+Overfull \hbox (18.59705pt too wide) in paragraph at lines 305--305
 |[]\T1/lmr/bx/n/17.28 Le mo-déle Sentence-Transformers et en-co-dage des phrases| 
  []
 
-<logos/import_model.png, id=1134, 1124.2pt x 614.295pt>
+<logos/import_model.png, id=1142, 1124.2pt x 614.295pt>
 File: logos/import_model.png Graphic file (type png)
 <use logos/import_model.png>
-Package pdftex.def Info: logos/import_model.png  used on input line 279.
+Package pdftex.def Info: logos/import_model.png  used on input line 311.
 (pdftex.def)             Requested size: 525.23492pt x 287.00336pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1972,11 +2019,11 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[57 <./logos/import_model.png>]
-<logos/tokenisation.png, id=1141, 991.705pt x 862.22125pt>
+[58 <./logos/import_model.png>]
+<logos/tokenisation.png, id=1149, 991.705pt x 862.22125pt>
 File: logos/tokenisation.png Graphic file (type png)
 <use logos/tokenisation.png>
-Package pdftex.def Info: logos/tokenisation.png  used on input line 290.
+Package pdftex.def Info: logos/tokenisation.png  used on input line 322.
 (pdftex.def)             Requested size: 472.71088pt x 410.9934pt.
 
 
@@ -1986,7 +2033,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[58 <./logos/tokenisation.png>]
+[59 <./logos/tokenisation.png>]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -1994,15 +2041,15 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[59]
+[60]
 File: logos/mean_pooling.png Graphic file (type png)
 <use logos/mean_pooling.png>
-Package pdftex.def Info: logos/mean_pooling.png  used on input line 320.
+Package pdftex.def Info: logos/mean_pooling.png  used on input line 352.
 (pdftex.def)             Requested size: 472.71088pt x 167.32106pt.
-<logos/mean_pooling_method.png, id=1160, 1603.9925pt x 815.045pt>
+<logos/mean_pooling_method.png, id=1168, 1603.9925pt x 815.045pt>
 File: logos/mean_pooling_method.png Graphic file (type png)
 <use logos/mean_pooling_method.png>
-Package pdftex.def Info: logos/mean_pooling_method.png  used on input line 330.
+Package pdftex.def Info: logos/mean_pooling_method.png  used on input line 362.
 (pdftex.def)             Requested size: 472.71088pt x 240.19989pt.
 
 
@@ -2012,7 +2059,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[60]
+[61]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2020,11 +2067,11 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[61 <./logos/mean_pooling_method.png>]
-<logos/encode_sentence.png, id=1175, 1919.17pt x 1055.945pt>
+[62 <./logos/mean_pooling_method.png>]
+<logos/encode_sentence.png, id=1184, 1919.17pt x 1055.945pt>
 File: logos/encode_sentence.png Graphic file (type png)
 <use logos/encode_sentence.png>
-Package pdftex.def Info: logos/encode_sentence.png  used on input line 361.
+Package pdftex.def Info: logos/encode_sentence.png  used on input line 393.
 (pdftex.def)             Requested size: 525.23788pt x 288.99205pt.
 
 
@@ -2034,16 +2081,16 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[62 <./logos/encode_sentence.png>]
-<logos/vectors.png, id=1183, 1907.125pt x 413.545pt>
+[63 <./logos/encode_sentence.png>]
+<logos/vectors.png, id=1191, 1907.125pt x 413.545pt>
 File: logos/vectors.png Graphic file (type png)
 <use logos/vectors.png>
-Package pdftex.def Info: logos/vectors.png  used on input line 372.
+Package pdftex.def Info: logos/vectors.png  used on input line 404.
 (pdftex.def)             Requested size: 525.23788pt x 113.89244pt.
-<logos/encodedvectors.png, id=1185, 497.86pt x 187.70125pt>
+<logos/encodedvectors.png, id=1193, 497.86pt x 187.70125pt>
 File: logos/encodedvectors.png Graphic file (type png)
 <use logos/encodedvectors.png>
-Package pdftex.def Info: logos/encodedvectors.png  used on input line 382.
+Package pdftex.def Info: logos/encodedvectors.png  used on input line 414.
 (pdftex.def)             Requested size: 525.23788pt x 198.04013pt.
 
 
@@ -2053,11 +2100,11 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[63 <./logos/vectors.png> <./logos/encodedvectors.png>]
-<logos/insert_into_elastic.png, id=1193, 1648.1575pt x 1096.095pt>
+[64 <./logos/vectors.png> <./logos/encodedvectors.png>]
+<logos/insert_into_elastic.png, id=1201, 1648.1575pt x 1096.095pt>
 File: logos/insert_into_elastic.png Graphic file (type png)
 <use logos/insert_into_elastic.png>
-Package pdftex.def Info: logos/insert_into_elastic.png  used on input line 393.
+Package pdftex.def Info: logos/insert_into_elastic.png  used on input line 425.
 (pdftex.def)             Requested size: 525.23788pt x 349.30249pt.
 
 
@@ -2067,11 +2114,11 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[64 <./logos/insert_into_elastic.png>]
-<logos/knnsearch.png, id=1200, 2296.58pt x 1336.995pt>
+[65 <./logos/insert_into_elastic.png>]
+<logos/knnsearch.png, id=1208, 2296.58pt x 1336.995pt>
 File: logos/knnsearch.png Graphic file (type png)
 <use logos/knnsearch.png>
-Package pdftex.def Info: logos/knnsearch.png  used on input line 405.
+Package pdftex.def Info: logos/knnsearch.png  used on input line 437.
 (pdftex.def)             Requested size: 525.23788pt x 305.76831pt.
 
 
@@ -2081,7 +2128,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[65 <./logos/knnsearch.png>]
+[66 <./logos/knnsearch.png>]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2089,16 +2136,16 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[66]
-<logos/vectorsearch.png, id=1215, 2189.17876pt x 1767.60374pt>
+[67]
+<logos/vectorsearch.png, id=1223, 2189.17876pt x 1767.60374pt>
 File: logos/vectorsearch.png Graphic file (type png)
 <use logos/vectorsearch.png>
-Package pdftex.def Info: logos/vectorsearch.png  used on input line 465.
+Package pdftex.def Info: logos/vectorsearch.png  used on input line 497.
 (pdftex.def)             Requested size: 525.23788pt x 424.09871pt.
-<logos/returnencodedvector.png, id=1216, 2069.7325pt x 694.595pt>
+<logos/returnencodedvector.png, id=1224, 2069.7325pt x 694.595pt>
 File: logos/returnencodedvector.png Graphic file (type png)
 <use logos/returnencodedvector.png>
-Package pdftex.def Info: logos/returnencodedvector.png  used on input line 475.
+Package pdftex.def Info: logos/returnencodedvector.png  used on input line 507.
 (pdftex.def)             Requested size: 525.23788pt x 176.26619pt.
 
 
@@ -2108,7 +2155,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[67 <./logos/vectorsearch.png>]
+[68 <./logos/vectorsearch.png>]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2116,11 +2163,11 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[68 <./logos/returnencodedvector.png>]
-<logos/testsearch.png, id=1229, 1491.5725pt x 882.29625pt>
+[69 <./logos/returnencodedvector.png>]
+<logos/testsearch.png, id=1237, 1491.5725pt x 882.29625pt>
 File: logos/testsearch.png Graphic file (type png)
 <use logos/testsearch.png>
-Package pdftex.def Info: logos/testsearch.png  used on input line 487.
+Package pdftex.def Info: logos/testsearch.png  used on input line 519.
 (pdftex.def)             Requested size: 525.23788pt x 310.67963pt.
 
 
@@ -2130,7 +2177,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[69 <./logos/testsearch.png>]) (sprint2/introduction.tex
+[70 <./logos/testsearch.png>]) (sprint2/introduction.tex
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2138,9 +2185,9 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[70]
+[71]
 Chapitre 5.
-[71
+[72
 
 ]
 
@@ -2150,8 +2197,8 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[72] (sprint2/diagcugenerale.tex
-<logos/cusprint2.png, id=1268, 541.02126pt x 316.18124pt>
+[73] (sprint2/diagcugenerale.tex
+<logos/cusprint2.png, id=1276, 541.02126pt x 316.18124pt>
 File: logos/cusprint2.png Graphic file (type png)
 <use logos/cusprint2.png>
 Package pdftex.def Info: logos/cusprint2.png  used on input line 7.
@@ -2164,7 +2211,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[73]
+[74]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2172,15 +2219,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[74 <./logos/cusprint2.png>]
-
-Package fancyhdr Warning: \headheight is too small (15.0pt): 
-(fancyhdr)                Make it at least 15.35403pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.35403pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
-
-[75]
+[75 <./logos/cusprint2.png>]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2196,7 +2235,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[77]) (sprint2/diagseq.tex
+[77]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2204,7 +2243,15 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[78]
+[78]) (sprint2/diagseq.tex
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
+
+[79]
 
 Package geometry Warning: `paperwidth': not available in `\newgeometry'; skipped.
 
@@ -2213,7 +2260,7 @@ Package geometry Warning: `paperheight': not available in `\newgeometry'; skippe
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
@@ -2243,10 +2290,10 @@ Package geometry Warning: `paperheight': not available in `\newgeometry'; skippe
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logos/seqsprint2.png, id=1339, 1821.80624pt x 1024.82875pt>
+<logos/seqsprint2.png, id=1347, 1821.80624pt x 1024.82875pt>
 File: logos/seqsprint2.png Graphic file (type png)
 <use logos/seqsprint2.png>
-Package pdftex.def Info: logos/seqsprint2.png  used on input line 23.
+Package pdftex.def Info: logos/seqsprint2.png  used on input line 36.
 (pdftex.def)             Requested size: 452.94858pt x 625.95778pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2255,7 +2302,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[79 <./logos/seqsprint2.png>]
+[80 <./logos/seqsprint2.png>]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2263,7 +2310,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[80
+[81
 
 
 
@@ -2275,11 +2322,11 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[81]
-<logos/dictionary.png, id=1359, 790.955pt x 815.045pt>
+[82]
+<logos/dictionary.png, id=1367, 790.955pt x 815.045pt>
 File: logos/dictionary.png Graphic file (type png)
 <use logos/dictionary.png>
-Package pdftex.def Info: logos/dictionary.png  used on input line 56.
+Package pdftex.def Info: logos/dictionary.png  used on input line 69.
 (pdftex.def)             Requested size: 315.14594pt x 324.74368pt.
 
 
@@ -2289,8 +2336,8 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[82]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 62.
+[83]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 75.
  (C:\Users\Aaron\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -2301,24 +2348,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[83 <./logos/dictionary.png>]
-
-Package fancyhdr Warning: \headheight is too small (15.0pt): 
-(fancyhdr)                Make it at least 15.35403pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.35403pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
-
-[84]
-Overfull \hbox (8.91885pt too wide) in paragraph at lines 82--85
-\T1/lmr/m/n/17.28 La mé-thode \T1/lmtt/m/n/17.28 re.search(r"[\u0000-\u00FF]", s) \T1/lmr/m/n/17.28 re-cherche dans la chaîne
- []
-
-<logos/islatin.png, id=1381, 2284.535pt x 413.545pt>
-File: logos/islatin.png Graphic file (type png)
-<use logos/islatin.png>
-Package pdftex.def Info: logos/islatin.png  used on input line 95.
-(pdftex.def)             Requested size: 525.23788pt x 95.07549pt.
+[84 <./logos/dictionary.png>]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2327,6 +2357,15 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
 [85]
+Overfull \hbox (8.91885pt too wide) in paragraph at lines 95--98
+\T1/lmr/m/n/17.28 La mé-thode \T1/lmtt/m/n/17.28 re.search(r"[\u0000-\u00FF]", s) \T1/lmr/m/n/17.28 re-cherche dans la chaîne
+ []
+
+<logos/islatin.png, id=1389, 2284.535pt x 413.545pt>
+File: logos/islatin.png Graphic file (type png)
+<use logos/islatin.png>
+Package pdftex.def Info: logos/islatin.png  used on input line 108.
+(pdftex.def)             Requested size: 525.23788pt x 95.07549pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2334,11 +2373,19 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[86 <./logos/islatin.png>]
-<logos/findbestmatch.png, id=1399, 1411.2725pt x 574.145pt>
+[86]
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
+
+[87 <./logos/islatin.png>]
+<logos/findbestmatch.png, id=1407, 1411.2725pt x 574.145pt>
 File: logos/findbestmatch.png Graphic file (type png)
 <use logos/findbestmatch.png>
-Package pdftex.def Info: logos/findbestmatch.png  used on input line 121.
+Package pdftex.def Info: logos/findbestmatch.png  used on input line 134.
 (pdftex.def)             Requested size: 525.23788pt x 213.6831pt.
 
 
@@ -2348,15 +2395,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[87 <./logos/findbestmatch.png>]
-
-Package fancyhdr Warning: \headheight is too small (15.0pt): 
-(fancyhdr)                Make it at least 15.35403pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.35403pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
-
-[88]
+[88 <./logos/findbestmatch.png>]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2373,10 +2412,18 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
 [90]
-<logos/translate.png, id=1427, 1543.7675pt x 1216.545pt>
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
+
+[91]
+<logos/translate.png, id=1435, 1543.7675pt x 1216.545pt>
 File: logos/translate.png Graphic file (type png)
 <use logos/translate.png>
-Package pdftex.def Info: logos/translate.png  used on input line 169.
+Package pdftex.def Info: logos/translate.png  used on input line 182.
 (pdftex.def)             Requested size: 525.23788pt x 413.89827pt.
 
 
@@ -2386,11 +2433,11 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[91 <./logos/translate.png>]
-<logos/encodeendpoint.png, id=1437, 1497.595pt x 935.495pt>
+[92 <./logos/translate.png>]
+<logos/encodeendpoint.png, id=1446, 1497.595pt x 935.495pt>
 File: logos/encodeendpoint.png Graphic file (type png)
 <use logos/encodeendpoint.png>
-Package pdftex.def Info: logos/encodeendpoint.png  used on input line 187.
+Package pdftex.def Info: logos/encodeendpoint.png  used on input line 200.
 (pdftex.def)             Requested size: 525.23788pt x 328.09904pt.
 
 
@@ -2400,15 +2447,15 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[92 <./logos/encodeendpoint.png>]
-Overfull \hbox (0.8933pt too wide) in paragraph at lines 194--194
+[93 <./logos/encodeendpoint.png>]
+Overfull \hbox (0.8933pt too wide) in paragraph at lines 207--207
 |[]\T1/lmr/bx/n/20.74 Processus com-plèt de re-cherche vec-to-rielle avec
  []
 
-<logos/fullprocesswithtranslation.png, id=1446, 2832.5825pt x 1767.60374pt>
+<logos/fullprocesswithtranslation.png, id=1454, 2832.5825pt x 1767.60374pt>
 File: logos/fullprocesswithtranslation.png Graphic file (type png)
 <use logos/fullprocesswithtranslation.png>
-Package pdftex.def Info: logos/fullprocesswithtranslation.png  used on input line 199.
+Package pdftex.def Info: logos/fullprocesswithtranslation.png  used on input line 212.
 (pdftex.def)             Requested size: 525.23788pt x 327.75677pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2417,8 +2464,8 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[93 <./logos/fullprocesswithtranslation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
+[94 <./logos/fullprocesswithtranslation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 230--232
 
  []
 
@@ -2429,16 +2476,16 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[94]
-<logos/interfacerecherche.png, id=1465, 1413.28pt x 853.1875pt>
+[95]
+<logos/interfacerecherche.png, id=1473, 1413.28pt x 853.1875pt>
 File: logos/interfacerecherche.png Graphic file (type png)
 <use logos/interfacerecherche.png>
-Package pdftex.def Info: logos/interfacerecherche.png  used on input line 226.
+Package pdftex.def Info: logos/interfacerecherche.png  used on input line 239.
 (pdftex.def)             Requested size: 525.23788pt x 317.08044pt.
-<logos/suggestions.png, id=1466, 1287.81125pt x 270.00874pt>
+<logos/suggestions.png, id=1474, 1287.81125pt x 270.00874pt>
 File: logos/suggestions.png Graphic file (type png)
 <use logos/suggestions.png>
-Package pdftex.def Info: logos/suggestions.png  used on input line 233.
+Package pdftex.def Info: logos/suggestions.png  used on input line 246.
 (pdftex.def)             Requested size: 525.23788pt x 110.12749pt.
 
 
@@ -2448,7 +2495,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[95 <./logos/interfacerecherche.png>])) (sprint3/introduction.tex
+[96 <./logos/interfacerecherche.png>])) (sprint3/introduction.tex
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2456,9 +2503,9 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[96 <./logos/suggestions.png>]
+[97 <./logos/suggestions.png>]
 Chapitre 6.
-[97
+[98
 
 ]
 
@@ -2468,8 +2515,8 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[98]
-<logos/cusprint3.png, id=1498, 542.025pt x 343.2825pt>
+[99]
+<logos/cusprint3.png, id=1506, 542.025pt x 343.2825pt>
 File: logos/cusprint3.png Graphic file (type png)
 <use logos/cusprint3.png>
 Package pdftex.def Info: logos/cusprint3.png  used on input line 35.
@@ -2482,15 +2529,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[99 <./logos/cusprint3.png>]
-
-Package fancyhdr Warning: \headheight is too small (15.0pt): 
-(fancyhdr)                Make it at least 15.35403pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.35403pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
-
-[100]
+[100 <./logos/cusprint3.png>]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2515,7 +2554,15 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
 [103]
-<logos/consultertb.png, id=1556, 989.6975pt x 554.07pt>
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
+
+[104]
+<logos/consultertb.png, id=1565, 989.6975pt x 554.07pt>
 File: logos/consultertb.png Graphic file (type png)
 <use logos/consultertb.png>
 Package pdftex.def Info: logos/consultertb.png  used on input line 152.
@@ -2528,8 +2575,8 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[104]
-<logos/modifierparametres.png, id=1563, 2055.68pt x 716.6775pt>
+[105]
+<logos/modifierparametres.png, id=1571, 2055.68pt x 716.6775pt>
 File: logos/modifierparametres.png Graphic file (type png)
 <use logos/modifierparametres.png>
 Package pdftex.def Info: logos/modifierparametres.png  used on input line 156.
@@ -2542,8 +2589,8 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[105 <./logos/modifierparametres.png>]
-<logos/sauthentifier.png, id=1569, 924.45375pt x 544.0325pt>
+[106 <./logos/modifierparametres.png>]
+<logos/sauthentifier.png, id=1577, 924.45375pt x 544.0325pt>
 File: logos/sauthentifier.png Graphic file (type png)
 <use logos/sauthentifier.png>
 Package pdftex.def Info: logos/sauthentifier.png  used on input line 160.
@@ -2556,7 +2603,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[106
+[107
 
  <./logos/consultertb.png>] (sprint3/tableaudebord.tex
 
@@ -2566,7 +2613,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[107 <./logos/sauthentifier.png>]
+[108 <./logos/sauthentifier.png>]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2574,7 +2621,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[108]
+[109]
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
 []|\T1/lmr/m/n/12 Similarité entre le
  []
@@ -2601,8 +2648,8 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[109]
-<logos/login.png, id=1589, 638.385pt x 476.78125pt>
+[110]
+<logos/login.png, id=1598, 638.385pt x 476.78125pt>
 File: logos/login.png Graphic file (type png)
 <use logos/login.png>
 Package pdftex.def Info: logos/login.png  used on input line 49.
@@ -2615,7 +2662,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[110 <./logos/login.png>]
+[111 <./logos/login.png>]
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2623,13 +2670,13 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[111]
-<logos/knnsearchform.png, id=1603, 789.95125pt x 845.1575pt>
+[112]
+<logos/knnsearchform.png, id=1611, 789.95125pt x 845.1575pt>
 File: logos/knnsearchform.png Graphic file (type png)
 <use logos/knnsearchform.png>
 Package pdftex.def Info: logos/knnsearchform.png  used on input line 64.
 (pdftex.def)             Requested size: 525.23788pt x 561.94531pt.
-<logos/dashboard.png, id=1604, 1663.21375pt x 859.21pt>
+<logos/dashboard.png, id=1612, 1663.21375pt x 859.21pt>
 File: logos/dashboard.png Graphic file (type png)
 <use logos/dashboard.png>
 Package pdftex.def Info: logos/dashboard.png  used on input line 71.
@@ -2642,7 +2689,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[112 <./logos/knnsearchform.png>]))
+[113 <./logos/knnsearchform.png>]))
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -2650,25 +2697,25 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.35403pt}.
 
-[113 <./logos/dashboard.png>] (conclusionetperspectives.tex)
+[114 <./logos/dashboard.png>] (conclusionetperspectives.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.139 \newpage
+l.142 \newpage
                [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.142 \printbibliography[heading=bibintoc]
+l.145 \printbibliography[heading=bibintoc]
                                            [2
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.144 \newpage
+l.147 \newpage
                [3] (abstract.tex)
-Overfull \hbox (11.7021pt too wide) in paragraph at lines 50--147
+Overfull \hbox (11.7021pt too wide) in paragraph at lines 50--150
  \T1/lmr/bx/n/14.4 Mots clés--- \T1/lmr/m/n/14.4 Re-cherche Vec-to-rielle, Elas-tic-search, Sentence-Transformers, Fine-Tuning,
  []
 
@@ -2676,7 +2723,7 @@ Overfull \hbox (11.7021pt too wide) in paragraph at lines 50--147
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.148 \end{document}
+l.151 \end{document}
                      [1] (main.aux (couverture.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -2813,6 +2860,10 @@ arabchrs.sty    1998/07/11  3.07 letter token definitions
   alists.sty    2003/04/26  3.11 inverted list macros
    asect.sty    2003/04/26  3.11 section macros for Arabic
    atabg.sty    1997/01/21  3.05 LaTeX tabbing macros for Arabic
+pdfpages.sty    2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+    calc.sty    2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+ eso-pic.sty    2023/05/03 v3.0c eso-pic (RN)
+pppdftex.def    2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
 adjustbox.sty    2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
  xkeyval.sty    2022/06/16 v2.9 package option processing (HA)
  xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
@@ -2830,6 +2881,9 @@ epstopdf-sys.cfg    2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ltcaption.sty    2021/01/08 v1.4c longtable captions (AR)
     main.out
     main.out
+pdflscape.sty    2022-10-27 v0.13 Display of landscape pages in PDF
+pdflscape-nometadata.sty    2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+  lscape.sty    2020/05/28 v3.02 Landscape Pages (DPC)
   apatch.sty    2006/07/02  3.11s last minute patches 
 couverture.tex
 logos/isgs.png
@@ -2859,8 +2913,8 @@ logos/wamia.png
 etudedeprojet/methodologie.tex
 logos/scrum.png
 approchesproposes/approches.tex
-logos/fullprocess.png
 logos/cosine.png
+logos/fullprocess.png
 logos/paddingexplanation.png
 logos/padding.png
 logos/mean_pooling.png
@@ -2942,28 +2996,28 @@ abstract.tex
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AC682AE4C50F863ADBE3392DCC6D3104;20490.
+(rerunfilecheck)             Checksum: DA99133298641F80A554A497B8CDA841;20363.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
 (\end occurred inside a group at level 2)
 
-### semi simple group (level 2) entered at line 106 (\begingroup)
-### semi simple group (level 1) entered at line 102 (\begingroup)
+### semi simple group (level 2) entered at line 109 (\begingroup)
+### semi simple group (level 1) entered at line 105 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31147 strings out of 474370
- 536736 string characters out of 5740536
- 1967754 words of memory out of 5000000
- 52509 multiletter control sequences out of 15000+600000
+ 31953 strings out of 474370
+ 551160 string characters out of 5740536
+ 1966754 words of memory out of 5000000
+ 53288 multiletter control sequences out of 15000+600000
  682224 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,14n,81p,1242b,5634s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,14n,81p,1242b,5780s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (128 pages, 6267418 bytes).
+Output written on main.pdf (129 pages, 6269696 bytes).
 PDF statistics:
- 1856 PDF objects out of 2073 (max. 8388607)
- 468 named destinations out of 1000 (max. 500000)
+ 1866 PDF objects out of 2073 (max. 8388607)
+ 471 named destinations out of 1000 (max. 500000)
  1107 words of extra memory for PDF output out of 10000 (max. 10000000)
 

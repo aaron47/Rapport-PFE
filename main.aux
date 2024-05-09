@@ -50,18 +50,18 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}Introduction}{12}{section.2.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Les solutions possibles}{12}{section.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Recherche Régulière}{12}{subsection.2.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Utilisaton d'une base de donnèes SQL altèrnatif et performante}{12}{subsection.2.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Utilisaton de base de donnèes Cassandra}{12}{subsection.2.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Choix d'approche de Recherche Vectorielle}{13}{section.2.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Présentation du processus de recherche avec recherche vectorielle}}{13}{figure.caption.5}\protected@file@percent }
-\newlabel{fig:fullprocess}{{2.1}{13}{Présentation du processus de recherche avec recherche vectorielle}{figure.caption.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}Recherche Vectorielle}{14}{section.2.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Présentation du similarité cosinus}}{15}{figure.caption.6}\protected@file@percent }
-\newlabel{fig:cosine}{{2.2}{15}{Présentation du similarité cosinus}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Recherche Vectorielle}{13}{section.2.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Présentation du similarité cosinus}}{14}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:cosine}{{2.1}{14}{Présentation du similarité cosinus}{figure.caption.5}{}}
+\abx@aux@cite{0}{pinecone:mpnet}
+\abx@aux@segm{0}{0}{pinecone:mpnet}
+\abx@aux@cite{0}{pinecone:mpnet}
+\abx@aux@segm{0}{0}{pinecone:mpnet}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Présentation du processus de recherche avec recherche vectorielle}}{15}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:fullprocess}{{2.2}{15}{Présentation du processus de recherche avec recherche vectorielle}{figure.caption.6}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.5}Elasticsearch}{15}{section.2.5}\protected@file@percent }
-\abx@aux@cite{0}{pinecone:mpnet}
-\abx@aux@segm{0}{0}{pinecone:mpnet}
-\abx@aux@cite{0}{pinecone:mpnet}
-\abx@aux@segm{0}{0}{pinecone:mpnet}
 \@writefile{toc}{\contentsline {section}{\numberline {2.6}Utilisation d'un modéle Sentence-Transformers}{16}{section.2.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.6.1}Comment le modéle intérpréte les phrases?}{16}{subsection.2.6.1}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Presentation du processus de tokenisation}}{17}{figure.caption.7}\protected@file@percent }
@@ -181,150 +181,154 @@
 \newlabel{tab:table_client}{{4.2}{53}{Table Client}{table.caption.39}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Table Keyword}}{53}{table.caption.40}\protected@file@percent }
 \newlabel{tab:table_keyword}{{4.3}{53}{Table Keyword}{table.caption.40}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}Tables de base de données Elasticsearch}{53}{subsection.4.4.4}\protected@file@percent }
 \gdef \LT@i {\LT@entry 
     {3}{163.58652pt}\LT@entry 
     {3}{94.33043pt}\LT@entry 
     {2}{154.66377pt}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Table Produit}}{54}{table.4.4}\protected@file@percent }
-\newlabel{tab:produit_table}{{4.4}{54}{Table Produit}{table.4.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Réalisation}{55}{section.4.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Table Tags}}{54}{table.caption.41}\protected@file@percent }
+\newlabel{tab:table_tags}{{4.4}{54}{Table Tags}{table.caption.41}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Table Recherche}}{54}{table.caption.42}\protected@file@percent }
+\newlabel{tab:table_recherche}{{4.5}{54}{Table Recherche}{table.caption.42}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}Tables de base de données Elasticsearch}{54}{subsection.4.4.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces Table Produit}}{54}{table.4.6}\protected@file@percent }
+\newlabel{tab:produit_table}{{4.6}{54}{Table Produit}{table.4.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Réalisation}{56}{section.4.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}La création des colonnes des vecteurs}{56}{subsection.4.5.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Code d'index de Produit}}{56}{figure.caption.41}\protected@file@percent }
-\newlabel{fig:indexmappingproduit}{{4.4}{56}{Code d'index de Produit}{figure.caption.41}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}Le modéle Sentence-Transformers et encodage des phrases}{57}{subsection.4.5.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Code d'importation de modéle Sentence-Transformers}}{57}{figure.caption.42}\protected@file@percent }
-\newlabel{fig:importmodel}{{4.5}{57}{Code d'importation de modéle Sentence-Transformers}{figure.caption.42}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Exemple de processus de Tokenisation}}{58}{figure.caption.43}\protected@file@percent }
-\newlabel{fig:tokenisationexp}{{4.6}{58}{Exemple de processus de Tokenisation}{figure.caption.43}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Code d'index de Produit}}{57}{figure.caption.43}\protected@file@percent }
+\newlabel{fig:indexmappingproduit}{{4.4}{57}{Code d'index de Produit}{figure.caption.43}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}Le modéle Sentence-Transformers et encodage des phrases}{58}{subsection.4.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Code d'importation de modéle Sentence-Transformers}}{58}{figure.caption.44}\protected@file@percent }
+\newlabel{fig:importmodel}{{4.5}{58}{Code d'importation de modéle Sentence-Transformers}{figure.caption.44}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Exemple de processus de Tokenisation}}{59}{figure.caption.45}\protected@file@percent }
+\newlabel{fig:tokenisationexp}{{4.6}{59}{Exemple de processus de Tokenisation}{figure.caption.45}{}}
 \abx@aux@cite{0}{pytorch:nograd}
 \abx@aux@segm{0}{0}{pytorch:nograd}
 \abx@aux@cite{0}{pytorch:nograd}
 \abx@aux@segm{0}{0}{pytorch:nograd}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2.1}Comment le modèle encode une phrase?}{59}{subsubsection.4.5.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2.2}Que'est ce qu'un << Gradient >>?}{59}{subsubsection.4.5.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2.3}Le Mean Pooling}{60}{subsubsection.4.5.2.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Exemple de Mean Pooling}}{60}{figure.caption.44}\protected@file@percent }
-\newlabel{fig:meanpoolingex}{{4.7}{60}{Exemple de Mean Pooling}{figure.caption.44}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Code de méthode mean\_pooling}}{61}{figure.caption.45}\protected@file@percent }
-\newlabel{fig:meanpoolingmethod}{{4.8}{61}{Code de méthode mean\_pooling}{figure.caption.45}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Méthode encode\_sentence\_and\_normalise}}{62}{figure.caption.46}\protected@file@percent }
-\newlabel{fig:encodesentence}{{4.9}{62}{Méthode encode\_sentence\_and\_normalise}{figure.caption.46}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3}Préparation des données dans Elasticsearch pour recherche vectorielle}{62}{subsection.4.5.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Encodage des deux colonnes Bréve Déscription et SEO Label Produit}}{63}{figure.caption.47}\protected@file@percent }
-\newlabel{fig:encoding}{{4.10}{63}{Encodage des deux colonnes Bréve Déscription et SEO Label Produit}{figure.caption.47}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces les deux nouvelles colonnes << descriptionvecteur >> et << labelproduitvecteur >> }}{63}{figure.caption.48}\protected@file@percent }
-\newlabel{fig:encodedvectors}{{4.11}{63}{les deux nouvelles colonnes << descriptionvecteur >> et << labelproduitvecteur >>}{figure.caption.48}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Insértion des données dans Elasticsearch}}{64}{figure.caption.49}\protected@file@percent }
-\newlabel{fig:insertintoelastic}{{4.12}{64}{Insértion des données dans Elasticsearch}{figure.caption.49}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.4}Elasticsearch et Similarité Cosinus}{64}{subsection.4.5.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Méthode KnnSearchAsync}}{65}{figure.caption.50}\protected@file@percent }
-\newlabel{fig:knn}{{4.13}{65}{Méthode KnnSearchAsync}{figure.caption.50}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces Processus de recherche véctorielle Elasticsearch}}{67}{figure.caption.51}\protected@file@percent }
-\newlabel{fig:vectorsearch}{{4.14}{67}{Processus de recherche véctorielle Elasticsearch}{figure.caption.51}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces Encodage de terme de recherche et recherche vectorielle dans Elasticsearch}}{68}{figure.caption.52}\protected@file@percent }
-\newlabel{fig:returnencodedvector}{{4.15}{68}{Encodage de terme de recherche et recherche vectorielle dans Elasticsearch}{figure.caption.52}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces Recherche à partir de Postman}}{69}{figure.caption.53}\protected@file@percent }
-\newlabel{fig:testsearch}{{4.16}{69}{Recherche à partir de Postman}{figure.caption.53}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}Conclusion}{70}{section.4.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Étude et réalisation du Sprint 2}{71}{chapter.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2.1}Comment le modèle encode une phrase?}{60}{subsubsection.4.5.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2.2}Que'est ce qu'un << Gradient >>?}{60}{subsubsection.4.5.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2.3}Le Mean Pooling}{61}{subsubsection.4.5.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Exemple de Mean Pooling}}{61}{figure.caption.46}\protected@file@percent }
+\newlabel{fig:meanpoolingex}{{4.7}{61}{Exemple de Mean Pooling}{figure.caption.46}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Code de méthode mean\_pooling}}{62}{figure.caption.47}\protected@file@percent }
+\newlabel{fig:meanpoolingmethod}{{4.8}{62}{Code de méthode mean\_pooling}{figure.caption.47}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Méthode encode\_sentence\_and\_normalise}}{63}{figure.caption.48}\protected@file@percent }
+\newlabel{fig:encodesentence}{{4.9}{63}{Méthode encode\_sentence\_and\_normalise}{figure.caption.48}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3}Préparation des données dans Elasticsearch pour recherche vectorielle}{63}{subsection.4.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Encodage des deux colonnes Bréve Déscription et SEO Label Produit}}{64}{figure.caption.49}\protected@file@percent }
+\newlabel{fig:encoding}{{4.10}{64}{Encodage des deux colonnes Bréve Déscription et SEO Label Produit}{figure.caption.49}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces les deux nouvelles colonnes << descriptionvecteur >> et << labelproduitvecteur >> }}{64}{figure.caption.50}\protected@file@percent }
+\newlabel{fig:encodedvectors}{{4.11}{64}{les deux nouvelles colonnes << descriptionvecteur >> et << labelproduitvecteur >>}{figure.caption.50}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Insértion des données dans Elasticsearch}}{65}{figure.caption.51}\protected@file@percent }
+\newlabel{fig:insertintoelastic}{{4.12}{65}{Insértion des données dans Elasticsearch}{figure.caption.51}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.4}Elasticsearch et Similarité Cosinus}{65}{subsection.4.5.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Méthode KnnSearchAsync}}{66}{figure.caption.52}\protected@file@percent }
+\newlabel{fig:knn}{{4.13}{66}{Méthode KnnSearchAsync}{figure.caption.52}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces Processus de recherche véctorielle Elasticsearch}}{68}{figure.caption.53}\protected@file@percent }
+\newlabel{fig:vectorsearch}{{4.14}{68}{Processus de recherche véctorielle Elasticsearch}{figure.caption.53}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces Encodage de terme de recherche et recherche vectorielle dans Elasticsearch}}{69}{figure.caption.54}\protected@file@percent }
+\newlabel{fig:returnencodedvector}{{4.15}{69}{Encodage de terme de recherche et recherche vectorielle dans Elasticsearch}{figure.caption.54}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces Recherche à partir de Postman}}{70}{figure.caption.55}\protected@file@percent }
+\newlabel{fig:testsearch}{{4.16}{70}{Recherche à partir de Postman}{figure.caption.55}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Conclusion}{71}{section.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Étude et réalisation du Sprint 2}{72}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
 \@writefile{toc}{\etoc@startlocaltoc{6}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Introduction}{73}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Backlog du Sprint 2}{73}{section.5.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Backlog du Sprint 2}}{73}{table.caption.54}\protected@file@percent }
-\newlabel{tab:sprint2}{{5.1}{73}{Backlog du Sprint 2}{table.caption.54}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Spécification fonctionnelle}{73}{section.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Diagramme de cas d'utilisation général}{73}{section.5.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagramme de cas d'utilisation général du Sprint 2}}{74}{figure.caption.55}\protected@file@percent }
-\newlabel{fig:recherchearabe}{{5.1}{74}{Diagramme de cas d'utilisation général du Sprint 2}{figure.caption.55}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.5}Description textuelle des cas d’utilisations}{74}{section.5.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}Description textuelle du CU « Rechercher produit en Arabe traditionnel »}{75}{subsection.5.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.2}Description textuelle du CU « Rechercher produit en Arabe en dialecte Tunisien »}{76}{subsection.5.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.3}Description textuelle du CU << Voir suggestions >>}{77}{subsection.5.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.6}Conception}{78}{section.5.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.1}Diagramme de séquence détaillé}{78}{subsection.5.6.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagramme de séquence des cas d’utilisations « Rechercher produits en Arabe Traditionnel » et « Rechercher produits en Arabe en dialecte Tunisien »}}{79}{figure.caption.56}\protected@file@percent }
-\newlabel{fig:diagseqsprint2}{{5.2}{79}{Diagramme de séquence des cas d’utilisations « Rechercher produits en Arabe Traditionnel » et « Rechercher produits en Arabe en dialecte Tunisien »}{figure.caption.56}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Introduction}{74}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Backlog du Sprint 2}{74}{section.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Backlog du Sprint 2}}{74}{table.caption.56}\protected@file@percent }
+\newlabel{tab:sprint2}{{5.1}{74}{Backlog du Sprint 2}{table.caption.56}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Spécification fonctionnelle}{74}{section.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Diagramme de cas d'utilisation général}{74}{section.5.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagramme de cas d'utilisation général du Sprint 2}}{75}{figure.caption.57}\protected@file@percent }
+\newlabel{fig:recherchearabe}{{5.1}{75}{Diagramme de cas d'utilisation général du Sprint 2}{figure.caption.57}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Description textuelle des cas d’utilisations}{75}{section.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}Description textuelle du CU « Rechercher produit en Arabe traditionnel »}{76}{subsection.5.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.2}Description textuelle du CU « Rechercher produit en Arabe en dialecte Tunisien »}{77}{subsection.5.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.3}Description textuelle du CU << Voir suggestions >>}{78}{subsection.5.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.6}Conception}{79}{section.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.1}Diagramme de séquence détaillé}{79}{subsection.5.6.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagramme de séquence des cas d’utilisations « Rechercher produits en Arabe Traditionnel » et « Rechercher produits en Arabe en dialecte Tunisien »}}{80}{figure.caption.58}\protected@file@percent }
+\newlabel{fig:diagseqsprint2}{{5.2}{80}{Diagramme de séquence des cas d’utilisations « Rechercher produits en Arabe Traditionnel » et « Rechercher produits en Arabe en dialecte Tunisien »}{figure.caption.58}{}}
 \abx@aux@cite{0}{techtarget:finetuning}
 \abx@aux@segm{0}{0}{techtarget:finetuning}
 \abx@aux@cite{0}{techtarget:finetuning}
 \abx@aux@segm{0}{0}{techtarget:finetuning}
-\@writefile{toc}{\contentsline {section}{\numberline {5.7}Réalisation}{80}{section.5.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.7.1}Les premières approches}{80}{subsection.5.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.7.2}Création de notre propre classe traducteur}{82}{subsection.5.7.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.1}La création du dictionnaire}{82}{subsubsection.5.7.2.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Code d'initialisation de classe et du dictionnaire}}{83}{figure.caption.57}\protected@file@percent }
-\newlabel{fig:dictionary}{{5.3}{83}{Code d'initialisation de classe et du dictionnaire}{figure.caption.57}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.2}Analyse des expressions régulières}{83}{subsubsection.5.7.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.7}Réalisation}{81}{section.5.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7.1}Les premières approches}{81}{subsection.5.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7.2}Création de notre propre classe traducteur}{83}{subsection.5.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.1}La création du dictionnaire}{83}{subsubsection.5.7.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Code d'initialisation de classe et du dictionnaire}}{84}{figure.caption.59}\protected@file@percent }
+\newlabel{fig:dictionary}{{5.3}{84}{Code d'initialisation de classe et du dictionnaire}{figure.caption.59}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.2}Analyse des expressions régulières}{84}{subsubsection.5.7.2.2}\protected@file@percent }
 \abx@aux@cite{0}{symbl:latin1supp}
 \abx@aux@segm{0}{0}{symbl:latin1supp}
 \abx@aux@cite{0}{symbl:latin1supp}
 \abx@aux@segm{0}{0}{symbl:latin1supp}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.3}Logique de méthode}{85}{subsubsection.5.7.2.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Code de méthode \_\_is\_latin}}{86}{figure.caption.58}\protected@file@percent }
-\newlabel{fig:islatin}{{5.4}{86}{Code de méthode \_\_is\_latin}{figure.caption.58}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.4}Répartition des fonctionnalités}{86}{subsubsection.5.7.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.5}Renvoie du rèsultat}{87}{subsubsection.5.7.2.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Code de méthode \_\_find\_best\_matches}}{87}{figure.caption.59}\protected@file@percent }
-\newlabel{fig:findbestmatch}{{5.5}{87}{Code de méthode \_\_find\_best\_matches}{figure.caption.59}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.6}Aperçu de la méthode}{88}{subsubsection.5.7.2.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.7}Répartition détaillée}{89}{subsubsection.5.7.2.7}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Code de méthode translate}}{91}{figure.caption.60}\protected@file@percent }
-\newlabel{fig:translate}{{5.6}{91}{Code de méthode translate}{figure.caption.60}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Code de endpoint "/encode"}}{92}{figure.caption.61}\protected@file@percent }
-\newlabel{fig:encodeendpoint}{{5.7}{92}{Code de endpoint "/encode"}{figure.caption.61}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.8}Processus complèt de recherche vectorielle avec la traduction}{93}{section.5.8}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Processus complèt de recherche vectorielle avec la traduction}}{93}{figure.caption.62}\protected@file@percent }
-\newlabel{fig:fullprocesswithtranslation}{{5.8}{93}{Processus complèt de recherche vectorielle avec la traduction}{figure.caption.62}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.8.1}Rèpartition dètaillèe de processus de recherche vectorielle complèt}{93}{subsection.5.8.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.8.2}Interface de recherche et affichage des suggestions}{95}{subsection.5.8.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Interface de recherche de client et visiteur}}{95}{figure.caption.63}\protected@file@percent }
-\newlabel{fig:interfacerecherche}{{5.9}{95}{Interface de recherche de client et visiteur}{figure.caption.63}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Affichage des suggestions des noms des produits similaires}}{96}{figure.caption.64}\protected@file@percent }
-\newlabel{fig:suggestions}{{5.10}{96}{Affichage des suggestions des noms des produits similaires}{figure.caption.64}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.9}Conclusion}{96}{section.5.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Étude et réalisation du Sprint 3}{97}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.3}Logique de méthode}{86}{subsubsection.5.7.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Code de méthode \_\_is\_latin}}{87}{figure.caption.60}\protected@file@percent }
+\newlabel{fig:islatin}{{5.4}{87}{Code de méthode \_\_is\_latin}{figure.caption.60}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.4}Répartition des fonctionnalités}{87}{subsubsection.5.7.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.5}Renvoie du rèsultat}{88}{subsubsection.5.7.2.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Code de méthode \_\_find\_best\_matches}}{88}{figure.caption.61}\protected@file@percent }
+\newlabel{fig:findbestmatch}{{5.5}{88}{Code de méthode \_\_find\_best\_matches}{figure.caption.61}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.6}Aperçu de la méthode}{89}{subsubsection.5.7.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2.7}Répartition détaillée}{90}{subsubsection.5.7.2.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Code de méthode translate}}{92}{figure.caption.62}\protected@file@percent }
+\newlabel{fig:translate}{{5.6}{92}{Code de méthode translate}{figure.caption.62}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Code de endpoint "/encode"}}{93}{figure.caption.63}\protected@file@percent }
+\newlabel{fig:encodeendpoint}{{5.7}{93}{Code de endpoint "/encode"}{figure.caption.63}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.8}Processus complèt de recherche vectorielle avec la traduction}{94}{section.5.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Processus complèt de recherche vectorielle avec la traduction}}{94}{figure.caption.64}\protected@file@percent }
+\newlabel{fig:fullprocesswithtranslation}{{5.8}{94}{Processus complèt de recherche vectorielle avec la traduction}{figure.caption.64}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.8.1}Rèpartition dètaillèe de processus de recherche vectorielle complèt}{94}{subsection.5.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.8.2}Interface de recherche et affichage des suggestions}{96}{subsection.5.8.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Interface de recherche de client et visiteur}}{96}{figure.caption.65}\protected@file@percent }
+\newlabel{fig:interfacerecherche}{{5.9}{96}{Interface de recherche de client et visiteur}{figure.caption.65}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Affichage des suggestions des noms des produits similaires}}{97}{figure.caption.66}\protected@file@percent }
+\newlabel{fig:suggestions}{{5.10}{97}{Affichage des suggestions des noms des produits similaires}{figure.caption.66}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.9}Conclusion}{97}{section.5.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Étude et réalisation du Sprint 3}{98}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
 \@writefile{toc}{\etoc@startlocaltoc{7}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Introduction}{98}{section.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Backlog du Sprint 3}{98}{section.6.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Backlog du Sprint 2}}{98}{table.caption.65}\protected@file@percent }
-\newlabel{tab:sprint3}{{6.1}{98}{Backlog du Sprint 2}{table.caption.65}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Spéficiation fonctionnelle}{98}{section.6.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Diagramme de cas d'utilisation du CU général}{99}{subsection.6.3.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagramme de cas d'utilisation général de Sprint 3}}{99}{figure.caption.66}\protected@file@percent }
-\newlabel{fig:cusprint3}{{6.1}{99}{Diagramme de cas d'utilisation général de Sprint 3}{figure.caption.66}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Description textuelle des cas d'utilisations}{99}{subsection.6.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.2.1}Description textuelle du CU "Modifier paramétres de recherche"}{99}{subsubsection.6.3.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.2.2}Description textuelle du CU "Consulter tableau de bord"}{102}{subsubsection.6.3.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}Conception}{104}{section.6.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Diagrammes de séquence détaillé}{104}{subsection.6.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.1.2}Diagramme de séquence "Modifier paramétres de recherche"}{105}{subsubsection.6.4.1.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Diagramme de séquence de CU "Modifier paramétres de recherche"}}{105}{figure.caption.68}\protected@file@percent }
-\newlabel{fig:modifierparametres}{{6.3}{105}{Diagramme de séquence de CU "Modifier paramétres de recherche"}{figure.caption.68}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.1.1}Diagramme de séquence "Consulter tableau de bord"}{106}{subsubsection.6.4.1.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagramme de séquence de CU "Consulter tableau de bord"}}{106}{figure.caption.67}\protected@file@percent }
-\newlabel{fig:seqconsultertb}{{6.2}{106}{Diagramme de séquence de CU "Consulter tableau de bord"}{figure.caption.67}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.1.3}Diagramme de séquence "S'authentifier"}{107}{subsubsection.6.4.1.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagramme de séquence de CU "S'authentifier"}}{107}{figure.caption.69}\protected@file@percent }
-\newlabel{fig:sauthentifier}{{6.4}{107}{Diagramme de séquence de CU "S'authentifier"}{figure.caption.69}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}Tableau de bord}{107}{section.6.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.1}Les indicateurs de performance}{108}{subsection.6.5.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces Tableau des KPIs}}{109}{table.caption.70}\protected@file@percent }
-\newlabel{tab:kpi}{{6.2}{109}{Tableau des KPIs}{table.caption.70}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.6}Réalisation}{109}{section.6.6}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Interface de pour l'authentification de l'admin}}{110}{figure.caption.71}\protected@file@percent }
-\newlabel{fig:signin}{{6.5}{110}{Interface de pour l'authentification de l'admin}{figure.caption.71}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Interface de modification de paramétres de recherche pour l'admin}}{112}{figure.caption.72}\protected@file@percent }
-\newlabel{fig:knnsearchform}{{6.6}{112}{Interface de modification de paramétres de recherche pour l'admin}{figure.caption.72}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces Interface de Tableau de bord de l'administrateur}}{113}{figure.caption.73}\protected@file@percent }
-\newlabel{fig:admindashboard}{{6.7}{113}{Interface de Tableau de bord de l'administrateur}{figure.caption.73}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.7}Conclusion}{113}{section.6.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Introduction}{99}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Backlog du Sprint 3}{99}{section.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Backlog du Sprint 2}}{99}{table.caption.67}\protected@file@percent }
+\newlabel{tab:sprint3}{{6.1}{99}{Backlog du Sprint 2}{table.caption.67}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Spéficiation fonctionnelle}{99}{section.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Diagramme de cas d'utilisation du CU général}{100}{subsection.6.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagramme de cas d'utilisation général de Sprint 3}}{100}{figure.caption.68}\protected@file@percent }
+\newlabel{fig:cusprint3}{{6.1}{100}{Diagramme de cas d'utilisation général de Sprint 3}{figure.caption.68}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Description textuelle des cas d'utilisations}{100}{subsection.6.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.2.1}Description textuelle du CU "Modifier paramétres de recherche"}{100}{subsubsection.6.3.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.2.2}Description textuelle du CU "Consulter tableau de bord"}{103}{subsubsection.6.3.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Conception}{105}{section.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Diagrammes de séquence détaillé}{105}{subsection.6.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.1.2}Diagramme de séquence "Modifier paramétres de recherche"}{106}{subsubsection.6.4.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Diagramme de séquence de CU "Modifier paramétres de recherche"}}{106}{figure.caption.70}\protected@file@percent }
+\newlabel{fig:modifierparametres}{{6.3}{106}{Diagramme de séquence de CU "Modifier paramétres de recherche"}{figure.caption.70}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.1.1}Diagramme de séquence "Consulter tableau de bord"}{107}{subsubsection.6.4.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagramme de séquence de CU "Consulter tableau de bord"}}{107}{figure.caption.69}\protected@file@percent }
+\newlabel{fig:seqconsultertb}{{6.2}{107}{Diagramme de séquence de CU "Consulter tableau de bord"}{figure.caption.69}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.1.3}Diagramme de séquence "S'authentifier"}{108}{subsubsection.6.4.1.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagramme de séquence de CU "S'authentifier"}}{108}{figure.caption.71}\protected@file@percent }
+\newlabel{fig:sauthentifier}{{6.4}{108}{Diagramme de séquence de CU "S'authentifier"}{figure.caption.71}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.5}Tableau de bord}{108}{section.6.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.1}Les indicateurs de performance}{109}{subsection.6.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces Tableau des KPIs}}{110}{table.caption.72}\protected@file@percent }
+\newlabel{tab:kpi}{{6.2}{110}{Tableau des KPIs}{table.caption.72}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.6}Réalisation}{110}{section.6.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Interface de pour l'authentification de l'admin}}{111}{figure.caption.73}\protected@file@percent }
+\newlabel{fig:signin}{{6.5}{111}{Interface de pour l'authentification de l'admin}{figure.caption.73}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Interface de modification de paramétres de recherche pour l'admin}}{113}{figure.caption.74}\protected@file@percent }
+\newlabel{fig:knnsearchform}{{6.6}{113}{Interface de modification de paramétres de recherche pour l'admin}{figure.caption.74}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces Interface de Tableau de bord de l'administrateur}}{114}{figure.caption.75}\protected@file@percent }
+\newlabel{fig:admindashboard}{{6.7}{114}{Interface de Tableau de bord de l'administrateur}{figure.caption.75}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.7}Conclusion}{114}{section.6.7}\protected@file@percent }
 \abx@aux@nociteall
 \@writefile{toc}{\contentsline {chapter}{Bibliographie}{}{section.6.7}\protected@file@percent }
 \ttl@finishall
@@ -347,4 +351,4 @@
 \abx@aux@defaultrefcontext{0}{microsoft:netcore}{none/global//global/global/global}
 \abx@aux@defaultrefcontext{0}{openclassrooms:mvc}{none/global//global/global/global}
 \abx@aux@defaultrefcontext{0}{elastic:knnsearch}{none/global//global/global/global}
-\gdef \@abspage@last{128}
+\gdef \@abspage@last{129}

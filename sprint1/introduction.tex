@@ -136,7 +136,7 @@ Les diagrammes de classes sont l'un des types de diagrammes UML les plus utiles,
 La figure ~\ref{fig:diagclasses} montre la conception UML diagramme de classe gènèral de notre projet.
 
 \afterpage{
-	\newgeometry{margin=1in, width=420mm, height=594mm}
+	\newgeometry{margin=1in, paperwidth=420mm, paperheight=297mm}
 	\begin{figure}[p]
 		\includegraphics[width=\textwidth,height=500mm]{logos/classes.png}
 		\caption{Diagramme de classes globale}
@@ -176,14 +176,46 @@ sprint, nous allons maintenant décrire sa transposition en modèle logique, ill
 	\rowcolors{2}{white}{white} % To reset alternate colors if previously set
 	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
 		\hline
-		\rowcolor{blue!50} \textcolor{white}{Champs} & \textcolor{white}{Type} & \textcolor{white}{Contrainte} \\
+		\rowcolor{blue!50} \textcolor{white}{Champs} & \textcolor{white}{Type} & \textcolor{white}{Contrainte}                   \\
 		\hline
-		id                                           & Auto-incrément          & Clé primaire                  \\ \hline
-		word                                         & String                  & Non nul                       \\ \hline
-		count                                        & Int                     & Non nul                       \\ \hline
+		id                                           & Auto-incrément          & Clé primaire                                    \\ \hline
+		word                                         & String                  & Non nul                                         \\ \hline
+		count                                        & Int                     & Non nul                                         \\ \hline
+		recherche\_id                                 & Int                     & Clé étrangère  \\ \hline
 	\end{tabular}
 	\caption{Table Keyword}
 	\label{tab:table_keyword}
+\end{table}
+
+\begin{table}[H]
+\centering
+\Large
+\rowcolors{2}{white}{white} % To reset alternate colors if previously set
+\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
+\hline
+\rowcolor{blue!50} \textcolor{white}{Champs} & \textcolor{white}{Type} & \textcolor{white}{Contrainte} \\
+\hline
+id & Auto-incrément & Clé primaire \\ \hline
+title & String & Non null \\ \hline
+product\_id & Int & Unique,\\ Clé étrangère \\ \hline
+\end{tabular}
+\caption{Table Tags}
+\label{tab:table_tags}
+\end{table}
+
+\begin{table}[H]
+\centering
+\Large
+\rowcolors{2}{white}{white} % To reset alternate colors if previously set
+\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
+\hline
+\rowcolor{blue!50} \textcolor{white}{Champs} & \textcolor{white}{Type} & \textcolor{white}{Contrainte} \\
+\hline
+id & Auto-incrément & Clé primaire \\ \hline
+date & DateTime & Non null \\ \hline
+\end{tabular}
+\caption{Table Recherche}
+\label{tab:table_recherche}
 \end{table}
 
 \subsection{Tables de base de données Elasticsearch}
