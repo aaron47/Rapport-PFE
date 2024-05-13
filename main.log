@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.8)  9 MAY 2024 19:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.8)  13 MAY 2024 20:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1334,7 +1334,7 @@ l.28 ...fficiel du Docker}}{39}{figure.caption.28}
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 ...Ã©ral du Sprint 2}}{74}{figure.caption.59}
+l.55 ...©rale du Sprint 2}}{74}{figure.caption.59}
                                                   % [7])
 \tf@lof=\write8
 \openout8 = `main.lof'.
@@ -1425,6 +1425,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--23
  []
 
 
+Underfull \hbox (badness 1087) in paragraph at lines 23--23
+[]|\T1/lmr/m/n/12 Recherche qu'en fran-
+ []
+
+
 Underfull \hbox (badness 1221) in paragraph at lines 23--23
 \T1/lmr/m/n/12 ges-tions si le pro-duit
  []
@@ -1439,6 +1444,11 @@ Underfull \hbox (badness 1253) in paragraph at lines 23--23
  []
 
 
+Underfull \hbox (badness 1087) in paragraph at lines 23--23
+[]|\T1/lmr/m/n/12 Recherche qu'en fran-
+ []
+
+
 Underfull \hbox (badness 1221) in paragraph at lines 23--23
 \T1/lmr/m/n/12 ges-tions si le pro-duit
  []
@@ -1447,6 +1457,16 @@ File: logos/wamia.png Graphic file (type png)
 <use logos/wamia.png>
 Package pdftex.def Info: logos/wamia.png  used on input line 23.
 (pdftex.def)             Requested size: 113.80379pt x 99.58061pt.
+
+Underfull \hbox (badness 1087) in paragraph at lines 23--23
+[]|\T1/lmr/m/n/12 Recherche qu'en fran-
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 23--23
+\T1/lmr/m/n/12 çais, ab-sence de sug-
+ []
+
 
 Underfull \hbox (badness 1221) in paragraph at lines 23--23
 \T1/lmr/m/n/12 ges-tions si le pro-duit
@@ -1548,7 +1568,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 
 [14 <./logos/cosine.png>]
 Overfull \hbox (0.37564pt too wide) in paragraph at lines 65--65
-|[]\T1/lmr/bx/n/20.74 Utilisation d'un mo-déle Sentence-Transformers| 
+|[]\T1/lmr/bx/n/20.74 Utilisation d'un mo-dèle Sentence-Transformers| 
  []
 
 
@@ -1652,7 +1672,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--9
  []
 
 [25 <./logos/CU_global.png>]
-Overfull \hbox (21.0474pt too wide) in paragraph at lines 12--25
+Overfull \hbox (15.1769pt too wide) in paragraph at lines 12--25
  [][] 
  []
 
@@ -2004,7 +2024,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 
 [56 <./logos/index_mapping.png>]
 Overfull \hbox (18.59705pt too wide) in paragraph at lines 305--305
-|[]\T1/lmr/bx/n/17.28 Le mo-déle Sentence-Transformers et en-co-dage des phrases| 
+|[]\T1/lmr/bx/n/17.28 Le mo-dèle Sentence-Transformers et en-co-dage des phrases| 
  []
 
 <logos/import_model.png, id=1136, 1124.2pt x 614.295pt>
@@ -2454,7 +2474,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 
 [92 <./logos/encodeendpoint.png>]
 Overfull \hbox (0.8933pt too wide) in paragraph at lines 207--207
-|[]\T1/lmr/bx/n/20.74 Processus com-plèt de re-cherche vec-to-rielle avec
+|[]\T1/lmr/bx/n/20.74 Processus com-plet de re-cherche vec-to-rielle avec
  []
 
 <logos/fullprocesswithtranslation.png, id=1451, 2832.5825pt x 1767.60374pt>
@@ -2632,11 +2652,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 32--32
-[]|\T1/lmr/m/n/12 Mesure les mots les
- []
-
-
 Underfull \hbox (badness 7851) in paragraph at lines 32--33
 \T1/lmr/m/n/12 pour-cen-tage) re-cher-
  []
@@ -2720,8 +2735,13 @@ Overfull \hbox (11.7021pt too wide) in paragraph at lines 50--150
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 \end{document}
-                     [1] (main.aux (couverture.aux))
+l.151 \newpage
+               [1]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.159 \end{document}
+                     [2] (main.aux (couverture.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -2994,7 +3014,7 @@ abstract.tex
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DA99133298641F80A554A497B8CDA841;20363.
+(rerunfilecheck)             Checksum: 67F9E01F2D9A2EE92F7407A0CFF9FABC;20336.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -3013,9 +3033,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  69i,14n,81p,1242b,5780s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Aaron/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (127 pages, 6317319 bytes).
+Output written on main.pdf (128 pages, 6317250 bytes).
 PDF statistics:
- 1856 PDF objects out of 2073 (max. 8388607)
+ 1859 PDF objects out of 2073 (max. 8388607)
  464 named destinations out of 1000 (max. 500000)
  1112 words of extra memory for PDF output out of 10000 (max. 10000000)
 

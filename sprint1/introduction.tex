@@ -16,8 +16,8 @@ Le backlog de notre premier Sprint est présenté dans le tableau ~\ref{tab:spri
 		\hline
 		\rowcolor{blue!20}
 		\textbf{ID} & \textbf{Scénario}                                                                                                                                                      & \textbf{Priorité} & \textbf{Complexité} \\ \hline
-		1           & En tant qu'un client, visiteur, je veux saisir ma terme de recherche en Français pour chercher le(s) produit(s)                                                        & 1                 & 10                  \\ \hline
-		2           & En tant qu'un client, visiteur, si le produit exacte que je cherche n'existe pas, je veux voir des suggestions des produits similaires. & 2                 & 8                   \\ \hline
+		1           & En tant qu'un client, visiteur, je veux saisir mon terme de recherche en français pour chercher le(s) produit(s)                                                        & 1                 & 10                  \\ \hline
+		2           & En tant qu'un client, visiteur, si le produit exacte que je cherche n'existe pas, je veux voir des suggestions de produits similaires. & 2                 & 8                   \\ \hline
 	\end{tabularx}
 	\caption{Backlog du Sprint 1}
 	\label{tab:sprint1}
@@ -25,37 +25,37 @@ Le backlog de notre premier Sprint est présenté dans le tableau ~\ref{tab:spri
 
 \section{Spécification fonctionnelle}
 \noindent
-Dans cette partie, on va expliquer les différentes fonctionnelités du Sprint 1 à travers le diagramme de cas d'utilisation. Puis en va exposer les différents scénarios de notre cas d'utilisation à travers des descriptions textuelles.
+Dans cette partie, on va expliquer les différentes fonctionnelités du Sprint 1 à travers le diagramme de cas d'utilisation. Puis on va exposer les différents scénarios de notre cas d'utilisation à travers des descriptions textuelles.
 
-\subsection{Diagramme de cas d'utilisation général}
+\subsection{Diagramme de cas d'utilisation générale}
 \noindent
-La figure ~\ref{fig:recherchefrancais} illustre le diagramme de cas d'utilisation gènèral de notre premier sprint, qui est la recherche en Français.
+La figure ~\ref{fig:recherchefrancais} illustre le diagramme de cas d'utilisation gènèrale de notre premier sprint, qui est la recherche en français.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{logos/cusprint1.png}
-	\caption{Diagramme de cas d'utilisation général du Sprint 1}
+	\caption{Diagramme de cas d'utilisation générale du Sprint 1}
 	\label{fig:recherchefrancais}
 \end{figure}
 
-\subsection{Description textuelle du CU << Rechercher produit en Français >>}
+\subsection{Description textuelle du CU << Rechercher produit en français >>}
 \noindent
-\textbf{Titre:} Rechercher produit en Français \\
-\textbf{Résumé:} Le client saisit son terme de recherche (en Français), en cliquant sur la boutton pour rechercher le(s) produit(s) qu'il veut chercher. \\
+\textbf{Titre:} Rechercher produit en français \\
+\textbf{Résumé:} Le client saisit son terme de recherche (en français), en cliquant sur la boutton pour rechercher le(s) produit(s) qu'il veut chercher. \\
 \textbf{Acteur Principal:} Client, Visiteur \\
 \textbf{Précondition:} \begin{enumerate}
 	\item Le client (ou le visiteur) est sur la page de recherche
 	\item Le client (ou le visiteur) a saisi son terme de recherche
 	\item Le client (ou le visiteur) a cliqué sur "Rechercher"
 \end{enumerate}
-\textbf{Postcondition:} Le(s) produit(s) que le client cherche est renvoyé, si'il n'existe pas, le systéme renvoie des produits similaires comme suggestion. \\
+\textbf{Postcondition:} Le(s) produit(s) que le client cherche est renvoyé, s'il n'existe pas, le systéme renvoie des produits similaires comme suggestion. \\
 \textbf{Scénario de base: }
 \begin{enumerate}
 	\item Le client saisit son terme de recherche.
-	\item Le client clique sur la boutton "Rechercher"
-	\item Le systéme prend cette terme de recherche, et performe les étapes nécessaires pour la convertir en vecteur.
-	\item Le systéme compare cette vecteur contre les vecteurs dans Elasticsearch.
-	\item Le systéme renvoie les produits.
+	\item Le client clique sur le boutton "Rechercher"
+	\item Le système prend ce terme de recherche, et performe les étapes nécessaires pour la convertir en vecteur.
+	\item Le système compare ce vecteur contre les vecteurs dans Elasticsearch.
+	\item Le système renvoie les produits.
 \end{enumerate}
 
 \textbf{Scénario alternatifs : }
@@ -68,26 +68,26 @@ La figure ~\ref{fig:recherchefrancais} illustre le diagramme de cas d'utilisatio
 
 	\item Le(s) produit(s) que le client cherche n'existe pas.
 	      \begin{enumerate}
-		      \item Le systéme essaie de renvoyer les produits les plus similaires comme des suggestions.
+		      \item Le système essaie de renvoyer les produits les plus similaires comme des suggestions.
 		      \item Retour à l'étape 1 du scénario de base.
 	      \end{enumerate}
 \end{enumerate}
 
 \subsection{Description textuelle du CU << Voir suggestions >>}
 \noindent
-\textbf{Titre:} Rechercher produit en Français \\
-\textbf{Résumé:} Aprés que le client a cherché un produit, le systéme essaie de lui suggérer des produits similaires. \\
+\textbf{Titre:} Voir suggestions \\
+\textbf{Résumé:} Après que le client a cherché un produit, le système essaie de lui suggérer des produits similaires. \\
 \textbf{Acteur Principal:} Client \\
 \textbf{Précondition:} \begin{enumerate}
 	\item Le client est authentifié.
-	\item Le client à déja cherché un produit.
+	\item Le client a déja cherché un produit.
 \end{enumerate}
 \textbf{Postcondition:} Le(s) produit(s) que le client cherche est renvoyé, et le systéme renvoie des produits similaires comme suggestions. \\
 \textbf{Scénario de base: }
 \begin{enumerate}
-	\item Le client cherche pour un produit.
-	\item Le systéme cherche le produit.
-	\item Le systéme renvoie les produits ainsi que des suggestions des produits similaires.
+	\item Le client cherche un produit.
+	\item Le système cherche le produit.
+	\item Le système renvoie les produits ainsi que des suggestions des produits similaires.
 \end{enumerate}
 
 \newpage
@@ -95,16 +95,16 @@ La figure ~\ref{fig:recherchefrancais} illustre le diagramme de cas d'utilisatio
 \begin{enumerate}
 	\item Le(s) produit(s) que le client cherche n'existe pas.
 	      \begin{enumerate}
-		      \item Le systéme essaie de renvoyer les produits les plus similaires comme des suggestions.
+		      \item Le système essaie de renvoyer les produits les plus similaires comme des suggestions.
 		      \item Retour à l'étape 1 du scénario de base.
 	      \end{enumerate}
 \end{enumerate}
 
-\subsection{Diagramme de séquence detaillé}
+\subsection{Diagramme de séquence detaillée}
 \noindent
 En adoptant l'architecture MVC dans le chapitre précédent, nous avons choisi de
 suivre ce modèle pour simplifier la création des diagrammes de séquence. Cette section
-présentera le diagramme de séquence de cas d'utilisation << Rechercher produits en Français >> qui est présenté dans la figure ~\ref{fig:seqrecherchefrancais}.
+présentera le diagramme de séquence de cas d'utilisation << Rechercher produits en français >> qui est présenté dans la figure ~\ref{fig:seqrecherchefrancais}.
 
 % \begin{figure}[H]
 % 	\centering
@@ -117,7 +117,7 @@ présentera le diagramme de séquence de cas d'utilisation << Rechercher produit
 	\newgeometry{margin=1in, paperwidth=420cm, paperheight=297mm}
 	\begin{figure}[p]
 		\includegraphics[width=\textwidth,height=200mm]{logos/seqsprint1.png}
-		\caption{Diagramme de séquence de cas d’utilisation « Rechercher produits en Français »}
+		\caption{Diagramme de séquence de cas d’utilisation « Rechercher produits en français »}
 		\label{fig:seqrecherchefrancais}
 	\end{figure}
 	\clearpage
@@ -127,13 +127,13 @@ présentera le diagramme de séquence de cas d'utilisation << Rechercher produit
 \newpage
 \section{Architecture de la base de données}
 \noindent
-Dans le cadre de notre projet, l'intégration d'Elasticsearch et MySQL génére un ensemble de tables indispnesables pour garantir son fonctionnement interne. Cependant, nous avons décidé de mettre l'accent uniquement sur les tables
+Dans le cadre de notre projet, l'intégration d'Elasticsearch et MySQL génère un ensemble de tables indispnesables pour garantir son fonctionnement interne. Cependant, nous avons décidé de mettre l'accent uniquement sur les tables
 spécifiques à notre projet durant la conception.
 
 \subsection{Diagramme de classes}
 \noindent
 Les diagrammes de classes sont l'un des types de diagrammes UML les plus utiles, car ils décrivent clairement la structure d’un système particulier en modélisant ses classes, ses attributs, ses opérations et les relations entre ses objets. \citetitle{lucidcharts:classdiagram} (\cite{lucidcharts:classdiagram}). \\
-La figure ~\ref{fig:diagclasses} montre la conception UML diagramme de classe gènèral de notre projet.
+La figure ~\ref{fig:diagclasses} montre la conception UML diagramme de classe général de notre projet.
 
 \afterpage{
 	\newgeometry{margin=1in, paperwidth=420mm, paperheight=297mm}
@@ -289,7 +289,7 @@ Cette partie est consacrée à la présentation de l'interface de recherche pour
 
 \subsection{La création des colonnes des vecteurs}
 \noindent
-D'abord on a commencé par la création de notre index (table) de produit pour Elasticsearch et insérer les données la. La figure ~\ref{fig:indexmappingproduit} montre le code nécessaire pour créer ce index.
+D'abord on a commencé par la création de notre index (table) de produit pour Elasticsearch et insérer les données là. La figure ~\ref{fig:indexmappingproduit} montre le code nécessaire pour créer cet index.
 
 \begin{figure}[H]
 	\centering
@@ -300,22 +300,22 @@ D'abord on a commencé par la création de notre index (table) de produit pour E
 
 \newpage
 \noindent
-On commence par la création d'un objet << index\_mapping >> qui contient un objet << propriétés >> contenant toutes les colonnes de l'index dans Elasticsearch, le reste des colonnes sont les mêmes que dans le tableau ~\ref{tab:produit_table}. Concentrons-nous sur les 2 dernières colonnes, qui sont les colonnes les plus importantes, les vecteurs que nous allons utiliser pour notre recherche. Les deux colonnes sont de type dense\_vector, indiquant qu'elles sont des vecteurs, la contrainte << dims >> qui a une valeur de 768, indique que ces vecteurs sont à 768 dimensions, << index >> qui a la valeur True, indique qu'ils sont indexables, c'est à dire qu'on peut utiliser cette colonne pour effectuer une comparaison du similarité, qui est de type << cosine >> qui indique que Elasticsearch va effectuer une similarité cosinus, qu'on va expliquer en plus de détails dans les sections suivantes.
+On commence par la création d'un objet << index\_mapping >> qui contient un objet << propriétés >> contenant toutes les colonnes de l'index dans Elasticsearch, le reste des colonnes sont les mêmes dans le tableau ~\ref{tab:produit_table}. Concentrons-nous sur les 2 dernières colonnes, qui sont les plus importantes, les vecteurs que nous allons utiliser pour notre recherche. Les deux colonnes sont de type dense\_vector, indiquant qu'elles sont des vecteurs, la contrainte << dims >> qui a une valeur de 768, indique que ces vecteurs sont à 768 dimensions, << index >> qui a la valeur True, indique qu'ils sont indexables, c'est à dire qu'on peut utiliser cette colonne pour effectuer une comparaison du similarité, qui est de type << cosine >> qui indique que Elasticsearch va effectuer une similarité cosinus, qu'on va expliquer avec plus de détails dans les sections suivantes.
 
-\subsection{Le modéle Sentence-Transformers et encodage des phrases}
+\subsection{Le modèle Sentence-Transformers et encodage des phrases}
 \noindent
-Comme on a mentionné, le modéle Sentence-Transformers qu'on va utiliser est << all-mpnet-base-v2 >>, qu on l'importe de cette façon:
+Comme on a mentionné, le modèle Sentence-Transformers qu'on va utiliser est << all-mpnet-base-v2 >>, qu'on l'importe de cette façon:
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth,height=0.75\textheight,keepaspectratio]{logos/import_model.png}
-	\caption{Code d'importation de modéle Sentence-Transformers}
+	\caption{Code d'importation du modèle Sentence-Transformers}
 	\label{fig:importmodel}
 \end{figure}
 
 \newpage
 \noindent
-On utilise AutoTokenizer pour importer le Tokeniser du modéle, aussi que AutoModel pour importer le modèle. Le modéle est besoin d'un << Tokenizer >> puisqu'il ne peux pas comprendre du texte, on doit convertir chaque phrase en une représentation numérique. Le processus est appelé la << tokenisation >> qui est le processus de conversion d'une séquence de caractères en une séquence de jetons(tokens), ce token représente généralement un mot, il y'a aussi des tokens comme le token << CLS >> qui est le << Classify Token >>, il est mis au debut, pour marquer que c'est une phrase, et le token << PAD >>, qui es utilisé quand il y a plusieurs phrases a tokeniser, et pour ça, il est besoin de rendre toutes les phrases de même longueur. Le token << CLS >> à un identifiant de 101, et << PAD >> à un identifiant de 0. La figure ~\ref{fig:tokenisationexp} illustre un exemple simple de Tokenisation.
+On utilise AutoTokenizer pour importer le Tokeniser du modèle, aussi qu'AutoModel pour importer le modèle. Le modèle a besoin d'un << Tokenizer >> puisqu'il ne peut pas comprendre du texte, on doit convertir chaque phrase en une représentation numérique. Le processus est appelé la << tokenisation >> qui est le processus de conversion d'une séquence de caractères en une séquence de jetons(tokens), ce token représente généralement un mot, il y'a aussi des tokens comme le token << CLS >> qui est le << Classify Token >>, il est mis au début, pour marquer que c'est une phrase, et le token << PAD >>, qui es utilisé quand il y a plusieurs phrases à tokeniser, et pour ça, il a besoin de rendre toutes les phrases de même longueur. Le token << CLS >> a un identifiant de 101, et << PAD >> a un identifiant de 0. La figure ~\ref{fig:tokenisationexp} illustre un exemple simple de Tokenisation.
 
 \begin{figure}[H]
 	\centering
@@ -326,12 +326,12 @@ On utilise AutoTokenizer pour importer le Tokeniser du modéle, aussi que AutoMo
 
 \subsubsection{Comment le modèle encode une phrase?}
 \noindent
-On a crée une méthode appelé "encode\_sentence\_and\_normalise" pour faire l'encodage en faisant les étapes mentionné dans la partie précédente en ajoutant une autre étape qui est trés importante, qui est le Mean Pooling. \\
-D'abord, on utilise le tokeniser pour effectuer la tokenisation et le padding sur la phrase, en a effectué << truncation >> a True au cas où la phrase dépasse la limite des mots par phrase pour notre modéle qui est 368 mots, il va seulement prendre les 368 premiéres mots si la phrase dépasse la limite. Ensuite, on utilise la méthode << no\_grad >> de Pytorch, pour désactiver les << Gradients >> et passer les séquences tokenisés au modéle pour faire l'encodage.
+On a créé une méthode appelée "encode\_sentence\_and\_normalise" pour faire l'encodage en faisant les étapes mentionnée dans la partie précédente en ajoutant une autre étape qui est trés importante, qui est le Mean Pooling. \\
+D'abord, on utilise le tokeniser pour effectuer la tokenisation et le padding sur la phrase, on a effectué << truncation >> à True au cas où la phrase dépasse la limite des mots par phrase pour notre modèle qui est 368 mots, il va seulement prendre les 368 premiers mots si la phrase dépasse la limite. Ensuite, on utilise la méthode << no\_grad >> de Pytorch, pour désactiver les << Gradients >> et passer les séquences tokenisées au modèle pour faire l'encodage.
 
 \subsubsection{Que'est ce qu'un << Gradient >>?}
 \noindent
-Un gradient consiste à mettre à jour les poids de chaque neurone de la dernière couche vers la première. Il vise à corriger les erreurs selon l'importance de la contribution de chaque élément à celles-ci. Mais dans notre cas, on dèsactive les calculs des << gradients >> pour un nombre des raisons importantes qui sont citès dans \citetitle{pytorch:nograd} (\cite{pytorch:nograd}), tels que:
+Un gradient consiste à mettre à jour les poids de chaque neurone de la dernière couche vers la première. Il vise à corriger les erreurs selon l'importance de la contribution de chaque élément à celles-ci. Mais dans notre cas, on désactive les calculs des << gradients >> pour un nombre de raisons importantes qui sont citèes dans \citetitle{pytorch:nograd} (\cite{pytorch:nograd}), tels que:
 
 \begin{enumerate}
 	\item \small\textbf{Contrôle du calcul du gradient: }Dans notre cas, le modèle est utilisé pour l'inférence, c'est-à-dire pour générer des vecteurs pour une phrase d'entrée donnée. Puisqu'il n'est pas nécessaire de calculer les gradients pendant l'inférence, l'utilisation de torch.no\_grad() évite une consommation inutile de mémoire et une surcharge de calcul en désactivant le suivi des gradients.
@@ -341,11 +341,11 @@ Un gradient consiste à mettre à jour les poids de chaque neurone de la derniè
 \end{enumerate}
 
 \noindent
-Après que le modéle fais l'encodage de phrase, il nous donne un output qui consiste de plusieurs vecteurs qui représente chaque mot de la phrase. De coup, on a plusieurs vecteurs, c'est à dire chaque mot est isolée, donc on est besoin d'une méthode pour regrouper ces mots, et prendre le contexte de toute la phrase, c'est là qu'intervient la méthode de << Mean Pooling >>.
+Après avoir faire l'encodage de phrase, le modèle nous donne un output qui consiste de plusieurs vecteurs qui représentent chaque mot de la phrase. De coup, on a plusieurs vecteurs, c'est à dire chaque mot est isolé, donc on a besoin d'une méthode pour regrouper ces mots, et prendre le contexte de toute la phrase, c'est là qu'intervient la méthode de << Mean Pooling >>.
 
 \subsubsection{Le Mean Pooling}
 \noindent
-Le Mean Pooling est un processus qui calcule efficacement la moyenne de la sequence obtenu aprés le padding et la tokenisation tout en ignorant les jetons de remplissage (padding tokens) qui ont une valeur de 0, ce qui donne un seul vecteur qui représente la phrase entière. La figure ~\ref{fig:meanpoolingex} illustre un exemple.
+Le Mean Pooling est un processus qui calcule efficacement la moyenne de la sequence obtenue après le padding et la tokenisation tout en ignorant les jetons de remplissage (padding tokens) qui ont une valeur de 0, ce qui donne un seul vecteur qui représente la phrase entière. La figure ~\ref{fig:meanpoolingex} illustre un exemple.
 
 \begin{figure}[H]
 	\centering
@@ -355,7 +355,7 @@ Le Mean Pooling est un processus qui calcule efficacement la moyenne de la seque
 \end{figure}
 
 \noindent
-Nous prenons la moyenne de chaque vecteur et on le mettons dans un seul vecteur. La figure ~\ref{fig:meanpoolingmethod} présente le code nécessaire pour cette methode.
+Nous prenons la moyenne de chaque vecteur et on le met dans un seul vecteur. La figure ~\ref{fig:meanpoolingmethod} présente le code nécessaire pour cette methode.
 
 \begin{figure}[H]
 	\centering
@@ -379,13 +379,13 @@ Cette méthode consiste de trois étapes, qui sont:
 
 	\item \small\textbf{Application du masque et calcul de Mean Pooling: }
 	      \begin{itemize}
-		      \item torch.sum(token\_embeddings * input\_mask\_expanded, 1) : ceci calcule la somme des vecteurs dans la dimension de séquence (dimension 1), mais uniquement pour les vecteurs correspondant aux jetons de données réels (pas de padding(0)), comme indiqué par input\_mask\_expanded.
+		      \item torch.sum(token\_embeddings * input\_mask\_expanded, 1) : ceci calcule la somme des vecteurs dans la dimension de séquence (dimension 1), mais uniquement pour les vecteurs correspondant aux jetons de données réelles (pas de padding(0)), comme indiqué par input\_mask\_expanded.
 		      \item torch.clamp(input\_mask\_expanded.sum(1), min=1e-9) : La somme des vecteurs est ensuite divisée par la somme de input\_mask\_expanded le long de la dimension de séquence, ce qui donne le nombre de tokens sans padding. torch.clamp garantit que nous ne divisons pas par zéro en définissant une valeur minimale (1e-9), empêchant ainsi les erreurs de division par zéro.
 	      \end{itemize}
 \end{enumerate}
 
 \noindent
-Aprés l'étape de Mean Pooling, on obtient un vecteur qui reprèsente la phrase, que l'on ensuite normalise avec la fonction normalize de Pytorch.
+Après l'étape de Mean Pooling, on obtient un vecteur qui représente la phrase, que l'on ensuite normalise avec la fonction normalize de Pytorch.
 La figure ~\ref{fig:encodesentence} illustre la méthode compléte pour l'encodage d'une phrase.
 
 \begin{figure}[H]
@@ -397,17 +397,17 @@ La figure ~\ref{fig:encodesentence} illustre la méthode compléte pour l'encoda
 
 \subsection{Préparation des données dans Elasticsearch pour recherche vectorielle}
 \noindent
-Pour effectuer notre méthode de recherche qui est le recherche vectorielle, il faut d'abord ajouter les vecteurs avec lesquels nous voulons comparer, et les ajouter dans notre base de données qui est Elasticsearch. Pour effectuer ça, on va utiliser la méthode qu'on a crée << encode\_sentence\_and\_normalise >> pour générer les vecteurs, mais d'abord, on doit créer une instance de notre modéle, on a appelé cette classe AllMpnetBaseV2. Dans notre cas on veux utiliser les colonnes << Bréve Description >> et << SEO Label Produit >>, donc on va faire l'encodage pour chaque ligne dans deux nouveaux colonnes << DescriptionVecteur >> et << LabelProduitVecteur >>. \\ La figure ~\ref{fig:encoding} montre le code pour cette étape.
+Pour effectuer notre méthode de recherche qui est la recherche vectorielle, il faut d'abord ajouter les vecteurs avec lesquels nous voulons comparer, et les ajouter dans notre base de données qui est Elasticsearch. Pour effectuer ça, on va utiliser la méthode qu'on a crée << encode\_sentence\_and\_normalise >> pour générer les vecteurs, mais d'abord, on doit créer une instance de notre modèle, on a appelé cette classe AllMpnetBaseV2. Dans notre cas on veut utiliser les colonnes << Bréve Description >> et << SEO Label Produit >>, donc on va faire l'encodage pour chaque ligne dans deux nouvelles colonnes << DescriptionVecteur >> et << LabelProduitVecteur >>. \\ La figure ~\ref{fig:encoding} montre le code pour cette étape.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{logos/vectors.png}
-	\caption{Encodage des deux colonnes Bréve Déscription et SEO Label Produit}
+	\caption{Encodage des deux colonnes Brève Déscription et SEO Label Produit}
 	\label{fig:encoding}
 \end{figure}
 
 \noindent
-Le résultat de cette étape c'est qu'on obtient 2 nouvelles colonnes, << DescriptionVecteur >> et << LabelProduitVecteur >> qui sont montré dans la figure ~\ref{fig:encodedvectors}.
+Le résultat de cette étape c'est qu'on obtient 2 nouvelles colonnes, << DescriptionVecteur >> et << LabelProduitVecteur >> qui sont montrées dans la figure ~\ref{fig:encodedvectors}.
 
 \begin{figure}[h]
 	\centering
@@ -417,7 +417,7 @@ Le résultat de cette étape c'est qu'on obtient 2 nouvelles colonnes, << Descri
 \end{figure}
 
 \noindent
-L'étape suivante consiste de faire une connexion à Elasticsearch, et insérer la les données des produits. D'abord on établit une connexion à notre cluster Elasticsearch qu'on a lancé à partir de Docker, en créant une instance de class Elasticsearch et spécifiant le host, et le basic auth qui consiste de nom utilisateur et mot de passe généré par Kibana. Ensuite, nous créons notre index Elasticsearch en spécifiant notre index\_mapping qu'on a mentionné au debut de ce chapitre à travers la méthode << es.indices.create >> qui prends deux paramètres, le nom de l'index et son mapping. Enfin, nous convertissons notre CSV en object Python à travers la méthode << to\_dict >> et nous insérons chaque ligne dans Elasticsearch à travers la méthode << index >>, qui prends trois paramètres << index >>, << document >> et << id >>. \\
+L'étape suivante consiste de faire une connexion à Elasticsearch, et insérer les données des produits. D'abord on établit une connexion à notre cluster Elasticsearch qu'on a lancé à partir de Docker, en créant une instance de class Elasticsearch et spécifiant le host, et le basic auth qui consiste de nom utilisateur et mot de passe généré par Kibana. Ensuite, nous créons notre index Elasticsearch en spécifiant notre index\_mapping qu'on a mentionné au debut de ce chapitre à travers la méthode << es.indices.create >> qui prend deux paramètres, le nom de l'index et son mapping. Enfin, nous convertissons notre CSV en object Python à travers la méthode << to\_dict >> et nous insérons chaque ligne dans Elasticsearch à travers la méthode << index >>, qui prend trois paramètres << index >>, << document >> et << id >>. \\
 La figure ~\ref{fig:insertintoelastic} montre le code nécessaire pour cette étape.
 
 \begin{figure}[h]
@@ -429,8 +429,8 @@ La figure ~\ref{fig:insertintoelastic} montre le code nécessaire pour cette ét
 
 \subsection{Elasticsearch et Similarité Cosinus}
 \noindent
-Aprés qu'on a préparé notre données dans Elasticsearch, en ajoutant les colonnes des vecteurs qu'on va comparer contre, on peut maintenant performer la recherche vectorielle en utilisant Elasticsearch. \\
-Quand un client saisi son terme de recherche à travers notre interface, il est envoyé à notre API ASP .NET Core, qui ensuite l'envoie à notre API Flask qui contient notre modéle Sentence-Transformers, pour effectuer les étapes nécessaires pour l'encodage du phrase en vecteur, et ensuite le renvoyer au contrôleur pour l'utiliser dans un Elasticsearch query knn, pour ça on a crée la méthode << KnnSearchAsync >>, qui est montré dans la figure ~\ref{fig:knn}.
+Après avoir préparé notre données dans Elasticsearch, on ajoute les colonnes des vecteurs qu'on va comparer contre, on peut maintenant performer la recherche vectorielle en utilisant Elasticsearch. \\
+Quand un client saisi son terme de recherche à travers notre interface, il est envoyé à notre API ASP .NET Core, qui ensuite l'envoie à notre API Flask qui contient notre modèle Sentence-Transformers, pour effectuer les étapes nécessaires pour l'encodage de phrase en vecteur, et ensuite le renvoyer au contrôleur pour l'utiliser dans un Elasticsearch query knn, pour ça on a créé la méthode << KnnSearchAsync >>, qui est montré dans la figure ~\ref{fig:knn}.
 
 \begin{figure}[H]
 	\centering
@@ -442,13 +442,13 @@ Quand un client saisi son terme de recherche à travers notre interface, il est 
 \noindent
 Cette méthode prend 2 paramètres qui sont:
 \begin{itemize}
-	\item \small\textbf{queryVector: } Qui est une liste des réels reprèsentant le vecteur encodé.
+	\item \small\textbf{queryVector: } Qui est une liste des réels représentant le vecteur encodé.
 	\item \textbf{knnSearchRequest: } Qui est une classe qui prend 4 attributs utilisé dans note query knn:
 	      \begin{enumerate}
-		      \item \small\textbf{TopResProdLabel: } Un entier reprèsentant le nombre des meilleurs résultats par recherche vectorielle de << LabelProduit >>, valeur par dèfaut: 5.
-		      \item \small\textbf{TopResDesc: } Un entier reprèsentant le nombre des meilleurs résultats par recherche vectorielle de << Description >>, valeur par dèfaut: 5.
-		      \item \small\textbf{NumCandidatesDesc: } Un entier reprèsentant le nombre total des produits que nous souhaitons rechercher par la description, valeur par dèfaut: 20.
-		      \item \small\textbf{NumCandidatesProdLabel: } Un entier reprèsentant le nombre total des produits que nous souhaitons rechercher par la label produit, valeur par dèfaut: 10.
+		      \item \small\textbf{TopResProdLabel: } Un entier représentant le nombre des meilleurs résultats par recherche vectorielle de << LabelProduit >>, valeur par défaut: 5.
+		      \item \small\textbf{TopResDesc: } Un entier représentant le nombre des meilleurs résultats par recherche vectorielle de << Description >>, valeur par défaut: 5.
+		      \item \small\textbf{NumCandidatesDesc: } Un entier représentant le nombre total des produits que nous souhaitons rechercher par la description, valeur par défaut: 20.
+		      \item \small\textbf{NumCandidatesProdLabel: } Un entier représentant le nombre total des produits que nous souhaitons rechercher par le label produit, valeur par défaut: 10.
 	      \end{enumerate}
 
 \end{itemize}
@@ -485,12 +485,12 @@ En utilisant la similarité cosinus, le score de chaque composant peut être cal
 Ici:
 \begin{itemize}
 	\item \( \cdot \) représente le produit scalaire.
-	\item \( \|\mathbf{q}\| \) and \( \|\mathbf{v}\| \) désignent les normes (grandeurs) des vecteurs, qui sont calculées comme la racine carrée de la somme des composantes au carré des vecteurs.
-	\item \( \alpha \) and \( \beta \) sont des pondérations qui pourraient être utilisées pour équilibrer l'importance des scores des deux domaines (en supposant une importance égale, les deux pourraient être fixés à 0,5 par défaut, ou ajustés en fonction de besoins spécifiques).
+	\item \( \|\mathbf{q}\| \) and \( \|\mathbf{v}\| \) désignent les normes (grandeurs) des vecteurs, qui sont calculés comme la racine carrée de la somme des composantes au carré des vecteurs.
+	\item \( \alpha \) and \( \beta \) sont des pondérations qui pourraient être utilisées pour équilibrer l'importance des scores des deux domaines (en supposant une importance égale, les deux pourraient être fixées à 0,5 par défaut, ou ajustées en fonction de besoins spécifiques).
 \end{itemize}
 
 \noindent
-La figure ~\ref{fig:vectorsearch} illustre le processus complét de recherche.
+La figure ~\ref{fig:vectorsearch} illustre le processus complet de recherche.
 
 \begin{figure}[H]
 	\centering
@@ -522,7 +522,7 @@ La figure ~\ref{fig:testsearch} illustre la recherche des produits à partir de 
 
 
 \noindent
-La figure ~\ref{fig:testsearch2} illustre l'interface de recherche de client, ou il a cherché pour << lambaa taa tawla >> qui se traduit en << lampe de table >>, avec des produits renvoyès ainsi que des suggestions des produits potentiellement similaires.
+La figure ~\ref{fig:testsearch2} illustre l'interface de recherche de client, ou il a cherché pour << lambaa taa tawla >> qui se traduit en << lampe de table >>, avec des produits renvoyés ainsi que des suggestions des produits potentiellement similaires.
 
 \begin{figure}[H]
 	\centering
@@ -534,5 +534,5 @@ La figure ~\ref{fig:testsearch2} illustre l'interface de recherche de client, ou
 \newpage
 \section{Conclusion}
 \noindent
-Dans ce chapitre, nous avons couvert toutes les étapes nécessaires pour performer le recherche vectorielle dans notre projet, en commençant par la création de la fonction d'encodage << encode\_sentence\_and\_normalise >>à l'aide de notre modèle et de son tokeniser, ensuite la préparation de notre données pour ensuite insérez-les dans Elasticsearch pour avoir la capabilité de recherche vectorielle. Enfin nous préparons notre contrôleur ASP .NET Core pour atteindre l'endpoint << /encode >> afin d'encoder le mot-clé de recherche saisi par l'utilisateur, et l'utiliser dans une query knn à l'aide de la méthode << KnnSearchAsync >> pour performer une query Elasticsearch knn pour renvoyer des produits et des suggestions.
+Dans ce chapitre, nous avons couvert toutes les étapes nécessaires pour performer la recherche vectorielle dans notre projet, en commençant par la création de la fonction d'encodage << encode\_sentence\_and\_normalise >>à l'aide de notre modèle et de son tokeniser, ensuite la préparation de nos données pour ensuite insérez-les dans Elasticsearch pour avoir la capabilité de recherche vectorielle. Enfin nous préparons notre contrôleur ASP .NET Core pour atteindre l'endpoint << /encode >> afin d'encoder le mot-clé de recherche saisi par l'utilisateur, et l'utiliser dans une query knn à l'aide de la méthode << KnnSearchAsync >> pour performer une query Elasticsearch knn pour renvoyer des produits et des suggestions.
 Grâce à ces étapes, le travail pour le reste des sprints a été rendu beaucoup plus facile et évolutif.

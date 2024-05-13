@@ -4,7 +4,7 @@
 \newpage
 \section{Introduction}
 \noindent
-Aprés avoir terminé le Sprint 2 du chapitre 5 qui tratait la recherche des produits dans la langue Arabe traditionnel et en dialecte Tunisien, nous entamons maintenant le Sprint 2 qui va aborder le dashboard de l'admin qui lui permettra de modifier ces paramétres de recherche.
+Aprés avoir terminé le Sprint 2 du chapitre 5 qui tratait la recherche des produits dans la langue arabe traditionnel et en dialecte tunisien, nous entamons maintenant le Sprint 2 qui va aborder le dashboard de l'admin qui lui permettra de modifier ces paramétres de recherche.
 
 \section{Backlog du Sprint 3}
 \begin{table}[H]
@@ -29,39 +29,39 @@ Sprint 3 à travers le diagramme de cas d'utilisation. Par la suite, nous détai
 scénarios de cas d'utilisation grâce à des descriptions textuelles.
 
 \newpage
-\subsection{Diagramme de cas d'utilisation du CU général}
+\subsection{Diagramme de cas d'utilisation générale}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{logos/cusprint3.png}
-	\caption{Diagramme de cas d'utilisation général de Sprint 3}
+	\caption{Diagramme de cas d'utilisation générale de Sprint 3}
 	\label{fig:cusprint3}
 \end{figure}
 
 \subsection{Description textuelle des cas d'utilisations}
 \noindent
-Suite à l'exposition des cas d'utilisations, nous approfondirons leurs descriptions textuelle.
+Suite à l'exposition des cas d'utilisations, nous approfondirons leurs descriptions textuelles.
 
-\subsubsection{Description textuelle du CU "Modifier paramétres de recherche"}
+\subsubsection{Description textuelle du CU "Modifier paramètres de recherche"}
 \noindent
-\textbf{Titre:} Modifier paramétres de recherche \\
-\textbf{Résumé:} L'admin saisit son terme de recherche en Arabe traditionnel, dialecte Tunisien ou en Français, aussi que modifier un ou plusieurs paramétres de recherche, en cliquant sur la boutton pour rechercher le(s) produit(s) qu'il veut chercher. \\
+\textbf{Titre:} Modifier paramètres de recherche \\
+\textbf{Résumé:} L'admin saisit son terme de recherche en arabe traditionnel, dialecte tunisien ou en français, aussi que modifier un ou plusieurs paramètres de recherche, en cliquant sur le bouton pour rechercher le(s) produit(s) qu'il veut chercher. \\
 \textbf{Acteur Principal:} Admin \\
 \textbf{Précondition:} \begin{enumerate}
 	\item L'admin est sur la page de recherche de l'admin, et il est authentifié.
-	\item L'admin a saisi son terme de recherche en l'un des trois langages mentionnées.
-	\item L'admin a modifié l'un des quatres paramétres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
+	\item L'admin a saisi son terme de recherche en l'un des trois langages mentionnés.
+	\item L'admin a modifié l'un des quatres paramètres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
 	\item L'admin a cliqué sur "Rechercher"
 \end{enumerate}
-\textbf{Postcondition:} Le(s) produit(s) que l'admin cherche est renvoyé, si'il n'existe pas, le systéme renvoie des produits similaires comme suggestion. \\
+\textbf{Postcondition:} Le(s) produit(s) que l'admin cherche est renvoyé, s'il n'existe pas, le système renvoie des produits similaires comme suggestions. \\
 \textbf{Scénario de base: }
 \begin{enumerate}
 	\item L'admin saisit son terme de recherche.
-	\item L'admin modifie l'un des quatres paramétres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
-	\item L'admin clique sur la boutton "Rechercher"
+	\item L'admin modifie l'un des quatres paramètres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
+	\item L'admin clique sur le bouton "Rechercher"
 	\item Le système prend le terme de recherche, en vérifiant que c'est valide.
-	\item Le systéme prend cette terme de recherche, et performe les étapes nécessaires pour la convertir en vecteur.
-	\item Le systéme compare cette vecteur contre les vecteurs dans Elasticsearch en utilisant les paramétres de recherche que l'admin a saisi.
-	\item Le systéme renvoie les produits.
+	\item Le système prend ce terme de recherche, et performe les étapes nécessaires pour la convertir en vecteur.
+	\item Le système compare ce vecteur contre les vecteurs dans Elasticsearch en utilisant les paramétres de recherche que l'admin a saisi.
+	\item Le système renvoie les produits.
 \end{enumerate}
 
 \newpage
@@ -74,10 +74,10 @@ Suite à l'exposition des cas d'utilisations, nous approfondirons leurs descript
 	      \end{enumerate}
 	\item Le terme de recherche n'est pas valide:
 	      \begin{enumerate}
-		      \item Le système suppose que le terme recherché est en Français.
+		      \item Le système suppose que le terme recherché est en français.
 		      \item Passer à la 6ème étape des scénarios de base.
 	      \end{enumerate}
-	\item L'admin n'as pas modifié l'un des quatres paramétres de recherche:
+	\item L'admin n'as pas modifié l'un des quatres paramètres de recherche:
 	      \begin{enumerate}
 		      \item Le système utilise les valeurs par dèfauts pour la recherche:
 		            \begin{itemize}
@@ -90,7 +90,7 @@ Suite à l'exposition des cas d'utilisations, nous approfondirons leurs descript
 	      \end{enumerate}
 	\item Le(s) produit(s) que l'admin cherche n'existe pas.
 	      \begin{enumerate}
-		      \item Le systéme essaie de renvoyer les produits les plus similaires comme des suggestions.
+		      \item Le système essaie de renvoyer les produits les plus similaires comme des suggestions.
 		      \item Retour à l'étape 1 du scénario de base.
 	      \end{enumerate}
 \end{enumerate}
@@ -103,8 +103,8 @@ Suite à l'exposition des cas d'utilisations, nous approfondirons leurs descript
 \textbf{Acteur Principal:} Admin \\
 \textbf{Précondition:} \begin{enumerate}
 	\item L'admin est sur la page de recherche de l'admin, et il est authentifié.
-	\item L'admin a saisi son terme de recherche en l'un des trois langages mentionnées.
-	\item L'admin a modifié l'un des quatres paramétres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
+	\item L'admin a saisi son terme de recherche en l'un des trois langages mentionnés.
+	\item L'admin a modifié l'un des quatres paramètres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
 	\item L'admin a cliqué sur "Rechercher"
 \end{enumerate}
 \textbf{Postcondition:} Le(s) produit(s) que l'admin cherche est renvoyé, avec leurs scores et visualisation. \\
@@ -112,12 +112,12 @@ Suite à l'exposition des cas d'utilisations, nous approfondirons leurs descript
 \begin{enumerate}
 	\item L'admin accède à son tableau de bord
 	\item L'admin saisit son terme de recherche.
-	\item L'admin modifie l'un des quatres paramétres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
-	\item L'admin clique sur la boutton "Rechercher"
+	\item L'admin modifie l'un des quatres paramètres de recherche (TopResProdLabel, TopResDesc, NumCandidatesProdLabel, NumCandidatesDesc).
+	\item L'admin clique sur le bouton "Rechercher"
 	\item Le système prend le terme de recherche, en vérifiant que c'est valide.
-	\item Le systéme prend cette terme de recherche, et performe les étapes nécessaires pour la convertir en vecteur.
-	\item Le systéme compare cette vecteur contre les vecteurs dans Elasticsearch en utilisant les paramétres de recherche que l'admin a saisi.
-	\item Le systéme renvoie les produits avec les scores et les visualise.
+	\item Le système prend ce terme de recherche, et performe les étapes nécessaires pour la convertir en vecteur.
+	\item Le système compare ce vecteur contre les vecteurs dans Elasticsearch en utilisant les paramètres de recherche que l'admin a saisi.
+	\item Le système renvoie les produits avec les scores et les visualise.
 \end{enumerate}
 
 \newpage
@@ -125,12 +125,12 @@ Suite à l'exposition des cas d'utilisations, nous approfondirons leurs descript
 \noindent
 Au cours de cette section, nous examinerons les diagrammes de séquence en relation avec les descriptions textuelles des cas d'utilisation précédemment exposés correspondant au troisième sprint.
 
-\subsection{Diagrammes de séquence détaillé}
+\subsection{Diagrammes de séquence détaillée}
 \noindent
 Dans cette partie, nous aborderons les diagrammes de séquence pour les cas
 d'utilisation suivants:
 \begin{itemize}
-	\item Modifier paramétres de recherche
+	\item Modifier paramètres de recherche
 	\item Consulter tableau de bord
 	\item S'authentifier
 \end{itemize}
@@ -140,7 +140,7 @@ d'utilisation suivants:
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\textwidth, height=180mm]{logos/modifierparametres.png}
-		\caption{Diagramme de séquence de CU "Modifier paramétres de recherche"}
+		\caption{Diagramme de séquence de CU "Modifier paramètres de recherche"}
 		\label{fig:modifierparametres}
 	\end{figure}
 	\clearpage

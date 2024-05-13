@@ -1,10 +1,10 @@
 \section{Etude de l'éxistant}
 \noindent
-Cette première ètape de notre projet consitera en une analyse de l'existant, suivie d'une critique de l'existant afain de proposer notre solution comme solution aux problèmes identifiès. Nous baserons notre recherche sur des solutions existantes et opèrationnelles des marchès ecommerce existantes et cherchons à améliorer ce processus.
+Cette première ètape de notre projet consistera en une analyse de l'existant, suivie d'une critique de l'existant afin de proposer notre solution comme solution aux problèmes identifiès. Nous baserons notre recherche sur des solutions existantes et opérationnelles des marchés ecommerce existants et cherchons à améliorer ce processus.
 
 \subsection{Analyse de l'existant}
 \noindent
-Il est essentiel avant de commencer à réaliser le projet, de bien étudier et analyser les points forts et faibles des solutions existantes et envisager des améliorations. Nous nous concentrons sur le ur les processus métiers implémentés chez les autres entreprises d'ecommerce, en examinant l'efficacité de ces processus. Cette analyse nous permettra de comprendre comment améliorer les solutions existantes.
+Il est essentiel avant de commencer à réaliser le projet, de bien étudier et analyser les points forts et faibles des solutions existantes et envisager des améliorations. Nous nous concentrons sur les processus métiers implémentés chez les autres entreprises d'e-commerce, en examinant l'efficacité de ces processus. Cette analyse nous permettra de comprendre comment améliorer les solutions existantes.
 
 \begin{table}[H]
 \centering
@@ -13,12 +13,12 @@ Il est essentiel avant de commencer à réaliser le projet, de bien étudier et 
 \rowcolor{blue!20}
 \textbf{Logo} & \textbf{Description} & \textbf{Avantages} & \textbf{Inconvénients} \\
 \hline
-\raisebox{-\totalheight}{\includegraphics[width=4cm,height=3.5cm]{logos/jumia.png}} & Jumia est un marketplace compléte avec un ecosystéme de paiement et livraison global & Processus de recherche généralisé et rapide pour la recherche des produits existantes. & Recherche que en Français, absence des suggestions si le produit n'existe pas. \\
+\raisebox{-\totalheight}{\includegraphics[width=4cm,height=3.5cm]{logos/jumia.png}} & Jumia est une marketplace complète avec un ecosystème de paiement et livraison globale & Processus de recherche généralisé et rapide pour la recherche des produits existants. & Recherche qu'en français, absence des suggestions si le produit n'existe pas. \\
 
 \hline
-\raisebox{-\totalheight}{\includegraphics[width=4cm,height=3.5cm]{logos/tunisianet.png}} & Tunisianet est un marketplace Tunisienne des produits informatiques proposant une variété des produits et services aux clients. & Processus de recherche rapide. &  Recherche que en Français, absence des suggestions si le produit n'existe pas, et résultats non précis. \\
+\raisebox{-\totalheight}{\includegraphics[width=4cm,height=3.5cm]{logos/tunisianet.png}} & Tunisianet est une marketplace Tunisienne des produits informatiques proposant une variété de produits et services aux clients. & Processus de recherche rapide. &  Recherche qu'en français, absence des suggestions si le produit n'existe pas, et résultats non précis. \\
 \hline
-\raisebox{-\totalheight}{\includegraphics[width=4cm,height=3.5cm]{logos/wamia.png}} & Wamia est un marketplace Tunisienne compléte qui offre des différents produits et services aux clients. & Processus de recherche rapide. &  Recherche que en Français, absence des suggestions si le produit n'existe pas, et résultats non précis. \\
+\raisebox{-\totalheight}{\includegraphics[width=4cm,height=3.5cm]{logos/wamia.png}} & Wamia est une marketplace Tunisienne complète qui offre des différents produits et services aux clients. & Processus de recherche rapide. &  Recherche qu'en français, absence de suggestions si le produit n'existe pas, et résultats non précis. \\
 \hline
 \end{tabularx}
 \caption{Comparaison des marketplaces Tunisiennes}
@@ -31,16 +31,16 @@ Après une analyse de l'existant nous avons relevé quelques problémes tels que
 
 \renewcommand\labelitemi{$\bullet$}
 \begin{itemize}
-    \item L'absence de la recherche des produits en utilisant la langue Arabe en dialecte Tunisien (Derja) 
+    \item L'absence de la recherche des produits en utilisant la langue arabe en dialecte tunisien (Derja) 
     \item Vitesse de recherche lente lors de la recherche d'un ou plusieurs produits.
-    \item L'absence de la recherche des produits en utilisant la langue Arabe traditionnel.
+    \item L'absence de la recherche des produits en utilisant la langue arabe traditionnelle.
     \item Résultats de recherche non précis la plupart du temps.
 \end{itemize}
 
 \newpage
 \section{Les Solutions}
 \noindent
-Pour résoudre les problèmes mentionnés ci-dessus, la société << Axam >> nous a proposé de développer et utiliser un modéle Sentence Transformer, en s'appuyant sur la plateforme Elasticsearch pour permettre les clients de:
+Pour résoudre les problèmes mentionnés ci-dessus, la société << Axam >> nous a proposé de développer et utiliser un modèle Sentence Transformer, en s'appuyant sur la plateforme Elasticsearch pour permettre aux clients de:
 
 \renewcommand\labelitemi{$\bullet$}
 \begin{itemize}
@@ -48,9 +48,9 @@ Pour résoudre les problèmes mentionnés ci-dessus, la société << Axam >> nou
 
     \item Améliorer la précision des résultats de recherche pour qu'ils correspondent exactement à ce que recherche le client dans les langues mentionnées ci-dessus.
 
-    \item Pouvoir rechercher un ou plusieurs produits dans la langage Française.
+    \item Pouvoir rechercher un ou plusieurs produits dans le langage française.
 
-    \item Pouvoir rechercher un ou plusieurs produits dans la langage Arabe en dialecte Tunisien.
+    \item Pouvoir rechercher un ou plusieurs produits dans le langage arabe en dialecte tunisien.
 
-    \item Pouvoir rechercher un ou plusieurs produits dans la langage Arabe Traditionnel.
+    \item Pouvoir rechercher un ou plusieurs produits dans le langage arabe traditionnel.
 \end{itemize}
